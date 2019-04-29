@@ -1,8 +1,27 @@
-#station-list {
+#station-container {
     border : 2px solid slategrey;
     width : 19%;
     height : 900px;
     float : left;
+}
+
+#station-list {
+    border : 2px solid slategrey;
+    width : 99%;
+    height : 66%;
+}
+
+#station-list-search {
+    border : 2px solid slategrey;
+    width : 99%;
+    height : 3%;
+    overflow-x : scroll;
+}
+
+#station-list-selected {
+    border : 2px solid slategrey;
+    width : 99%;
+    height : 30%;
     overflow-x : scroll;
 }
 
@@ -10,10 +29,11 @@
     border : 2px solid slategrey;
     width : 80%;
     height : 900px;
-    float : right;
+    float : left;
 }
 
 .station-list-content {
     border : 1px solid slategrey;
+    width : 100%;
     margin : 1px 1px;
 }

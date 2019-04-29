@@ -14,18 +14,17 @@ var connection_closer = function(next) {
 
 var test_sql = 'SELECT * FROM stations';
 
-/* GET home page. */
+/* GET editor home */
 router.get('/', function(req, res, next) {
 
   conn.query(test_sql, function(err, rows, fields) {
-    if(err)
-      console.log(err);
-    else
+    if(!err)
       //res.send(rows);
       res.render('editor', {stations:rows});
+    else
+      console.log(err);
   });
 
-  //res.render('editor');
 });
 
 router.use(connection_closer);
