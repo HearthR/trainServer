@@ -6,7 +6,6 @@ var logger = require('morgan');
 
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 var editorRouter = require('./routes/editor');
 
 var app = express();
@@ -31,7 +30,6 @@ var localTime = function(req, res, next) {
 app.use(localTime);
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/editor', editorRouter);
 
 
