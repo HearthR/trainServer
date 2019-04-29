@@ -6,6 +6,9 @@ html
   body
     block content
         #station-list
-            .station-list-content aaaaaaaaaaaaaa
-            .station-list-content aaaaaaaaaaaaaa
+          -for(var i=0; i<30; i++)
+            each station in stations
+              .station-list-content #{station.ID} #{station.line_num}호선    #{station.Name}
+              
+                          
         #map
