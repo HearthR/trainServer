@@ -1,0 +1,19 @@
+#station-list {
+    border : 2px solid slategrey;
+    width : 19%;
+    height : 900px;
+    float : left;
+    overflow-x : scroll;
+}
+
+#map {
+    border : 2px solid slategrey;
+    width : 80%;
+    height : 900px;
+    float : right;
+}
+
+.station-list-content {
+    border : 1px solid slategrey;
+    margin : 1px 1px;
+}
