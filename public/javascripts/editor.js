@@ -42,9 +42,6 @@ var searchStation = function(d) {
 
 
 var renderEvent = function() {
-    let test = new Node();
-
-    if(test) console.log(test);
     let msvg = document.querySelector("#metro > svg");
     if(msvg) {
         msvg.remove();
