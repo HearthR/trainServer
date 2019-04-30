@@ -1,0 +1,3 @@
+[submodule "trainRenderer"]
+	path = trainRenderer
+	url = https://github.com/mastersoftrain/trainRenderer.git
