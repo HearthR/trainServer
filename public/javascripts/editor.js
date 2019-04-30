@@ -1,45 +1,56 @@
 var selected = [];
 
-class Station {
-    constructor(ID, Line, Name) {
-    this.ID = ID;
-    this.Line = Line;
-    this.Name = Name;
-    this.x = 0; //todo
-    this.y = 0; //todo
-    }
-}
 
-var selected_remove = function(d) {
-    for(var i = 0; i < selected.length; i++) {
-    if(selected[i].Name === d.textContent) {
-        selected.splice(i,1);
-        break;
-    }
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector("#render-update").addEventListener("click", renderEvent);
+});
+
+
+var selectedRemove = function(d) {
+    for(let i = 0; i < selected.length; i++) {
+        if(selected[i].Name === d.textContent) {
+            selected.splice(i,1);
+            break;
+        }
     }
     d.remove();
 };
 
-var select_event = function(d) {
+var selectEvent = function(d) {
     var attr = d.textContent.split(" ");
-    var s = new Station(attr[0], attr[1], attr[2]);
+    var s = new Node(attr[2]);
     selected.push(s);
     var length = selected.length;
-    document.getElementById('station-list-selected').innerHTML += "<button onclick='selected_remove(this)'>"+selected[length-1].Name+"</button>";
+    document.getElementById('station-list-selected').innerHTML += `<button onclick='selectedRemove(this)'>${selected[length-1].name}</button>`;
 };
 
-var search_station = function(d) {
+var searchStation = function(d) {
     var filter = d.value;
     var contents = document.getElementsByClassName("station-list-content");
     var txtvalue;
 
-    for(var i = 0; i < contents.length; i++) {
-    txtvalue = contents[i].textContent;
-    if(txtvalue.indexOf(filter) > -1) {
-        contents[i].style.display = "";
-    }
-    else {
-        contents[i].style.display = "none";
-    }
+    for(let i = 0; i < contents.length; i++) {
+        txtvalue = contents[i].textContent;
+        if(txtvalue.indexOf(filter) > -1) {
+            contents[i].style.display = "";
+        }
+        else {
+            contents[i].style.display = "none";
+        }
     }
 };
+
+
+var renderEvent = function() {
+    let test = new Node();
+
+    if(test) console.log(test);
+    let msvg = document.querySelector("#metro > svg");
+    if(msvg) {
+        msvg.remove();
+    }
+    render();
+};
+
+
+

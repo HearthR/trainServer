@@ -4,17 +4,21 @@ html
     title= "Train Map Edit Tool"
     link(rel='stylesheet', href='/stylesheets/editor.css')
     script(src='/javascripts/editor.js')
+    script(src='/javascripts/d3/d3.js')
       
 
 
   body
     block content
         #station-container
-          input#station-list-search(type="text" oninput="search_station(this)")
+          input#station-list-search(type="text" oninput="searchStation(this)")
           #station-list
             each station in stations
-              button.station-list-content(onclick="select_event(this);") #{station.ID} #{station.line_num}호선 #{station.Name}
+              button.station-list-content(onclick="selectEvent(this);") #{station.ID} #{station.line_num}호선 #{station.Name}
               
           #station-list-selected
+          button#render-update(value="Render") Render
 
-        #map
+        #metro
+    
+    script#draw-script(src='/javascripts/metro.js')
