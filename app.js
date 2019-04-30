@@ -21,14 +21,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-var localTime = function(req, res, next) {
-  req.requestTime = Date.now();
-  next();
-}
-
-
-app.use(localTime);
-
 app.use('/', indexRouter);
 app.use('/editor', editorRouter);
 
