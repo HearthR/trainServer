@@ -4,6 +4,7 @@ html
     title= "Train Map Edit Tool"
     meta(charset='utf-8')
     link(rel='stylesheet', href='/stylesheets/editor.css')
+    script(src='https://unpkg.com/axios/dist/axios.min.js')
     script(src='/javascripts/editor.js')
     script(src='/d3/d3.js')
 
@@ -16,10 +17,10 @@ html
               br
               | X:0 Y:0
             #set-coordx X : 
-              input(type="text" oninput="")
+              input(type="text")
             #set-coordy Y : 
-              input(type="text" oninput="")
-            button#set-confirm(type='submit') 확인
+              input(type="text")
+            button#set-confirm(type='submit') 좌표 저장
 
           input#station-list-search(type="text" oninput="searchStation(this)")
 

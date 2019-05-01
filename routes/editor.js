@@ -12,12 +12,12 @@ var connection_closer = function(next) {
   next();
 };
 
-var test_sql = 'SELECT * FROM stations';
+var list_sql = 'SELECT * FROM stations';
 
 /* GET editor home */
 router.get('/', function(req, res, next) {
 
-  conn.query(test_sql, function(err, rows, fields) {
+  conn.query(list_sql, function(err, rows, fields) {
     if(!err)
       //res.send(rows);
       res.render('editor', {stations:rows});
@@ -25,6 +25,11 @@ router.get('/', function(req, res, next) {
       console.log(err);
   });
 
+});
+
+router.post('/', function(req, res, next) {
+  console.log(req.body);
+  res.send(req.body.coord_x);
 });
 
 router.use(connection_closer);
