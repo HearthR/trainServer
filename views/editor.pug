@@ -2,22 +2,34 @@ doctype html
 html
   head
     title= "Train Map Edit Tool"
+    meta(charset='utf-8')
     link(rel='stylesheet', href='/stylesheets/editor.css')
     script(src='/javascripts/editor.js')
     script(src='/d3/d3.js')
-      
-
 
   body
     block content
         #station-container
+          #station-configure-container
+            #set-selected 
+              | 0000 0호선 00
+              br
+              | X:0 Y:0
+            #set-coordx X : 
+              input(type="text" oninput="")
+            #set-coordy Y : 
+              input(type="text" oninput="")
+            button#set-confirm(type='submit') 확인
+
           input#station-list-search(type="text" oninput="searchStation(this)")
+
           #station-list
             each station in stations
-              button.station-list-content(onclick="selectEvent(this);") #{station.ID} #{station.line_num}호선 #{station.Name}
+              button.station-list-content(onclick="selectEvent(this)") #{station.ID} #{station.line_num}호선 #{station.Name}
               
           #station-list-selected
-          button#render-update(value="Render") Render
+
+          button#render-update(type='reset') Render
 
         #metro
     

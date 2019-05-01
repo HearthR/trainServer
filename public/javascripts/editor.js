@@ -18,10 +18,12 @@ var selectedRemove = function(d) {
 
 var selectEvent = function(d) {
     var attr = d.textContent.split(" ");
-    var s = new Node(attr[2]);
+    var s = new Node(attr[2], attr[0], Number(attr[1][0]));
     selected.push(s);
     var length = selected.length;
     document.getElementById('station-list-selected').innerHTML += `<button onclick='selectedRemove(this)'>${selected[length-1].name}</button>`;
+    var current_config = document.getElementById('set-selected');
+    current_config.innerHTML = `${s.id} ${s.metroLine}호선 ${s.name}<br>X:${s.coord.x} Y:${s.coord.y}`;
 };
 
 var searchStation = function(d) {

@@ -9,7 +9,7 @@
     border-bottom: 1px solid slategrey;
     width : 100%;
     height : 63%;
-    overflow-x : scroll;
+    overflow-y : scroll;
 }
 
 #station-list-search {
@@ -19,10 +19,56 @@
 }
 
 #station-list-selected {
-    border : 2px 0px solid slategrey;
+    border-bottom : 2px solid slategrey;
     width : 100%;
-    height : 30%;
-    overflow-x : scroll;
+    height : 15%;
+    overflow-y : scroll;
+}
+
+#station-configure-container {
+    border-bottom : 1px solid slategrey;
+    width : 100%;
+    height : 12%;
+}
+
+#set-selected {
+    border-bottom : 1px solid slategrey;
+    width : 100%;
+    text-align: center;
+}
+
+#set-coordx {
+    border-bottom : 1px solid slategrey;
+    width : 48%;
+    height : 25%;
+    float : left;
+    padding-left : 3px;
+    padding-top : 5px;
+}
+
+#set-coordx > input {
+    width : 70%;
+    height : 50%;
+}
+
+#set-coordy {
+    border-left : 1px solid slategrey;
+    border-bottom : 1px solid slategrey;
+    width : 48%;
+    height : 25%;
+    float : left;
+    padding-left : 3px;
+    padding-top : 5px;
+}
+
+#set-coordy > input {
+    width : 70%;
+    height : 50%;
+}
+
+#set-confirm {
+    width : 100%;
+    float : right;
 }
 
 #render-update {
