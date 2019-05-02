@@ -26,7 +26,10 @@ html
 
           #station-list
             each station in stations
-              button.station-list-content(onclick="selectEvent(this)") #{station.ID} #{station.line_num}호선 #{station.Name}
+              button.station-list-content(onclick="selectEvent(this)")
+                | #{station.ID} #{station.line_num}호선 #{station.Name} 
+                br
+                | X : #{station.coord_x} Y : #{station.coord_y}
               
           #station-list-selected
 

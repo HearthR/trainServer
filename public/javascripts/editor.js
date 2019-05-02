@@ -19,7 +19,8 @@ const selectedRemove = function(d) {
 
 const selectEvent = function(d) {
     var attr = d.textContent.split(" ");
-    var s = new Node(attr[2], attr[0], Number(attr[1][0]));
+    var coord_t = {x : Number(attr[5]), y : Number(attr[8])};
+    var s = new Node(attr[2], attr[0], Number(attr[1][0]), coord_t);
     selected.push(s);
     var length = selected.length;
     document.getElementById('station-list-selected').innerHTML += `<button onclick='selectedRemove(this)'>${selected[length-1].name}</button>`;
