@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const selectedRemove = function(d) {
     let clickedName = d.textContent.split('(')[0];
-    for(let i = 0; i < selected.length; i++) {
+    for(let i in selected) {
         if(selected[i].name === clickedName) {
             selected.splice(i,1);
             if(selected.length === 0) displayConfig(null);
@@ -21,24 +21,41 @@ const selectedRemove = function(d) {
     d.remove();
 };
 
+const isDuplicated = function(nodeId) {
+    for(let i in selected) {
+        if(selected[i].id === nodeId) {
+            return true;
+        }
+    }
+    return false;
+};
+
 const selectEvent = function(d) {
     let attr = d.textContent.split(" ");
-    let coord_t = {x : Number(attr[4]), y : Number(attr[6])};
-    var s = new Node(attr[2], attr[0], Number(attr[1][0]), coord_t);
-    selected.push(s);
-    let length = selected.length;
-    document.getElementById('station-list-selected').innerHTML += `<button onclick='selectedRemove(this)'>${selected[length-1].name}(${selected[length-1].metroLine})</button>`;
-    displayConfig(s);
-    selectedObj = d;
+    if(!isDuplicated(attr[0])) {
+        let coord_t = {x : Number(attr[4]), y : Number(attr[6])};
+        var s = new Node(attr[2], attr[0], Number(attr[1][0]), coord_t);
+        selected.push(s);
+        let length = selected.length;
+        document.getElementById('station-list-selected').innerHTML += `<button onclick='selectedRemove(this)'>${selected[length-1].name}(${selected[length-1].metroLine})</button>`;
+        displayConfig(s);
+        selectedObj = d;
+    }
 };
 
 const displayConfig = function(s) {
     let currentConfig = document.getElementById('set-selected');
+    let currentConfigX = document.querySelector('#set-coordx > input');
+    let currentConfigY = document.querySelector('#set-coordy > input');
     if(s) {
         currentConfig.innerHTML = `${s.id} ${s.metroLine}호선 ${s.name}<br>X:${s.coord.x} Y:${s.coord.y}`;
+        currentConfigX.value = s.coord.x;
+        currentConfigY.value = s.coord.y;
     }
     else {
         currentConfig.innerHTML = `0000 0호선 00<br>X:0 Y:0`;
+        currentConfigX.value = 0;
+        currentConfigY.value = 0;
     }
 };
 
