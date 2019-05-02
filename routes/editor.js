@@ -12,7 +12,7 @@ var connection_closer = function(next) {
   next();
 };
 
-var list_sql = 'SELECT ID, Name, line_num, coord_x, coord_y FROM stations NATURAL JOIN coordinate';
+var list_sql = 'SELECT ID, Name, line_num, IFNULL(coord_x, 0), IFNULL(coord_y, 0) FROM stations LEFT JOIN coordinate WHERE stations.ID = coordinate.ID';
 
 const updateCoord = (queryStr) => {
   conn.query(queryStr, function(error, results, field) {
