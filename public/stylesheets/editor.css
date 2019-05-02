@@ -10,6 +10,7 @@
     width : 100%;
     height : 63%;
     overflow-y : scroll;
+    overflow-x : hidden;
 }
 
 #station-list-search {

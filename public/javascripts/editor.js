@@ -1,4 +1,5 @@
 var selected = [];
+var selectedObj;
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -8,9 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 const selectedRemove = function(d) {
+    let clickedName = d.textContent.split('(')[0];
     for(let i = 0; i < selected.length; i++) {
-        if(selected[i].Name === d.textContent) {
+        if(selected[i].name === clickedName) {
             selected.splice(i,1);
+            if(selected.length === 0) displayConfig(null);
+            else if(i === selected.length) displayConfig(selected[selected.length - 1]);
             break;
         }
     }
@@ -18,28 +22,34 @@ const selectedRemove = function(d) {
 };
 
 const selectEvent = function(d) {
-    var attr = d.textContent.split(" ");
-    var coord_t = {x : Number(attr[5]), y : Number(attr[8])};
+    let attr = d.textContent.split(" ");
+    let coord_t = {x : Number(attr[4]), y : Number(attr[6])};
     var s = new Node(attr[2], attr[0], Number(attr[1][0]), coord_t);
     selected.push(s);
-    var length = selected.length;
-    document.getElementById('station-list-selected').innerHTML += `<button onclick='selectedRemove(this)'>${selected[length-1].name}</button>`;
+    let length = selected.length;
+    document.getElementById('station-list-selected').innerHTML += `<button onclick='selectedRemove(this)'>${selected[length-1].name}(${selected[length-1].metroLine})</button>`;
     displayConfig(s);
+    selectedObj = d;
 };
 
 const displayConfig = function(s) {
-    var current_config = document.getElementById('set-selected');
-    current_config.innerHTML = `${s.id} ${s.metroLine}호선 ${s.name}<br>X:${s.coord.x} Y:${s.coord.y}`;
+    let currentConfig = document.getElementById('set-selected');
+    if(s) {
+        currentConfig.innerHTML = `${s.id} ${s.metroLine}호선 ${s.name}<br>X:${s.coord.x} Y:${s.coord.y}`;
+    }
+    else {
+        currentConfig.innerHTML = `0000 0호선 00<br>X:0 Y:0`;
+    }
 };
 
 const searchStation = function(d) {
-    var filter = d.value;
-    var contents = document.getElementsByClassName("station-list-content");
-    var txtvalue;
+    let filter = d.value;
+    let contents = document.getElementsByClassName("station-list-content");
+    let txtValue;
 
     for(let i = 0; i < contents.length; i++) {
-        txtvalue = contents[i].textContent;
-        if(txtvalue.indexOf(filter) > -1) {
+        txtValue = contents[i].textContent;
+        if(txtValue.indexOf(filter) > -1) {
             contents[i].style.display = "";
         }
         else {
@@ -47,7 +57,6 @@ const searchStation = function(d) {
         }
     }
 };
-
 
 const renderEvent = function() {
     let msvg = document.querySelector("#metro > svg");
@@ -57,23 +66,24 @@ const renderEvent = function() {
     render();
 };
 
-
 const setCoordinate = () => {
     let x = document.querySelector("#set-coordx > input").value;
     let y = document.querySelector("#set-coordy > input").value;
 
     let param_xy = {};
+    let currentConfig = selected[selected.length-1];
 
     if(selected[selected.length-1]) {
-        param_xy.id = selected[selected.length-1].id;
+        param_xy.id = currentConfig.id;
         param_xy.coord_x = x;
         param_xy.coord_y = y;
         axios.post("http://localhost:3000/editor", param_xy)
         .then(function(response) {
             if(response.status === 200) {
-                selected[selected.length-1].coord.x = x;
-                selected[selected.length-1].coord.y = y;
-                displayConfig(selected[selected.length-1]);
+                currentConfig.coord.x = x;
+                currentConfig.coord.y = y;
+                displayConfig(currentConfig);
+                selectedObj.innerHTML = `${currentConfig.id} ${currentConfig.metroLine}호선 ${currentConfig.name}<br> X: ${currentConfig.coord.x} Y: ${currentConfig.coord.y}`;
                 console.log(response);
             }
         })
