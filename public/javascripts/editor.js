@@ -94,7 +94,7 @@ const setCoordinate = () => {
         param_xy.id = currentConfig.id;
         param_xy.coord_x = x;
         param_xy.coord_y = y;
-        axios.post("http://localhost:3000/editor", param_xy)
+        axios.post("http://ec2-54-180-115-171.ap-northeast-2.compute.amazonaws.com:3000/editor", param_xy)
         .then(function(response) {
             if(response.status === 200) {
                 currentConfig.coord.x = x;
