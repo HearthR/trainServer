@@ -80,7 +80,7 @@ const renderEvent = function() {
     if(msvg) {
         msvg.remove();
     }
-    render();
+    render(selected);
 };
 
 const setCoordinate = () => {
