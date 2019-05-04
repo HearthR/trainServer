@@ -34,7 +34,7 @@ const selectEvent = function(d) {
     let attr = d.textContent.split(" ");
     if(!isDuplicated(attr[0])) {
         let coord_t = {x : Number(attr[4]), y : Number(attr[6])};
-        var s = new Node(attr[2], attr[0], Number(attr[1][0]), coord_t);
+        var s = new Node(attr[2], attr[0], attr[1], coord_t);
         selected.push(s);
         let length = selected.length;
         document.getElementById('station-list-selected').innerHTML += `<button onclick='selectedRemove(this)'>${selected[length-1].name}(${selected[length-1].metroLine})</button>`;
