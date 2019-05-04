@@ -13,8 +13,8 @@ const selectedRemove = function(d) {
     for(let i in selected) {
         if(selected[i].name === clickedName) {
             selected.splice(i,1);
-            if(selected.length === 0) displayConfig(null);
-            else if(i === selected.length) displayConfig(selected[selected.length - 1]);
+            if(selected.length === 0)   displayConfig(null);
+            else if(i == selected.length)   displayConfig(selected[selected.length - 1]);
             break;
         }
     }
