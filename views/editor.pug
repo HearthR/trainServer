@@ -29,7 +29,9 @@ html
               button.station-list-content(onclick="selectEvent(this)")
                 | #{station.ID} #{station.line_num}호선 #{station.Name} 
                 br
-                | X: #{station.coord_x} Y: #{station.coord_y}
+                | X: #{station.coord_x} Y: #{station.coord_y} 
+                br
+                | 연결: #{station.Neighbors}
               
           #station-list-selected
 

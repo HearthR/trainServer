@@ -12,11 +12,14 @@ var connection_closer = function(next) {
   next();
 };
 
-var list_sql = `SELECT stations.ID, Name, line_num, IFNULL(coord_x, 0) as coord_x, IFNULL(coord_y, 0) as coord_y 
+let list_sql = `SELECT stations.ID, Name, line_num, IFNULL(coord_x, 0) as coord_x, IFNULL(coord_y, 0) as coord_y 
                 FROM stations 
                 LEFT JOIN coordinate 
                 ON stations.ID = coordinate.ID 
                 ORDER BY stations.ID ASC`;
+
+let neighbors_sql = `SELECT ID_from, ID_to
+                    FROM neighbors`;
 
 const updateCoord = (queryStr, res) => {
   conn.query(queryStr, function(error, results, field) {
@@ -41,12 +44,40 @@ const checkEmptyResult = (resultObj) => {
 router.get('/', function(req, res, next) {
   conn.query(list_sql, function(err, rows, fields) {
     if(!err) {
-      res.render('editor', {stations:rows});
+      listSqlCallback(res, rows);
     }
     else
       console.log(err);
   });
 });
+
+const listSqlCallback = (res, stationList) => {
+  conn.query(neighbors_sql, function(err, neighborList, fields) {
+    if(!err) {
+      let neighborIndex = 0;
+
+      for(let i = 0; i < stationList.length; i++) {
+        if(!stationList[i].hasOwnProperty('Neighbors')) {
+          stationList[i].Neighbors = "";
+        }
+        for(let j = neighborIndex; j < neighborList.length; j++) {
+          if(stationList[i].ID === neighborList[j].ID_from) {
+            if(!stationList[i].Neighbors) {
+              stationList[i].Neighbors += String(neighborList[neighborIndex].ID_to);
+            }
+            else {
+              stationList[i].Neighbors += ',' + String(neighborList[neighborIndex].ID_to);
+            }
+            neighborIndex += 1;
+          }
+          else break;
+        }
+      }
+      res.render('editor', {stations:stationList});
+    }
+    else  console.log(err);
+  });
+};
 
 router.post('/', function(req, res, next) {
   let coord_x = Number(req.body.coord_x);
