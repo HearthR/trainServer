@@ -19,7 +19,8 @@ let list_sql = `SELECT stations.ID, Name, line_num, IFNULL(coord_x, 0) as coord_
                 ORDER BY stations.ID ASC`;
 
 let neighbors_sql = `SELECT ID_from, ID_to
-                    FROM neighbors`;
+                    FROM neighbors
+                    ORDER BY ID_from ASC`;
 
 const updateCoord = (queryStr, res) => {
   conn.query(queryStr, function(error, results, field) {
