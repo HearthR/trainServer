@@ -10,13 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
     listButtonAll.forEach((listButton) => {
         let attr = listButton.textContent.split(" ");
         let coord_t = {x : Number(attr[4]), y : Number(attr[6])};
-        var n = new Node(attr[2], attr[0], attr[1], coord_t);
+        let coord2_t = {x : Number(attr[9].split("(")[1].split(",")[0]), y : Number(attr[9].split(",")[1].split(")")[0])};
+        var n = new Node(attr[2], attr[0], attr[1], coord_t, coord2_t);
         selectedAll.push(n);
         listButton.innerHTML += " #" + String(selectedAll.length-1);
     });
     listButtonAll.forEach((listButton) => {
         let attr = listButton.textContent.split(" ");
-        let selectedAllIndex = Number(attr[9].split("#")[1]);
+        let selectedAllIndex = Number(attr[10].split("#")[1]);
         let neighbors = attr[8].split(",");
         let neighborIndex = 0;
         for(let i = 0; i < selectedAll.length; i++) {
@@ -125,23 +126,41 @@ const setCoordinate = () => {
     let currentConfig = selected[selected.length-1];
 
     if(selected[selected.length-1]) {
-        param_xy.id = currentConfig.id;
-        param_xy.coord_x = x;
-        param_xy.coord_y = y;
-        axios.post("http://ec2-54-180-115-171.ap-northeast-2.compute.amazonaws.com:3000/editor", param_xy)
-        .then(function(response) {
-            if(response.status === 200) {
-                currentConfig.coord.x = x;
-                currentConfig.coord.y = y;
-                displayConfig(currentConfig);
-                let selectedAllIndex = selectedObj.textContent.split(" ")[9];
-                let neighborsText = selectedObj.textContent.split(" ")[8];
-                selectedObj.innerHTML = `${currentConfig.id} ${currentConfig.metroLine} ${currentConfig.name}<br> X: ${currentConfig.coord.x} Y: ${currentConfig.coord.y}<br> 연결: ${neighborsText} ${selectedAllIndex}`;
-                console.log(response);
-            }
-        })
-        .catch(function(error) {
-            console.log(error);
-        });
+        if(x[0] === "^") {
+            param_xy.column = "coord2";
+            param_xy.id = currentConfig.id;
+            param_xy.coord_x = x.split("^")[1];
+            param_xy.coord_y = y.split("^")[1];
+            axios.post("http://ec2-54-180-115-171.ap-northeast-2.compute.amazonaws.com:3000/editor", param_xy)
+            .then(function(response) {
+                if(response.status === 200) {
+                    console.log(response);
+                }
+            })
+            .catch(function(error) {
+                console.log(error);
+            });
+        }
+        else {
+            param_xy.column = "coord";
+            param_xy.id = currentConfig.id;
+            param_xy.coord_x = x;
+            param_xy.coord_y = y;
+            axios.post("http://ec2-54-180-115-171.ap-northeast-2.compute.amazonaws.com:3000/editor", param_xy)
+            .then(function(response) {
+                if(response.status === 200) {
+                    currentConfig.coord.x = x;
+                    currentConfig.coord.y = y;
+                    displayConfig(currentConfig);
+                    let selectedAllIndex = selectedObj.textContent.split(" ")[9];
+                    let neighborsText = selectedObj.textContent.split(" ")[8];
+                    selectedObj.innerHTML = `${currentConfig.id} ${currentConfig.metroLine} ${currentConfig.name}<br> X: ${currentConfig.coord.x} Y: ${currentConfig.coord.y}<br> 연결: ${neighborsText} ${selectedAllIndex}`;
+                    console.log(response);
+                }
+            })
+            .catch(function(error) {
+                console.log(error);
+            });
+        }
     }
 };

@@ -12,7 +12,7 @@ var connection_closer = function(next) {
   next();
 };
 
-let list_sql = `SELECT stations.ID, Name, line_num, IFNULL(coord_x, 0) as coord_x, IFNULL(coord_y, 0) as coord_y 
+let list_sql = `SELECT stations.ID, Name, line_num, IFNULL(coord_x, 0) as coord_x, IFNULL(coord_y, 0) as coord_y, coord2_x, coord2_y 
                 FROM stations 
                 LEFT JOIN coordinate 
                 ON stations.ID = coordinate.ID 
@@ -85,7 +85,13 @@ router.post('/', function(req, res, next) {
   let coord_y = Number(req.body.coord_y);
   let coord_id = Number(req.body.id);
   if(!isNaN(coord_id) && !isNaN(coord_x) && !isNaN(coord_y)) {
-    let coord_sql = mysql.format('UPDATE coordinate SET coord_x = ?, coord_y = ? WHERE ID = ?', [coord_x, coord_y, coord_id]);
+    let coord_sql;
+    if(req.body.column === "coord2") {
+      coord_sql = mysql.format('UPDATE coordinate SET coord2_x = ?, coord2_y = ? WHERE ID = ?', [coord_x, coord_y, coord_id]);
+    }
+    else {
+      coord_sql = mysql.format('UPDATE coordinate SET coord_x = ?, coord_y = ? WHERE ID = ?', [coord_x, coord_y, coord_id]);
+    }
     let check_sql = mysql.format('SELECT ID from coordinate where ID = ?', [coord_id]);
     conn.query(check_sql, function(error, results, field) {
       if(error) {
@@ -93,7 +99,7 @@ router.post('/', function(req, res, next) {
       }
       else {
         if(checkEmptyResult(results)) {
-          let init_sql = mysql.format('INSERT INTO coordinate VALUES (?, ?, ?)', [coord_id, 0, 0]);
+          let init_sql = mysql.format('INSERT INTO coordinate VALUES (?, ?, ?, NULL, NULL)', [coord_id, 0, 0]);
           conn.query(init_sql, function(error, results, field) {
             if(error) {
               console.log(error);
