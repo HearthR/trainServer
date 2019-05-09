@@ -1,5 +1,24 @@
-extends layout
-
-block content
-  #navigator
-  #map-container
+doctype html
+html
+  head
+    title=""
+    meta(charset='utf8')
+    link(rel='stylesheet', href='/stylesheets/index.css')
+  body
+    block content
+      #header
+      #navigator
+        #nav-mode-container
+          .nav-title
+          #mode-select-normal
+          #mode-select-congestion
+        hr(style='width : 95%;')
+        #nav-path-container
+          .nav-title
+          #input-path-src
+          #input-path-dst
+          #search-path
+        hr(style='width : 95%;')
+        #nav-statistic-container
+      #map-container
+        #line-selector

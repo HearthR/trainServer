@@ -1,11 +1,115 @@
+#header {
+    width : 100%;
+    height : 40px;
+    background-color: rgb(138, 30, 30);
+    float : left;
+    margin-bottom : 5px;
+}
 #navigator {
-    width : 25%;
-    height : 900px;
+    width : 20%;
+    height : 855px;
+    border : 2px solid slategray;
+    float : left;
+}
+
+#nav-mode-container {
+    width : 100%;
+    height : 15%;
+    clear : left;
+    overflow : hidden;
+}
+
+.nav-title {
     border : 1px solid slategray;
+    background-color : rgb(160, 57, 57);
+}
+
+#nav-mode-container > .nav-title {
+    width : 80%;
+    height : 30%;
+    margin-left : 10%;
+    margin-right : 10%;
+    margin-top : 5%;
+}
+
+#mode-select-normal {
+    width : 35%;
+    height : 30%;
+    border : 1px solid slategray;
+    float : left;
+    margin-left : 10%;
+    margin-top : 5%;
+
+}
+
+#mode-select-congestion {
+    width : 35%;
+    height : 30%;
+    border : 1px solid slategray;
+    float : left;
+    margin-left : 9%;
+    margin-top : 5%;
+
+}
+
+#nav-path-container {
+    width : 100%;
+    height : 30%;
+    clear : left;
+    overflow : hidden;
+}
+
+#nav-path-container > .nav-title {
+    width : 80%;
+    height : 17.5%;
+    margin-left : 10%;
+    margin-right : 10%;
+    margin-top : 5%;
+}
+
+#input-path-src {
+    width : 80%;
+    height : 18%;
+    border : 1px solid slategray;
+    margin-left : 10%;
+    margin-top : 5%;
+}
+
+#input-path-dst {
+    width : 80%;
+    height : 18%;
+    border : 1px solid slategray;
+    margin-left : 10%;
+    margin-top : 5%;
+}
+
+#search-path {
+    float : right;
+    width : 23%;
+    height : 13%;
+    border : 1px solid slategray;
+    margin-right : 10%;
+    margin-top : 5%;
+}
+
+#nav-statistic-container {
+    width : 80%;
+    height : 46%;
+    border : 1px solid slategray;
+    margin-top : 7.5%;
+    margin-left : 10%;
 }
 
 #map-container {
-    width : 75%;
-    height : 900px;
-    border : 1px solid slategray;
+    width : 79%;
+    height : 855px;
+    border : 2px solid slategray;
+    float : right;
+}
+
+#line-selector {
+    width : 100%;
+    height : 35px;
+    border-bottom : 1px solid slategray;
+    clear : right;
 }
