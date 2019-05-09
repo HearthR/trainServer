@@ -1,0 +1,11 @@
+#navigator {
+    width : 25%;
+    height : 900px;
+    border : 1px solid slategray;
+}
+
+#map-container {
+    width : 75%;
+    height : 900px;
+    border : 1px solid slategray;
+}

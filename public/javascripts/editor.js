@@ -115,7 +115,13 @@ const renderEvent = function() {
     if(msvg) {
         msvg.remove();
     }
-    render(selected);
+
+    if(selected.length) {
+        render(selected);
+    }
+    else {
+        render(selectedAll);
+    }
 };
 
 const setCoordinate = () => {
