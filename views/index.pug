@@ -4,6 +4,7 @@ html
     title=""
     meta(charset='utf8')
     link(rel='stylesheet', href='/stylesheets/index.css')
+    script(src='/d3/d3.js')
   body
     block content
       #header
@@ -22,3 +23,6 @@ html
         #nav-statistic-container
       #map-container
         #line-selector
+        #metro
+
+    script#draw-script(src='/src/metro.js')

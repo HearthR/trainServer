@@ -2,12 +2,12 @@ var express = require('express');
 var router = express.Router();
 var mysql = require('mysql');
 
-var db_config = require('../config/db-config.json');
-var conn = mysql.createConnection(db_config);
+let db_config = require('../config/db-config.json');
+let conn = mysql.createConnection(db_config);
 
 conn.connect();
 
-var connection_closer = function(next) {
+let connection_closer = function(next) {
   conn.end();
   next();
 };

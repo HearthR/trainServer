@@ -22,8 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
         let neighborIndex = 0;
         for(let i = 0; i < selectedAll.length; i++) {
             if(selectedAll[i].id == neighbors[neighborIndex].split("/")[0]) {
-                selectedAll[selectedAllIndex].addNeighbor(selectedAll[i]);
-                // add Cost logic
+                let neighborObj = {};
+                neighborObj.node = selectedAll[i];
+                neighborObj.cost = Number(neighbors[neighborIndex].split("/")[1]);
+                selectedAll[selectedAllIndex].addNeighbor(neighborObj);
                 neighborIndex += 1;
             }
             if(neighborIndex == neighbors.length) break;
