@@ -18,7 +18,7 @@ let list_sql = `SELECT stations.ID, Name, line_num, IFNULL(coord_x, 0) as coord_
                 ON stations.ID = coordinate.ID 
                 ORDER BY stations.ID ASC`;
 
-let neighbors_sql = `SELECT ID_from, ID_to
+let neighbors_sql = `SELECT ID_from, ID_to, Cost
                     FROM neighbors
                     ORDER BY ID_from ASC, ID_TO ASC`;
 
@@ -64,10 +64,10 @@ const listSqlCallback = (res, stationList) => {
         for(let j = neighborIndex; j < neighborList.length; j++) {
           if(stationList[i].ID === neighborList[j].ID_from) {
             if(!stationList[i].Neighbors) {
-              stationList[i].Neighbors += String(neighborList[neighborIndex].ID_to);
+              stationList[i].Neighbors += String(neighborList[neighborIndex].ID_to)+'/'+String(neighborList[neighborIndex].Cost);
             }
             else {
-              stationList[i].Neighbors += ',' + String(neighborList[neighborIndex].ID_to);
+              stationList[i].Neighbors += ',' + String(neighborList[neighborIndex].ID_to)+'/'+String(neighborList[neighborIndex].Cost);
             }
             neighborIndex += 1;
           }

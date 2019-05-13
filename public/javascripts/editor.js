@@ -21,8 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
         let neighbors = attr[8].split(",");
         let neighborIndex = 0;
         for(let i = 0; i < selectedAll.length; i++) {
-            if(selectedAll[i].id == neighbors[neighborIndex]) {
+            if(selectedAll[i].id == neighbors[neighborIndex].split("/")[0]) {
                 selectedAll[selectedAllIndex].addNeighbor(selectedAll[i]);
+                // add Cost logic
                 neighborIndex += 1;
             }
             if(neighborIndex == neighbors.length) break;
