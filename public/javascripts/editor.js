@@ -173,3 +173,41 @@ const setCoordinate = () => {
         }
     }
 };
+
+const getRandomPairs = (num) => {
+    axios.get('/editor/random?num='+String(num))
+    .then( response => {
+        let tmp = response.data.split(" ");
+        let pairList = [];
+        let indexPairList = [];
+        for(let i = 0; i < tmp.length - 1; i++) {
+            let element = {};
+            element.ID_from = tmp[i].split(",")[0];
+            element.ID_to = tmp[i].split(",")[1];
+            pairList.push(element);
+        }
+
+        for(let i = 0; i < pairList.length; i++) {
+            let indexObj = {};
+            indexObj.from = getIndexFromId(pairList[i].ID_from);
+            indexObj.to = getIndexFromId(pairList[i].ID_to);
+            indexPairList.push(indexObj);
+        }
+        getPaths(indexPairList);
+    });
+};
+
+const getPaths = (indexPair) => {
+    let pathList = [];
+    for(let i = 0; i < indexPair.length; i++) {
+        pathList.push(findPath(selectedAll[indexPair[i].from], selectedAll[indexPair[i].to]));
+    }
+
+    console.log(pathList);
+};
+
+const getIndexFromId = (id) => {
+    for(let i = 0; i < selectedAll.length; i++) {
+        if(id == selectedAll[i].id) return i;
+    }
+};

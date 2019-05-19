@@ -22,6 +22,8 @@ let neighbors_sql = `SELECT ID_from, ID_to, Cost
                     FROM neighbors
                     ORDER BY ID_from ASC, ID_TO ASC`;
 
+let congestion_sql = `SELECT ID_from, Name_from, ID_to, Name_to, Total FROM congestion`;
+
 const updateCoord = (queryStr, res) => {
   conn.query(queryStr, function(error, results, field) {
     if(error) console.log(error);
@@ -119,6 +121,36 @@ router.post('/', function(req, res, next) {
     res.sendStatus(404).send('Wrong format');
   }
 });
+
+router.get('/random', function(req, res) {
+  conn.query(congestion_sql, function(error, results, field) {
+    if(error) {
+      console.log(error);
+    }
+    else {
+      console.log(req.query.num);
+      let loopNum = Number(req.query.num);
+      let sum = 173226697;
+      let pickList = ``;
+      
+      for(let i = 0; i < loopNum; i++) {
+        let random = Math.random()*sum;
+        let rowIndex = 0;
+  
+        while(random >= 0) {
+          random -= Number(results[rowIndex].Total);
+          rowIndex++;
+        }
+        rowIndex--;
+        pickList += `${results[rowIndex].ID_from},${results[rowIndex].ID_to} `;
+  
+      }
+
+      res.send(pickList);
+    }
+  });
+});
+
 
 router.use(connection_closer);
 
