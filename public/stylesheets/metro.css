@@ -1,0 +1,30 @@
+.grid {
+    stroke-width: 1;
+    stroke: black;
+    stroke-opacity: 0.1;
+}
+
+.line {
+    stroke-width: 5;
+    fill: none;
+}
+
+.node {
+    r: 6;
+}
+
+.node-inside{
+    r: 4;
+    fill: white;
+}
+
+.node-select {
+    r: 10;
+    fill: red;
+}
+
+.node-name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 9px;
+    text-anchor: middle;
+}
