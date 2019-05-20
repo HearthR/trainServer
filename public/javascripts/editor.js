@@ -114,10 +114,6 @@ const searchStation = function(d) {
 };
 
 const renderEvent = function() {
-    let msvg = document.querySelector("#metro > svg");
-    if(msvg) {
-        msvg.remove();
-    }
 
     if(selected.length) {
         render(selected);
