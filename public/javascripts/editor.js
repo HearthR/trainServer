@@ -195,11 +195,22 @@ const getRandomPairs = (num) => {
 
 const getPaths = (indexPair) => {
     let pathList = [];
+    let pathStr = ``;
     for(let i = 0; i < indexPair.length; i++) {
         pathList.push(findPath(selectedAll[indexPair[i].from], selectedAll[indexPair[i].to]));
     }
 
+    for(let i = 0; i < pathList.length; i++) {
+        for(let j = 0; j < pathList[i].length; j++) {
+            if(j == pathList[i].length - 1)
+                pathStr += `${pathList[i][j].name}/${pathList[i][j].metroLine.split("호선")[0]}`;
+            else
+                pathStr += `${pathList[i][j].name}/${pathList[i][j].metroLine.split("호선")[0]} `;
+        }
+        pathStr += `\n`;
+    }
     console.log(pathList);
+    console.log(pathStr);
 };
 
 const getIndexFromId = (id) => {
