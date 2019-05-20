@@ -18,6 +18,11 @@
     fill: white;
 }
 
+.node-select {
+    r: 10;
+    fill: red;
+}
+
 .node-name{
     font-family: 'Courier New', Courier, monospace;
     font-size: 9px;
