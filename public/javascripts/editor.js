@@ -196,16 +196,26 @@ const getRandomPairs = (num) => {
 const getPaths = (indexPair) => {
     let pathList = [];
     let pathStr = ``;
+    let stBefore;
     for(let i = 0; i < indexPair.length; i++) {
         pathList.push(findPath(selectedAll[indexPair[i].from], selectedAll[indexPair[i].to]));
     }
 
     for(let i = 0; i < pathList.length; i++) {
+        stBefore = pathList[i][0].name;
         for(let j = 0; j < pathList[i].length; j++) {
-            if(j == pathList[i].length - 1)
-                pathStr += `${pathList[i][j].name}/${pathList[i][j].metroLine.split("호선")[0]}`;
-            else
-                pathStr += `${pathList[i][j].name}/${pathList[i][j].metroLine.split("호선")[0]} `;
+            if(j === 0) {
+                pathStr += `${pathList[i][j].name}`;
+            }
+            else {
+                if(stBefore == pathList[i][j].name) {
+                    continue;
+                }
+                else {
+                    pathStr += ` ${pathList[i][j].name}`;
+                }
+            }
+            stBefore = pathList[i][j].name;
         }
         pathStr += `\n`;
     }
