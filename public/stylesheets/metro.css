@@ -31,6 +31,11 @@
 
 .node-name-background{
     fill: white;
+    opacity: 0.8;
+    stroke-width: 0.3px;
+    stroke-opacity: 0.3;
+    transition: opacity 500ms;
+    transition: stroke-opacity 500ms;
 }
 
 .fade-out{

@@ -132,8 +132,10 @@ router.get('/random', function(req, res) {
       let loopNum = Number(req.query.num);
       let sum = 173226697;
       let pickList = ``;
+      let loopPer = parseInt(loopNum / 10);
       
       for(let i = 0; i < loopNum; i++) {
+        if(i % loopPer === 0) console.log("Processing..." + String(i) + "/" + String(loopNum));
         let random = Math.random()*sum;
         let rowIndex = 0;
   

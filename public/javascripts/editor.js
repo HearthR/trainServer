@@ -219,7 +219,7 @@ const getPaths = (indexPair) => {
         }
         pathStr += `\n`;
     }
-    console.log(pathList);
+    //console.log(pathList);
     console.log(pathStr);
 };
 
