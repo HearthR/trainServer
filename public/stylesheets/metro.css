@@ -29,6 +29,10 @@
     text-anchor: middle;
 }
 
+.node-name-background{
+    fill: white;
+}
+
 .fade-out{
     fill-opacity : 0.1;
     stroke-opacity : 0.1;
