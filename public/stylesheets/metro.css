@@ -28,3 +28,19 @@
     font-size: 9px;
     text-anchor: middle;
 }
+
+.fade-out{
+    fill-opacity : 0.1;
+    stroke-opacity : 0.1;
+
+    transition: fill-opacity 500ms;
+    transition: stroke-opacity 500ms;
+}
+
+.fade-in{
+    fill-opacity : 1;
+    stroke-opacity : 1;
+
+    transition: fill-opacity 500ms;
+    transition: stroke-opacity 500ms;
+}
