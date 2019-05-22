@@ -113,3 +113,9 @@
     border-bottom : 1px solid slategray;
     clear : right;
 }
+
+#metro {
+    width : 100%;
+    height : 820px;
+    clear : right;
+}
