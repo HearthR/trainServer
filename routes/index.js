@@ -50,7 +50,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/data/stations', function(req, res, next) {
-  fs.readFile('../public/resources/stationData.json', (err, data) => {
+  fs.readFile('public/resources/stationData.json', (err, data) => {
     if(err) {
       console.log(err);
     }
@@ -61,7 +61,7 @@ router.get('/data/stations', function(req, res, next) {
 });
 
 router.get('/data/neighbors', function(req, res, next) {
-  fs.readFile('../public/resources/neighborData.json', (err, data) => {
+  fs.readFile('public/resources/neighborData.json', (err, data) => {
     if(err) {
       console.log(err);
     }
