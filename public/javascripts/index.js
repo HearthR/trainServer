@@ -44,5 +44,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    document.querySelector("#search-path").addEventListener("click", searchPath);
+
 });
+
+const searchPath = () => {
+    disablePath();
+    let src = document.querySelector("#input-path-src > input").value;
+    let dst = document.querySelector("#input-path-dst > input").value;
+
+    if(src && dst) {
+        let srcNode, dstNode;
+
+        for(let i in selectedAll) {
+            if(!srcNode && src == selectedAll[i].name) {
+                srcNode = selectedAll[i];
+            }
+            if(!dstNode && dst == selectedAll[i].name) {
+                dstNode = selectedAll[i];
+            }
+        }
+        //let path = findPath(srcNode, dstNode);
+    
+        renderPath(srcNode, dstNode);
+    }
+
+};
 
