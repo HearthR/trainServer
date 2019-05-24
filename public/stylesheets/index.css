@@ -8,119 +8,153 @@
 #navigator {
     width : 20%;
     height : 855px;
-    border : 2px solid slategray;
+    border : 2px solid rgb(138, 30, 30);
     float : left;
+    position : relative;
+    background-color : white;
 }
 
 #nav-mode-container {
     width : 100%;
-    height : 15%;
+    height : 140px;
     clear : left;
     overflow : hidden;
 }
 
 .nav-title {
+    width : 80%;
+    height : 44px;
+    margin-top : 15px;
     border : 1px solid slategray;
     background-color : rgb(160, 57, 57);
+    font-size : 24px;
+    text-align : center;
+    overflow-y : hidden;
+    line-height : 44px;
+    font-weight : bold;
+    color : rgb(224, 223, 223);
 }
 
 #nav-mode-container > .nav-title {
-    width : 80%;
-    height : 30%;
     margin-left : 10%;
     margin-right : 10%;
-    margin-top : 5%;
 }
 
 #mode-select-normal {
     width : 35%;
-    height : 30%;
-    border : 1px solid slategray;
+    height : 44px;
+    border : 1px solid rgb(138, 30, 30);
     float : left;
     margin-left : 10%;
-    margin-top : 5%;
+    margin-top : 14px;
 
 }
 
 #mode-select-congestion {
     width : 35%;
-    height : 30%;
-    border : 1px solid slategray;
+    height : 44px;
+    border : 1px solid rgb(138, 30, 30);
     float : left;
     margin-left : 9%;
-    margin-top : 5%;
+    margin-top : 14px;
 
 }
 
 #nav-path-container {
     width : 100%;
-    height : 30%;
+    height : 270px;
     clear : left;
     overflow : hidden;
 }
 
 #nav-path-container > .nav-title {
-    width : 80%;
-    height : 17.5%;
     margin-left : 10%;
     margin-right : 10%;
-    margin-top : 5%;
+}
+
+.input-path-text {
+    width : 28%;
+    height : 50px;
+    line-height : 50px;
+    float : left;
+    text-align: center;
+    overflow : hidden;
+    border-right : 1px solid rgb(138, 30, 30);
+    font-weight : bold;
+    font-size : 18px;
+    box-sizing : border-box;
 }
 
 #input-path-src {
     width : 80%;
-    height : 18%;
-    border : 1px solid slategray;
+    height : 50px;
+    border : 1px solid rgb(138, 30, 30);
     margin-left : 10%;
-    margin-top : 5%;
+    margin-top : 18px;
+    overflow : hidden;
 }
 
 #nav-path-container > * > input {
-    width : 98%;
-    height : 85%;
+    float : right;
+    width : 70%;
+    height : 50px;
+    border : 0;
+    outline : 0;
+    font-size : 18px;
+    color : rgb(68, 68, 68);
+    overflow : hidden;
+    padding-left : 5px;
+    box-sizing : border-box;
 }
 
 #input-path-dst {
     width : 80%;
-    height : 18%;
-    border : 1px solid slategray;
+    height : 50px;
+    border : 1px solid rgb(138, 30, 30);
     margin-left : 10%;
-    margin-top : 5%;
+    margin-top : 18px;
+    overflow : hidden;
 }
 
 #search-path {
     float : right;
     width : 23%;
-    height : 13%;
-    border : 1px solid slategray;
+    height : 35px;
+    border : 1px solid rgb(138, 30, 30);
+    font-size : 18px;
+    font-weight : bold;
     margin-right : 10%;
-    margin-top : 5%;
+    margin-top : 18px;
+}
+
+#search-path:hover {
+    background-color : rgb(180, 125, 125);
+    color : white;
 }
 
 #nav-statistic-container {
     width : 80%;
-    height : 46%;
-    border : 1px solid slategray;
-    margin-top : 7.5%;
+    height : 330px;
+    border : 1px solid rgb(138, 30, 30);
+    margin-top : 45px;
     margin-left : 10%;
 }
 
 #map-container {
     width : 79%;
     height : 855px;
-    border : 2px solid slategray;
+    border : 2px solid rgb(138, 30, 30);
     float : right;
 }
 
 #line-selector {
     width : 100%;
     height : 35px;
-    border-bottom : 1px solid slategray;
+    border-bottom : 1px solid rgb(138, 30, 30);
     clear : right;
 }
 
 #metro {
     width : 100%;
     height : 820px;
-    clear : right;
 }

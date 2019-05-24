@@ -16,15 +16,17 @@ html
           .nav-title
           #mode-select-normal
           #mode-select-congestion
-        hr(style='width : 95%;')
+        hr(style='width : 95%; height : 0; border : 0; border-top : 1px solid rgb(138, 30, 30);')
         #nav-path-container
-          .nav-title
+          .nav-title 경로 검색
           #input-path-src
-            input(type="text")
+            .input-path-text 출발역
+            input(type="text", onclick="this.select();")
           #input-path-dst
-            input(type="text")
-          #search-path
-        hr(style='width : 95%;')
+            .input-path-text 도착역
+            input(type="text", onclick="this.select();")
+          button#search-path 검색
+        hr(style='width : 95%; height : 0; border : 0; border-top : 1px solid rgb(138, 30, 30);')
         #nav-statistic-container
       #map-container
         #line-selector
