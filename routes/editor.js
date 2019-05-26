@@ -1,16 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var mysql = require('mysql');
-
-let db_config = require('../config/db-config.json');
-let conn = mysql.createConnection(db_config);
-
-conn.connect();
-
-let connection_closer = function(next) {
-  conn.end();
-  next();
-};
+var pool = require('../lib/pool/pool.js');
 
 let list_sql = `SELECT stations.ID, Name, line_num, IFNULL(coord_x, 0) as coord_x, IFNULL(coord_y, 0) as coord_y, coord2_x, coord2_y 
                 FROM stations 
@@ -25,7 +15,7 @@ let neighbors_sql = `SELECT ID_from, ID_to, Cost
 let congestion_sql = `SELECT ID_from, Name_from, ID_to, Name_to, Total FROM congestion`;
 
 const updateCoord = (queryStr, res) => {
-  conn.query(queryStr, function(error, results, field) {
+  pool.query(queryStr, function(error, results) {
     if(error) console.log(error);
     else {
       console.log(results);
@@ -45,7 +35,7 @@ const checkEmptyResult = (resultObj) => {
 
 /* GET editor home */
 router.get('/', function(req, res, next) {
-  conn.query(list_sql, function(err, rows, fields) {
+  pool.query(list_sql, function(err, rows) {
     if(!err) {
       listSqlCallback(res, rows);
     }
@@ -55,7 +45,7 @@ router.get('/', function(req, res, next) {
 });
 
 const listSqlCallback = (res, stationList) => {
-  conn.query(neighbors_sql, function(err, neighborList, fields) {
+  pool.query(neighbors_sql, (err, neighborList) => {
     if(!err) {
       let neighborIndex = 0;
 
@@ -95,14 +85,14 @@ router.post('/', function(req, res, next) {
       coord_sql = mysql.format('UPDATE coordinate SET coord_x = ?, coord_y = ? WHERE ID = ?', [coord_x, coord_y, coord_id]);
     }
     let check_sql = mysql.format('SELECT ID from coordinate where ID = ?', [coord_id]);
-    conn.query(check_sql, function(error, results, field) {
+    pool.query(check_sql, (error, results) => {
       if(error) {
          console.log(error);
       }
       else {
         if(checkEmptyResult(results)) {
           let init_sql = mysql.format('INSERT INTO coordinate VALUES (?, ?, ?, NULL, NULL)', [coord_id, 0, 0]);
-          conn.query(init_sql, function(error, results, field) {
+          pool.query(init_sql, (error, results) => {
             if(error) {
               console.log(error);
             }
@@ -123,7 +113,7 @@ router.post('/', function(req, res, next) {
 });
 
 router.get('/random', function(req, res) {
-  conn.query(congestion_sql, function(error, results, field) {
+  pool.query(congestion_sql, (error, results) => {
     if(error) {
       console.log(error);
     }
@@ -154,6 +144,5 @@ router.get('/random', function(req, res) {
 });
 
 
-router.use(connection_closer);
 
 module.exports = router;

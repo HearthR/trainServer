@@ -2,5 +2,6 @@
     "host" : "localhost",
     "user" : "trainuser",
     "password" : "trainuser123!@#",
-    "database" : "train"
+    "database" : "train",
+    "connectionLimit" : 50
 }

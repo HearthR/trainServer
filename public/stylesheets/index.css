@@ -6,7 +6,7 @@
     margin-bottom : 5px;
 }
 #navigator {
-    width : 20%;
+    width : 15%;
     height : 855px;
     border : 2px solid rgb(138, 30, 30);
     float : left;
@@ -62,7 +62,7 @@
 
 #nav-path-container {
     width : 100%;
-    height : 270px;
+    height : 250px;
     clear : left;
     overflow : hidden;
 }
@@ -74,20 +74,20 @@
 
 .input-path-text {
     width : 28%;
-    height : 50px;
-    line-height : 50px;
+    height : 40px;
+    line-height : 40px;
     float : left;
     text-align: center;
     overflow : hidden;
     border-right : 1px solid rgb(138, 30, 30);
     font-weight : bold;
-    font-size : 18px;
+    font-size : 16px;
     box-sizing : border-box;
 }
 
 #input-path-src {
     width : 80%;
-    height : 50px;
+    height : 40px;
     border : 1px solid rgb(138, 30, 30);
     margin-left : 10%;
     margin-top : 18px;
@@ -97,7 +97,7 @@
 #nav-path-container > * > input {
     float : right;
     width : 70%;
-    height : 50px;
+    height : 40px;
     border : 0;
     outline : 0;
     font-size : 18px;
@@ -109,7 +109,7 @@
 
 #input-path-dst {
     width : 80%;
-    height : 50px;
+    height : 40px;
     border : 1px solid rgb(138, 30, 30);
     margin-left : 10%;
     margin-top : 18px;
@@ -121,7 +121,7 @@
     width : 23%;
     height : 35px;
     border : 1px solid rgb(138, 30, 30);
-    font-size : 18px;
+    font-size : 16px;
     font-weight : bold;
     margin-right : 10%;
     margin-top : 18px;
@@ -141,7 +141,7 @@
 }
 
 #map-container {
-    width : 79%;
+    width : 84%;
     height : 855px;
     border : 2px solid rgb(138, 30, 30);
     float : right;
@@ -156,5 +156,5 @@
 
 #metro {
     width : 100%;
-    height : 820px;
+    height : 819px;
 }

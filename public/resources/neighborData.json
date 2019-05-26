@@ -1,1 +1,5714 @@
-{"0":{"ID_from":1000,"ID_to":1001,"Cost":1},"1":{"ID_from":1001,"ID_to":1000,"Cost":1},"2":{"ID_from":1001,"ID_to":1002,"Cost":1},"3":{"ID_from":1002,"ID_to":1001,"Cost":1},"4":{"ID_from":1002,"ID_to":1003,"Cost":1},"5":{"ID_from":1003,"ID_to":1002,"Cost":1},"6":{"ID_from":1003,"ID_to":1004,"Cost":1},"7":{"ID_from":1004,"ID_to":1003,"Cost":1},"8":{"ID_from":1004,"ID_to":1005,"Cost":1},"9":{"ID_from":1005,"ID_to":1004,"Cost":1},"10":{"ID_from":1005,"ID_to":1006,"Cost":1},"11":{"ID_from":1006,"ID_to":1005,"Cost":1},"12":{"ID_from":1006,"ID_to":1007,"Cost":1},"13":{"ID_from":1007,"ID_to":1006,"Cost":1},"14":{"ID_from":1007,"ID_to":1008,"Cost":1},"15":{"ID_from":1008,"ID_to":1007,"Cost":1},"16":{"ID_from":1008,"ID_to":1009,"Cost":1},"17":{"ID_from":1009,"ID_to":1008,"Cost":1},"18":{"ID_from":1009,"ID_to":1010,"Cost":1},"19":{"ID_from":1010,"ID_to":1009,"Cost":1},"20":{"ID_from":1010,"ID_to":1011,"Cost":1},"21":{"ID_from":1011,"ID_to":1010,"Cost":1},"22":{"ID_from":1011,"ID_to":1012,"Cost":1},"23":{"ID_from":1012,"ID_to":1011,"Cost":1},"24":{"ID_from":1012,"ID_to":1013,"Cost":1},"25":{"ID_from":1013,"ID_to":1012,"Cost":1},"26":{"ID_from":1013,"ID_to":1014,"Cost":1},"27":{"ID_from":1013,"ID_to":7001,"Cost":3},"28":{"ID_from":1014,"ID_to":1013,"Cost":1},"29":{"ID_from":1014,"ID_to":1015,"Cost":1},"30":{"ID_from":1015,"ID_to":1014,"Cost":1},"31":{"ID_from":1015,"ID_to":1016,"Cost":1},"32":{"ID_from":1016,"ID_to":1015,"Cost":1},"33":{"ID_from":1016,"ID_to":1017,"Cost":1},"34":{"ID_from":1016,"ID_to":4003,"Cost":3},"35":{"ID_from":1017,"ID_to":1016,"Cost":1},"36":{"ID_from":1017,"ID_to":1018,"Cost":1},"37":{"ID_from":1018,"ID_to":1017,"Cost":1},"38":{"ID_from":1018,"ID_to":1019,"Cost":1},"39":{"ID_from":1019,"ID_to":1018,"Cost":1},"40":{"ID_from":1019,"ID_to":1020,"Cost":1},"41":{"ID_from":1020,"ID_to":1019,"Cost":1},"42":{"ID_from":1020,"ID_to":1021,"Cost":1},"43":{"ID_from":1020,"ID_to":6034,"Cost":3},"44":{"ID_from":1021,"ID_to":1020,"Cost":1},"45":{"ID_from":1021,"ID_to":1022,"Cost":1},"46":{"ID_from":1022,"ID_to":1021,"Cost":1},"47":{"ID_from":1022,"ID_to":1023,"Cost":1},"48":{"ID_from":1023,"ID_to":1022,"Cost":1},"49":{"ID_from":1023,"ID_to":1024,"Cost":1},"50":{"ID_from":1024,"ID_to":1023,"Cost":1},"51":{"ID_from":1024,"ID_to":1025,"Cost":1},"52":{"ID_from":1025,"ID_to":1024,"Cost":1},"53":{"ID_from":1025,"ID_to":1026,"Cost":1},"54":{"ID_from":1026,"ID_to":1025,"Cost":1},"55":{"ID_from":1026,"ID_to":1027,"Cost":1},"56":{"ID_from":1026,"ID_to":2046,"Cost":3},"57":{"ID_from":1027,"ID_to":1026,"Cost":1},"58":{"ID_from":1027,"ID_to":1028,"Cost":1},"59":{"ID_from":1027,"ID_to":6026,"Cost":3},"60":{"ID_from":1028,"ID_to":1027,"Cost":1},"61":{"ID_from":1028,"ID_to":1029,"Cost":1},"62":{"ID_from":1028,"ID_to":4012,"Cost":3},"63":{"ID_from":1029,"ID_to":1028,"Cost":1},"64":{"ID_from":1029,"ID_to":1030,"Cost":1},"65":{"ID_from":1030,"ID_to":1029,"Cost":1},"66":{"ID_from":1030,"ID_to":1031,"Cost":1},"67":{"ID_from":1030,"ID_to":3020,"Cost":3},"68":{"ID_from":1030,"ID_to":5024,"Cost":3},"69":{"ID_from":1031,"ID_to":1030,"Cost":1},"70":{"ID_from":1031,"ID_to":1032,"Cost":1},"71":{"ID_from":1032,"ID_to":1031,"Cost":1},"72":{"ID_from":1032,"ID_to":1033,"Cost":1},"73":{"ID_from":1032,"ID_to":2000,"Cost":3},"74":{"ID_from":1033,"ID_to":1032,"Cost":1},"75":{"ID_from":1033,"ID_to":1034,"Cost":1},"76":{"ID_from":1033,"ID_to":4017,"Cost":3},"77":{"ID_from":1034,"ID_to":1033,"Cost":1},"78":{"ID_from":1034,"ID_to":1035,"Cost":1},"79":{"ID_from":1035,"ID_to":1034,"Cost":1},"80":{"ID_from":1035,"ID_to":1036,"Cost":1},"81":{"ID_from":1036,"ID_to":1035,"Cost":1},"82":{"ID_from":1036,"ID_to":1037,"Cost":1},"83":{"ID_from":1036,"ID_to":9016,"Cost":3},"84":{"ID_from":1037,"ID_to":1036,"Cost":1},"85":{"ID_from":1037,"ID_to":1038,"Cost":1},"86":{"ID_from":1038,"ID_to":1037,"Cost":1},"87":{"ID_from":1038,"ID_to":1039,"Cost":1},"88":{"ID_from":1038,"ID_to":5015,"Cost":3},"89":{"ID_from":1039,"ID_to":1038,"Cost":1},"90":{"ID_from":1039,"ID_to":1040,"Cost":1},"91":{"ID_from":1040,"ID_to":1039,"Cost":1},"92":{"ID_from":1040,"ID_to":1041,"Cost":1},"93":{"ID_from":1040,"ID_to":2033,"Cost":3},"94":{"ID_from":1041,"ID_to":1040,"Cost":1},"95":{"ID_from":1041,"ID_to":1042,"Cost":1},"96":{"ID_from":1041,"ID_to":1063,"Cost":1},"97":{"ID_from":1042,"ID_to":1041,"Cost":1},"98":{"ID_from":1042,"ID_to":1043,"Cost":1},"99":{"ID_from":1043,"ID_to":1042,"Cost":1},"100":{"ID_from":1043,"ID_to":1044,"Cost":1},"101":{"ID_from":1044,"ID_to":1043,"Cost":1},"102":{"ID_from":1044,"ID_to":1045,"Cost":1},"103":{"ID_from":1045,"ID_to":1044,"Cost":1},"104":{"ID_from":1045,"ID_to":1046,"Cost":1},"105":{"ID_from":1045,"ID_to":7041,"Cost":3},"106":{"ID_from":1046,"ID_to":1045,"Cost":1},"107":{"ID_from":1046,"ID_to":1047,"Cost":1},"108":{"ID_from":1047,"ID_to":1046,"Cost":1},"109":{"ID_from":1047,"ID_to":1048,"Cost":1},"110":{"ID_from":1048,"ID_to":1047,"Cost":1},"111":{"ID_from":1048,"ID_to":1049,"Cost":1},"112":{"ID_from":1049,"ID_to":1048,"Cost":1},"113":{"ID_from":1049,"ID_to":1050,"Cost":1},"114":{"ID_from":1050,"ID_to":1049,"Cost":1},"115":{"ID_from":1050,"ID_to":1051,"Cost":1},"116":{"ID_from":1051,"ID_to":1050,"Cost":1},"117":{"ID_from":1051,"ID_to":1052,"Cost":1},"118":{"ID_from":1052,"ID_to":1051,"Cost":1},"119":{"ID_from":1052,"ID_to":1053,"Cost":1},"120":{"ID_from":1053,"ID_to":1052,"Cost":1},"121":{"ID_from":1053,"ID_to":1054,"Cost":1},"122":{"ID_from":1054,"ID_to":1053,"Cost":1},"123":{"ID_from":1054,"ID_to":1055,"Cost":1},"124":{"ID_from":1055,"ID_to":1054,"Cost":1},"125":{"ID_from":1055,"ID_to":1056,"Cost":1},"126":{"ID_from":1056,"ID_to":1055,"Cost":1},"127":{"ID_from":1056,"ID_to":1057,"Cost":1},"128":{"ID_from":1057,"ID_to":1056,"Cost":1},"129":{"ID_from":1057,"ID_to":1058,"Cost":1},"130":{"ID_from":1058,"ID_to":1057,"Cost":1},"131":{"ID_from":1058,"ID_to":1059,"Cost":1},"132":{"ID_from":1059,"ID_to":1058,"Cost":1},"133":{"ID_from":1059,"ID_to":1060,"Cost":1},"134":{"ID_from":1060,"ID_to":1059,"Cost":1},"135":{"ID_from":1060,"ID_to":1061,"Cost":1},"136":{"ID_from":1061,"ID_to":1060,"Cost":1},"137":{"ID_from":1062,"ID_to":1065,"Cost":1},"138":{"ID_from":1063,"ID_to":1041,"Cost":1},"139":{"ID_from":1063,"ID_to":1064,"Cost":1},"140":{"ID_from":1063,"ID_to":7037,"Cost":3},"141":{"ID_from":1064,"ID_to":1063,"Cost":1},"142":{"ID_from":1064,"ID_to":1065,"Cost":1},"143":{"ID_from":1065,"ID_to":1062,"Cost":1},"144":{"ID_from":1065,"ID_to":1064,"Cost":1},"145":{"ID_from":1065,"ID_to":1066,"Cost":1},"146":{"ID_from":1066,"ID_to":1065,"Cost":1},"147":{"ID_from":1066,"ID_to":1067,"Cost":1},"148":{"ID_from":1067,"ID_to":1066,"Cost":1},"149":{"ID_from":1067,"ID_to":1068,"Cost":1},"150":{"ID_from":1068,"ID_to":1067,"Cost":1},"151":{"ID_from":1068,"ID_to":1069,"Cost":1},"152":{"ID_from":1069,"ID_to":1068,"Cost":1},"153":{"ID_from":1069,"ID_to":1070,"Cost":1},"154":{"ID_from":1070,"ID_to":1069,"Cost":1},"155":{"ID_from":1070,"ID_to":1071,"Cost":1},"156":{"ID_from":1070,"ID_to":4034,"Cost":3},"157":{"ID_from":1071,"ID_to":1070,"Cost":1},"158":{"ID_from":1071,"ID_to":1072,"Cost":1},"159":{"ID_from":1072,"ID_to":1071,"Cost":1},"160":{"ID_from":1072,"ID_to":1073,"Cost":1},"161":{"ID_from":1073,"ID_to":1072,"Cost":1},"162":{"ID_from":1073,"ID_to":1074,"Cost":1},"163":{"ID_from":1074,"ID_to":1073,"Cost":1},"164":{"ID_from":1074,"ID_to":1075,"Cost":1},"165":{"ID_from":1075,"ID_to":1074,"Cost":1},"166":{"ID_from":1075,"ID_to":1076,"Cost":1},"167":{"ID_from":1076,"ID_to":1075,"Cost":1},"168":{"ID_from":1076,"ID_to":1077,"Cost":1},"169":{"ID_from":1077,"ID_to":1076,"Cost":1},"170":{"ID_from":1077,"ID_to":1078,"Cost":1},"171":{"ID_from":1078,"ID_to":1077,"Cost":1},"172":{"ID_from":1078,"ID_to":1079,"Cost":1},"173":{"ID_from":1078,"ID_to":1097,"Cost":1},"174":{"ID_from":1079,"ID_to":1078,"Cost":1},"175":{"ID_from":1079,"ID_to":1080,"Cost":1},"176":{"ID_from":1080,"ID_to":1079,"Cost":1},"177":{"ID_from":1080,"ID_to":1081,"Cost":1},"178":{"ID_from":1081,"ID_to":1080,"Cost":1},"179":{"ID_from":1081,"ID_to":1082,"Cost":1},"180":{"ID_from":1082,"ID_to":1081,"Cost":1},"181":{"ID_from":1082,"ID_to":1083,"Cost":1},"182":{"ID_from":1083,"ID_to":1082,"Cost":1},"183":{"ID_from":1083,"ID_to":1084,"Cost":1},"184":{"ID_from":1084,"ID_to":1083,"Cost":1},"185":{"ID_from":1084,"ID_to":1085,"Cost":1},"186":{"ID_from":1085,"ID_to":1084,"Cost":1},"187":{"ID_from":1085,"ID_to":1086,"Cost":1},"188":{"ID_from":1086,"ID_to":1085,"Cost":1},"189":{"ID_from":1086,"ID_to":1087,"Cost":1},"190":{"ID_from":1087,"ID_to":1086,"Cost":1},"191":{"ID_from":1087,"ID_to":1088,"Cost":1},"192":{"ID_from":1088,"ID_to":1087,"Cost":1},"193":{"ID_from":1088,"ID_to":1089,"Cost":1},"194":{"ID_from":1089,"ID_to":1088,"Cost":1},"195":{"ID_from":1089,"ID_to":1090,"Cost":1},"196":{"ID_from":1090,"ID_to":1089,"Cost":1},"197":{"ID_from":1090,"ID_to":1091,"Cost":1},"198":{"ID_from":1091,"ID_to":1090,"Cost":1},"199":{"ID_from":1091,"ID_to":1092,"Cost":1},"200":{"ID_from":1092,"ID_to":1091,"Cost":1},"201":{"ID_from":1092,"ID_to":1093,"Cost":1},"202":{"ID_from":1093,"ID_to":1092,"Cost":1},"203":{"ID_from":1093,"ID_to":1094,"Cost":1},"204":{"ID_from":1094,"ID_to":1093,"Cost":1},"205":{"ID_from":1094,"ID_to":1095,"Cost":1},"206":{"ID_from":1095,"ID_to":1094,"Cost":1},"207":{"ID_from":1095,"ID_to":1096,"Cost":1},"208":{"ID_from":1096,"ID_to":1095,"Cost":1},"209":{"ID_from":1097,"ID_to":1078,"Cost":1},"210":{"ID_from":2000,"ID_to":1032,"Cost":3},"211":{"ID_from":2000,"ID_to":2001,"Cost":1},"212":{"ID_from":2000,"ID_to":2042,"Cost":1},"213":{"ID_from":2001,"ID_to":2000,"Cost":1},"214":{"ID_from":2001,"ID_to":2002,"Cost":1},"215":{"ID_from":2002,"ID_to":2001,"Cost":1},"216":{"ID_from":2002,"ID_to":2003,"Cost":1},"217":{"ID_from":2002,"ID_to":3021,"Cost":3},"218":{"ID_from":2003,"ID_to":2002,"Cost":1},"219":{"ID_from":2003,"ID_to":2004,"Cost":1},"220":{"ID_from":2003,"ID_to":5025,"Cost":3},"221":{"ID_from":2004,"ID_to":2003,"Cost":1},"222":{"ID_from":2004,"ID_to":2005,"Cost":1},"223":{"ID_from":2004,"ID_to":4013,"Cost":3},"224":{"ID_from":2004,"ID_to":5026,"Cost":3},"225":{"ID_from":2005,"ID_to":2004,"Cost":1},"226":{"ID_from":2005,"ID_to":2006,"Cost":1},"227":{"ID_from":2005,"ID_to":6025,"Cost":3},"228":{"ID_from":2006,"ID_to":2005,"Cost":1},"229":{"ID_from":2006,"ID_to":2007,"Cost":1},"230":{"ID_from":2007,"ID_to":2006,"Cost":1},"231":{"ID_from":2007,"ID_to":2008,"Cost":1},"232":{"ID_from":2007,"ID_to":5030,"Cost":3},"233":{"ID_from":2008,"ID_to":2007,"Cost":1},"234":{"ID_from":2008,"ID_to":2009,"Cost":1},"235":{"ID_from":2009,"ID_to":2008,"Cost":1},"236":{"ID_from":2009,"ID_to":2010,"Cost":1},"237":{"ID_from":2010,"ID_to":2009,"Cost":1},"238":{"ID_from":2010,"ID_to":2011,"Cost":1},"239":{"ID_from":2010,"ID_to":2043,"Cost":1},"240":{"ID_from":2011,"ID_to":2010,"Cost":1},"241":{"ID_from":2011,"ID_to":2012,"Cost":1},"242":{"ID_from":2011,"ID_to":7018,"Cost":3},"243":{"ID_from":2012,"ID_to":2011,"Cost":1},"244":{"ID_from":2012,"ID_to":2013,"Cost":1},"245":{"ID_from":2013,"ID_to":2012,"Cost":1},"246":{"ID_from":2013,"ID_to":2014,"Cost":1},"247":{"ID_from":2014,"ID_to":2013,"Cost":1},"248":{"ID_from":2014,"ID_to":2015,"Cost":1},"249":{"ID_from":2015,"ID_to":2014,"Cost":1},"250":{"ID_from":2015,"ID_to":2016,"Cost":1},"251":{"ID_from":2015,"ID_to":8004,"Cost":3},"252":{"ID_from":2016,"ID_to":2015,"Cost":1},"253":{"ID_from":2016,"ID_to":2017,"Cost":1},"254":{"ID_from":2017,"ID_to":2016,"Cost":1},"255":{"ID_from":2017,"ID_to":2018,"Cost":1},"256":{"ID_from":2017,"ID_to":9029,"Cost":3},"257":{"ID_from":2018,"ID_to":2017,"Cost":1},"258":{"ID_from":2018,"ID_to":2019,"Cost":1},"259":{"ID_from":2019,"ID_to":2018,"Cost":1},"260":{"ID_from":2019,"ID_to":2020,"Cost":1},"261":{"ID_from":2020,"ID_to":2019,"Cost":1},"262":{"ID_from":2020,"ID_to":2021,"Cost":1},"263":{"ID_from":2021,"ID_to":2020,"Cost":1},"264":{"ID_from":2021,"ID_to":2022,"Cost":1},"265":{"ID_from":2022,"ID_to":2021,"Cost":1},"266":{"ID_from":2022,"ID_to":2023,"Cost":1},"267":{"ID_from":2022,"ID_to":3031,"Cost":3},"268":{"ID_from":2023,"ID_to":2022,"Cost":1},"269":{"ID_from":2023,"ID_to":2024,"Cost":1},"270":{"ID_from":2024,"ID_to":2023,"Cost":1},"271":{"ID_from":2024,"ID_to":2025,"Cost":1},"272":{"ID_from":2025,"ID_to":2024,"Cost":1},"273":{"ID_from":2025,"ID_to":2026,"Cost":1},"274":{"ID_from":2025,"ID_to":4024,"Cost":3},"275":{"ID_from":2026,"ID_to":2025,"Cost":1},"276":{"ID_from":2026,"ID_to":2027,"Cost":1},"277":{"ID_from":2027,"ID_to":2026,"Cost":1},"278":{"ID_from":2027,"ID_to":2028,"Cost":1},"279":{"ID_from":2028,"ID_to":2027,"Cost":1},"280":{"ID_from":2028,"ID_to":2029,"Cost":1},"281":{"ID_from":2029,"ID_to":2028,"Cost":1},"282":{"ID_from":2029,"ID_to":2030,"Cost":1},"283":{"ID_from":2030,"ID_to":2029,"Cost":1},"284":{"ID_from":2030,"ID_to":2031,"Cost":1},"285":{"ID_from":2031,"ID_to":2030,"Cost":1},"286":{"ID_from":2031,"ID_to":2032,"Cost":1},"287":{"ID_from":2032,"ID_to":2031,"Cost":1},"288":{"ID_from":2032,"ID_to":2033,"Cost":1},"289":{"ID_from":2032,"ID_to":7035,"Cost":3},"290":{"ID_from":2033,"ID_to":1040,"Cost":3},"291":{"ID_from":2033,"ID_to":2032,"Cost":1},"292":{"ID_from":2033,"ID_to":2034,"Cost":1},"293":{"ID_from":2033,"ID_to":2047,"Cost":1},"294":{"ID_from":2034,"ID_to":2033,"Cost":1},"295":{"ID_from":2034,"ID_to":2035,"Cost":1},"296":{"ID_from":2035,"ID_to":2034,"Cost":1},"297":{"ID_from":2035,"ID_to":2036,"Cost":1},"298":{"ID_from":2035,"ID_to":5013,"Cost":3},"299":{"ID_from":2036,"ID_to":2035,"Cost":1},"300":{"ID_from":2036,"ID_to":2037,"Cost":1},"301":{"ID_from":2036,"ID_to":9012,"Cost":3},"302":{"ID_from":2037,"ID_to":2036,"Cost":1},"303":{"ID_from":2037,"ID_to":2038,"Cost":1},"304":{"ID_from":2037,"ID_to":6012,"Cost":3},"305":{"ID_from":2038,"ID_to":2037,"Cost":1},"306":{"ID_from":2038,"ID_to":2039,"Cost":1},"307":{"ID_from":2039,"ID_to":2038,"Cost":1},"308":{"ID_from":2039,"ID_to":2040,"Cost":1},"309":{"ID_from":2040,"ID_to":2039,"Cost":1},"310":{"ID_from":2040,"ID_to":2041,"Cost":1},"311":{"ID_from":2041,"ID_to":2040,"Cost":1},"312":{"ID_from":2041,"ID_to":2042,"Cost":1},"313":{"ID_from":2042,"ID_to":2000,"Cost":1},"314":{"ID_from":2042,"ID_to":2041,"Cost":1},"315":{"ID_from":2042,"ID_to":5021,"Cost":3},"316":{"ID_from":2043,"ID_to":2010,"Cost":1},"317":{"ID_from":2043,"ID_to":2044,"Cost":1},"318":{"ID_from":2044,"ID_to":2043,"Cost":1},"319":{"ID_from":2044,"ID_to":2045,"Cost":1},"320":{"ID_from":2045,"ID_to":2044,"Cost":1},"321":{"ID_from":2045,"ID_to":2046,"Cost":1},"322":{"ID_from":2046,"ID_to":1026,"Cost":3},"323":{"ID_from":2046,"ID_to":2045,"Cost":1},"324":{"ID_from":2047,"ID_to":2033,"Cost":1},"325":{"ID_from":2047,"ID_to":2048,"Cost":1},"326":{"ID_from":2048,"ID_to":2047,"Cost":1},"327":{"ID_from":2048,"ID_to":2049,"Cost":1},"328":{"ID_from":2049,"ID_to":2048,"Cost":1},"329":{"ID_from":2049,"ID_to":2050,"Cost":1},"330":{"ID_from":2050,"ID_to":2049,"Cost":1},"331":{"ID_from":2050,"ID_to":5008,"Cost":3},"332":{"ID_from":3000,"ID_to":3001,"Cost":1},"333":{"ID_from":3001,"ID_to":3000,"Cost":1},"334":{"ID_from":3001,"ID_to":3002,"Cost":1},"335":{"ID_from":3002,"ID_to":3001,"Cost":1},"336":{"ID_from":3002,"ID_to":3003,"Cost":1},"337":{"ID_from":3003,"ID_to":3002,"Cost":1},"338":{"ID_from":3003,"ID_to":3004,"Cost":1},"339":{"ID_from":3004,"ID_to":3003,"Cost":1},"340":{"ID_from":3004,"ID_to":3005,"Cost":1},"341":{"ID_from":3005,"ID_to":3004,"Cost":1},"342":{"ID_from":3005,"ID_to":3006,"Cost":1},"343":{"ID_from":3006,"ID_to":3005,"Cost":1},"344":{"ID_from":3006,"ID_to":3007,"Cost":1},"345":{"ID_from":3007,"ID_to":3006,"Cost":1},"346":{"ID_from":3007,"ID_to":3008,"Cost":1},"347":{"ID_from":3008,"ID_to":3007,"Cost":1},"348":{"ID_from":3008,"ID_to":3009,"Cost":1},"349":{"ID_from":3009,"ID_to":3008,"Cost":1},"350":{"ID_from":3009,"ID_to":3010,"Cost":1},"351":{"ID_from":3010,"ID_to":3009,"Cost":1},"352":{"ID_from":3010,"ID_to":3011,"Cost":1},"353":{"ID_from":3011,"ID_to":3010,"Cost":1},"354":{"ID_from":3011,"ID_to":3012,"Cost":1},"355":{"ID_from":3012,"ID_to":3011,"Cost":1},"356":{"ID_from":3012,"ID_to":3013,"Cost":1},"357":{"ID_from":3012,"ID_to":6003,"Cost":3},"358":{"ID_from":3013,"ID_to":3012,"Cost":1},"359":{"ID_from":3013,"ID_to":3014,"Cost":1},"360":{"ID_from":3013,"ID_to":6001,"Cost":3},"361":{"ID_from":3014,"ID_to":3013,"Cost":1},"362":{"ID_from":3014,"ID_to":3015,"Cost":1},"363":{"ID_from":3015,"ID_to":3014,"Cost":1},"364":{"ID_from":3015,"ID_to":3016,"Cost":1},"365":{"ID_from":3016,"ID_to":3015,"Cost":1},"366":{"ID_from":3016,"ID_to":3017,"Cost":1},"367":{"ID_from":3017,"ID_to":3016,"Cost":1},"368":{"ID_from":3017,"ID_to":3018,"Cost":1},"369":{"ID_from":3018,"ID_to":3017,"Cost":1},"370":{"ID_from":3018,"ID_to":3019,"Cost":1},"371":{"ID_from":3019,"ID_to":3018,"Cost":1},"372":{"ID_from":3019,"ID_to":3020,"Cost":1},"373":{"ID_from":3020,"ID_to":1030,"Cost":3},"374":{"ID_from":3020,"ID_to":3019,"Cost":1},"375":{"ID_from":3020,"ID_to":3021,"Cost":1},"376":{"ID_from":3020,"ID_to":5024,"Cost":3},"377":{"ID_from":3021,"ID_to":2002,"Cost":3},"378":{"ID_from":3021,"ID_to":3020,"Cost":1},"379":{"ID_from":3021,"ID_to":3022,"Cost":1},"380":{"ID_from":3022,"ID_to":3021,"Cost":1},"381":{"ID_from":3022,"ID_to":3023,"Cost":1},"382":{"ID_from":3022,"ID_to":4014,"Cost":3},"383":{"ID_from":3023,"ID_to":3022,"Cost":1},"384":{"ID_from":3023,"ID_to":3024,"Cost":1},"385":{"ID_from":3024,"ID_to":3023,"Cost":1},"386":{"ID_from":3024,"ID_to":3025,"Cost":1},"387":{"ID_from":3024,"ID_to":6023,"Cost":3},"388":{"ID_from":3025,"ID_to":3024,"Cost":1},"389":{"ID_from":3025,"ID_to":3026,"Cost":1},"390":{"ID_from":3026,"ID_to":3025,"Cost":1},"391":{"ID_from":3026,"ID_to":3027,"Cost":1},"392":{"ID_from":3027,"ID_to":3026,"Cost":1},"393":{"ID_from":3027,"ID_to":3028,"Cost":1},"394":{"ID_from":3028,"ID_to":3027,"Cost":1},"395":{"ID_from":3028,"ID_to":3029,"Cost":1},"396":{"ID_from":3029,"ID_to":3028,"Cost":1},"397":{"ID_from":3029,"ID_to":3030,"Cost":1},"398":{"ID_from":3030,"ID_to":3029,"Cost":1},"399":{"ID_from":3030,"ID_to":3031,"Cost":1},"400":{"ID_from":3030,"ID_to":7025,"Cost":3},"401":{"ID_from":3030,"ID_to":9022,"Cost":3},"402":{"ID_from":3031,"ID_to":2022,"Cost":3},"403":{"ID_from":3031,"ID_to":3030,"Cost":1},"404":{"ID_from":3031,"ID_to":3032,"Cost":1},"405":{"ID_from":3032,"ID_to":3031,"Cost":1},"406":{"ID_from":3032,"ID_to":3033,"Cost":1},"407":{"ID_from":3033,"ID_to":3032,"Cost":1},"408":{"ID_from":3033,"ID_to":3034,"Cost":1},"409":{"ID_from":3034,"ID_to":3033,"Cost":1},"410":{"ID_from":3034,"ID_to":3035,"Cost":1},"411":{"ID_from":3035,"ID_to":3034,"Cost":1},"412":{"ID_from":3035,"ID_to":3036,"Cost":1},"413":{"ID_from":3036,"ID_to":3035,"Cost":1},"414":{"ID_from":3036,"ID_to":3037,"Cost":1},"415":{"ID_from":3037,"ID_to":3036,"Cost":1},"416":{"ID_from":3037,"ID_to":3038,"Cost":1},"417":{"ID_from":3038,"ID_to":3037,"Cost":1},"418":{"ID_from":3038,"ID_to":3039,"Cost":1},"419":{"ID_from":3039,"ID_to":3038,"Cost":1},"420":{"ID_from":3039,"ID_to":3040,"Cost":1},"421":{"ID_from":3040,"ID_to":3039,"Cost":1},"422":{"ID_from":3040,"ID_to":3041,"Cost":1},"423":{"ID_from":3041,"ID_to":3040,"Cost":1},"424":{"ID_from":3041,"ID_to":3042,"Cost":1},"425":{"ID_from":3041,"ID_to":8007,"Cost":3},"426":{"ID_from":3042,"ID_to":3041,"Cost":1},"427":{"ID_from":3042,"ID_to":3043,"Cost":1},"428":{"ID_from":3043,"ID_to":3042,"Cost":1},"429":{"ID_from":3043,"ID_to":5047,"Cost":3},"430":{"ID_from":4000,"ID_to":4001,"Cost":1},"431":{"ID_from":4001,"ID_to":4000,"Cost":1},"432":{"ID_from":4001,"ID_to":4002,"Cost":1},"433":{"ID_from":4002,"ID_to":4001,"Cost":1},"434":{"ID_from":4002,"ID_to":4003,"Cost":1},"435":{"ID_from":4002,"ID_to":7004,"Cost":3},"436":{"ID_from":4003,"ID_to":1016,"Cost":3},"437":{"ID_from":4003,"ID_to":4002,"Cost":1},"438":{"ID_from":4003,"ID_to":4004,"Cost":1},"439":{"ID_from":4004,"ID_to":4003,"Cost":1},"440":{"ID_from":4004,"ID_to":4005,"Cost":1},"441":{"ID_from":4005,"ID_to":4004,"Cost":1},"442":{"ID_from":4005,"ID_to":4006,"Cost":1},"443":{"ID_from":4006,"ID_to":4005,"Cost":1},"444":{"ID_from":4006,"ID_to":4007,"Cost":1},"445":{"ID_from":4007,"ID_to":4006,"Cost":1},"446":{"ID_from":4007,"ID_to":4008,"Cost":1},"447":{"ID_from":4008,"ID_to":4007,"Cost":1},"448":{"ID_from":4008,"ID_to":4009,"Cost":1},"449":{"ID_from":4009,"ID_to":4008,"Cost":1},"450":{"ID_from":4009,"ID_to":4010,"Cost":1},"451":{"ID_from":4010,"ID_to":4009,"Cost":1},"452":{"ID_from":4010,"ID_to":4011,"Cost":1},"453":{"ID_from":4011,"ID_to":4010,"Cost":1},"454":{"ID_from":4011,"ID_to":4012,"Cost":1},"455":{"ID_from":4012,"ID_to":1028,"Cost":3},"456":{"ID_from":4012,"ID_to":4011,"Cost":1},"457":{"ID_from":4012,"ID_to":4013,"Cost":1},"458":{"ID_from":4013,"ID_to":2004,"Cost":3},"459":{"ID_from":4013,"ID_to":4012,"Cost":1},"460":{"ID_from":4013,"ID_to":4014,"Cost":1},"461":{"ID_from":4013,"ID_to":5026,"Cost":3},"462":{"ID_from":4014,"ID_to":3022,"Cost":3},"463":{"ID_from":4014,"ID_to":4013,"Cost":1},"464":{"ID_from":4014,"ID_to":4015,"Cost":1},"465":{"ID_from":4015,"ID_to":4014,"Cost":1},"466":{"ID_from":4015,"ID_to":4016,"Cost":1},"467":{"ID_from":4016,"ID_to":4015,"Cost":1},"468":{"ID_from":4016,"ID_to":4017,"Cost":1},"469":{"ID_from":4017,"ID_to":1033,"Cost":3},"470":{"ID_from":4017,"ID_to":4016,"Cost":1},"471":{"ID_from":4017,"ID_to":4018,"Cost":1},"472":{"ID_from":4018,"ID_to":4017,"Cost":1},"473":{"ID_from":4018,"ID_to":4019,"Cost":1},"474":{"ID_from":4019,"ID_to":4018,"Cost":1},"475":{"ID_from":4019,"ID_to":4020,"Cost":1},"476":{"ID_from":4019,"ID_to":6018,"Cost":3},"477":{"ID_from":4020,"ID_to":4019,"Cost":1},"478":{"ID_from":4020,"ID_to":4021,"Cost":1},"479":{"ID_from":4021,"ID_to":4020,"Cost":1},"480":{"ID_from":4021,"ID_to":4022,"Cost":1},"481":{"ID_from":4022,"ID_to":4021,"Cost":1},"482":{"ID_from":4022,"ID_to":4023,"Cost":1},"483":{"ID_from":4022,"ID_to":9019,"Cost":3},"484":{"ID_from":4023,"ID_to":4022,"Cost":1},"485":{"ID_from":4023,"ID_to":4024,"Cost":1},"486":{"ID_from":4023,"ID_to":7027,"Cost":3},"487":{"ID_from":4024,"ID_to":2025,"Cost":3},"488":{"ID_from":4024,"ID_to":4023,"Cost":1},"489":{"ID_from":4024,"ID_to":4025,"Cost":1},"490":{"ID_from":4025,"ID_to":4024,"Cost":1},"491":{"ID_from":4025,"ID_to":4026,"Cost":1},"492":{"ID_from":4026,"ID_to":4025,"Cost":1},"493":{"ID_from":4026,"ID_to":4027,"Cost":1},"494":{"ID_from":4027,"ID_to":4026,"Cost":1},"495":{"ID_from":4027,"ID_to":4028,"Cost":1},"496":{"ID_from":4028,"ID_to":4027,"Cost":1},"497":{"ID_from":4028,"ID_to":4029,"Cost":1},"498":{"ID_from":4029,"ID_to":4028,"Cost":1},"499":{"ID_from":4029,"ID_to":4030,"Cost":1},"500":{"ID_from":4030,"ID_to":4029,"Cost":1},"501":{"ID_from":4030,"ID_to":4031,"Cost":1},"502":{"ID_from":4031,"ID_to":4030,"Cost":1},"503":{"ID_from":4031,"ID_to":4032,"Cost":1},"504":{"ID_from":4032,"ID_to":4031,"Cost":1},"505":{"ID_from":4032,"ID_to":4033,"Cost":1},"506":{"ID_from":4033,"ID_to":4032,"Cost":1},"507":{"ID_from":4033,"ID_to":4034,"Cost":1},"508":{"ID_from":4034,"ID_to":1070,"Cost":3},"509":{"ID_from":4034,"ID_to":4033,"Cost":1},"510":{"ID_from":4034,"ID_to":4035,"Cost":1},"511":{"ID_from":4035,"ID_to":4034,"Cost":1},"512":{"ID_from":4035,"ID_to":4036,"Cost":1},"513":{"ID_from":4036,"ID_to":4035,"Cost":1},"514":{"ID_from":4036,"ID_to":4037,"Cost":1},"515":{"ID_from":4037,"ID_to":4036,"Cost":1},"516":{"ID_from":4037,"ID_to":4038,"Cost":1},"517":{"ID_from":4038,"ID_to":4037,"Cost":1},"518":{"ID_from":4038,"ID_to":4039,"Cost":1},"519":{"ID_from":4039,"ID_to":4038,"Cost":1},"520":{"ID_from":4039,"ID_to":4040,"Cost":1},"521":{"ID_from":4040,"ID_to":4039,"Cost":1},"522":{"ID_from":4040,"ID_to":4041,"Cost":1},"523":{"ID_from":4041,"ID_to":4040,"Cost":1},"524":{"ID_from":4041,"ID_to":4042,"Cost":1},"525":{"ID_from":4042,"ID_to":4041,"Cost":1},"526":{"ID_from":4042,"ID_to":4043,"Cost":1},"527":{"ID_from":4043,"ID_to":4042,"Cost":1},"528":{"ID_from":4043,"ID_to":4044,"Cost":1},"529":{"ID_from":4044,"ID_to":4043,"Cost":1},"530":{"ID_from":4044,"ID_to":4045,"Cost":1},"531":{"ID_from":4045,"ID_to":4044,"Cost":1},"532":{"ID_from":4045,"ID_to":4046,"Cost":1},"533":{"ID_from":4046,"ID_to":4045,"Cost":1},"534":{"ID_from":4046,"ID_to":4047,"Cost":1},"535":{"ID_from":4047,"ID_to":4046,"Cost":1},"536":{"ID_from":5000,"ID_to":5001,"Cost":1},"537":{"ID_from":5001,"ID_to":5000,"Cost":1},"538":{"ID_from":5001,"ID_to":5002,"Cost":1},"539":{"ID_from":5002,"ID_to":5001,"Cost":1},"540":{"ID_from":5002,"ID_to":5003,"Cost":1},"541":{"ID_from":5002,"ID_to":9001,"Cost":3},"542":{"ID_from":5003,"ID_to":5002,"Cost":1},"543":{"ID_from":5003,"ID_to":5004,"Cost":1},"544":{"ID_from":5004,"ID_to":5003,"Cost":1},"545":{"ID_from":5004,"ID_to":5005,"Cost":1},"546":{"ID_from":5005,"ID_to":5004,"Cost":1},"547":{"ID_from":5005,"ID_to":5006,"Cost":1},"548":{"ID_from":5006,"ID_to":5005,"Cost":1},"549":{"ID_from":5006,"ID_to":5007,"Cost":1},"550":{"ID_from":5007,"ID_to":5006,"Cost":1},"551":{"ID_from":5007,"ID_to":5008,"Cost":1},"552":{"ID_from":5008,"ID_to":2050,"Cost":3},"553":{"ID_from":5008,"ID_to":5007,"Cost":1},"554":{"ID_from":5008,"ID_to":5009,"Cost":1},"555":{"ID_from":5009,"ID_to":5008,"Cost":1},"556":{"ID_from":5009,"ID_to":5010,"Cost":1},"557":{"ID_from":5010,"ID_to":5009,"Cost":1},"558":{"ID_from":5010,"ID_to":5011,"Cost":1},"559":{"ID_from":5011,"ID_to":5010,"Cost":1},"560":{"ID_from":5011,"ID_to":5012,"Cost":1},"561":{"ID_from":5012,"ID_to":5011,"Cost":1},"562":{"ID_from":5012,"ID_to":5013,"Cost":1},"563":{"ID_from":5013,"ID_to":2035,"Cost":3},"564":{"ID_from":5013,"ID_to":5012,"Cost":1},"565":{"ID_from":5013,"ID_to":5014,"Cost":1},"566":{"ID_from":5014,"ID_to":5013,"Cost":1},"567":{"ID_from":5014,"ID_to":5015,"Cost":1},"568":{"ID_from":5015,"ID_to":1038,"Cost":3},"569":{"ID_from":5015,"ID_to":5014,"Cost":1},"570":{"ID_from":5015,"ID_to":5016,"Cost":1},"571":{"ID_from":5016,"ID_to":5015,"Cost":1},"572":{"ID_from":5016,"ID_to":5017,"Cost":1},"573":{"ID_from":5016,"ID_to":9014,"Cost":3},"574":{"ID_from":5017,"ID_to":5016,"Cost":1},"575":{"ID_from":5017,"ID_to":5018,"Cost":1},"576":{"ID_from":5018,"ID_to":5017,"Cost":1},"577":{"ID_from":5018,"ID_to":5019,"Cost":1},"578":{"ID_from":5019,"ID_to":5018,"Cost":1},"579":{"ID_from":5019,"ID_to":5020,"Cost":1},"580":{"ID_from":5019,"ID_to":6016,"Cost":3},"581":{"ID_from":5020,"ID_to":5019,"Cost":1},"582":{"ID_from":5020,"ID_to":5021,"Cost":1},"583":{"ID_from":5021,"ID_to":2042,"Cost":3},"584":{"ID_from":5021,"ID_to":5020,"Cost":1},"585":{"ID_from":5021,"ID_to":5022,"Cost":1},"586":{"ID_from":5022,"ID_to":5021,"Cost":1},"587":{"ID_from":5022,"ID_to":5023,"Cost":1},"588":{"ID_from":5023,"ID_to":5022,"Cost":1},"589":{"ID_from":5023,"ID_to":5024,"Cost":1},"590":{"ID_from":5024,"ID_to":1030,"Cost":3},"591":{"ID_from":5024,"ID_to":3020,"Cost":3},"592":{"ID_from":5024,"ID_to":5023,"Cost":1},"593":{"ID_from":5024,"ID_to":5025,"Cost":1},"594":{"ID_from":5025,"ID_to":2003,"Cost":3},"595":{"ID_from":5025,"ID_to":5024,"Cost":1},"596":{"ID_from":5025,"ID_to":5026,"Cost":1},"597":{"ID_from":5026,"ID_to":2004,"Cost":3},"598":{"ID_from":5026,"ID_to":4013,"Cost":3},"599":{"ID_from":5026,"ID_to":5025,"Cost":1},"600":{"ID_from":5026,"ID_to":5027,"Cost":1},"601":{"ID_from":5027,"ID_to":5026,"Cost":1},"602":{"ID_from":5027,"ID_to":5028,"Cost":1},"603":{"ID_from":5027,"ID_to":6024,"Cost":3},"604":{"ID_from":5028,"ID_to":5027,"Cost":1},"605":{"ID_from":5028,"ID_to":5029,"Cost":1},"606":{"ID_from":5029,"ID_to":5028,"Cost":1},"607":{"ID_from":5029,"ID_to":5030,"Cost":1},"608":{"ID_from":5030,"ID_to":2007,"Cost":3},"609":{"ID_from":5030,"ID_to":5029,"Cost":1},"610":{"ID_from":5030,"ID_to":5031,"Cost":1},"611":{"ID_from":5031,"ID_to":5030,"Cost":1},"612":{"ID_from":5031,"ID_to":5032,"Cost":1},"613":{"ID_from":5032,"ID_to":5031,"Cost":1},"614":{"ID_from":5032,"ID_to":5033,"Cost":1},"615":{"ID_from":5033,"ID_to":5032,"Cost":1},"616":{"ID_from":5033,"ID_to":5034,"Cost":1},"617":{"ID_from":5034,"ID_to":5033,"Cost":1},"618":{"ID_from":5034,"ID_to":5035,"Cost":1},"619":{"ID_from":5034,"ID_to":7016,"Cost":3},"620":{"ID_from":5035,"ID_to":5034,"Cost":1},"621":{"ID_from":5035,"ID_to":5036,"Cost":1},"622":{"ID_from":5036,"ID_to":5035,"Cost":1},"623":{"ID_from":5036,"ID_to":5037,"Cost":1},"624":{"ID_from":5037,"ID_to":5036,"Cost":1},"625":{"ID_from":5037,"ID_to":5038,"Cost":1},"626":{"ID_from":5037,"ID_to":8001,"Cost":3},"627":{"ID_from":5038,"ID_to":5037,"Cost":1},"628":{"ID_from":5038,"ID_to":5039,"Cost":1},"629":{"ID_from":5038,"ID_to":5044,"Cost":1},"630":{"ID_from":5039,"ID_to":5038,"Cost":1},"631":{"ID_from":5039,"ID_to":5040,"Cost":1},"632":{"ID_from":5040,"ID_to":5039,"Cost":1},"633":{"ID_from":5040,"ID_to":5041,"Cost":1},"634":{"ID_from":5041,"ID_to":5040,"Cost":1},"635":{"ID_from":5041,"ID_to":5042,"Cost":1},"636":{"ID_from":5042,"ID_to":5041,"Cost":1},"637":{"ID_from":5042,"ID_to":5043,"Cost":1},"638":{"ID_from":5043,"ID_to":5042,"Cost":1},"639":{"ID_from":5044,"ID_to":5038,"Cost":1},"640":{"ID_from":5044,"ID_to":5045,"Cost":1},"641":{"ID_from":5045,"ID_to":5044,"Cost":1},"642":{"ID_from":5045,"ID_to":5046,"Cost":1},"643":{"ID_from":5046,"ID_to":5045,"Cost":1},"644":{"ID_from":5046,"ID_to":5047,"Cost":1},"645":{"ID_from":5047,"ID_to":3043,"Cost":3},"646":{"ID_from":5047,"ID_to":5046,"Cost":1},"647":{"ID_from":5047,"ID_to":5048,"Cost":1},"648":{"ID_from":5048,"ID_to":5047,"Cost":1},"649":{"ID_from":5048,"ID_to":5049,"Cost":1},"650":{"ID_from":5049,"ID_to":5048,"Cost":1},"651":{"ID_from":5049,"ID_to":5050,"Cost":1},"652":{"ID_from":5050,"ID_to":5049,"Cost":1},"653":{"ID_from":6000,"ID_to":6001,"Cost":1},"654":{"ID_from":6000,"ID_to":6005,"Cost":1},"655":{"ID_from":6001,"ID_to":3013,"Cost":3},"656":{"ID_from":6001,"ID_to":6000,"Cost":1},"657":{"ID_from":6001,"ID_to":6002,"Cost":1},"658":{"ID_from":6002,"ID_to":6001,"Cost":1},"659":{"ID_from":6002,"ID_to":6003,"Cost":1},"660":{"ID_from":6003,"ID_to":3012,"Cost":3},"661":{"ID_from":6003,"ID_to":6002,"Cost":1},"662":{"ID_from":6003,"ID_to":6004,"Cost":1},"663":{"ID_from":6004,"ID_to":6003,"Cost":1},"664":{"ID_from":6004,"ID_to":6005,"Cost":1},"665":{"ID_from":6005,"ID_to":6000,"Cost":1},"666":{"ID_from":6005,"ID_to":6004,"Cost":1},"667":{"ID_from":6005,"ID_to":6006,"Cost":1},"668":{"ID_from":6006,"ID_to":6005,"Cost":1},"669":{"ID_from":6006,"ID_to":6007,"Cost":1},"670":{"ID_from":6007,"ID_to":6006,"Cost":1},"671":{"ID_from":6007,"ID_to":6008,"Cost":1},"672":{"ID_from":6008,"ID_to":6007,"Cost":1},"673":{"ID_from":6008,"ID_to":6009,"Cost":1},"674":{"ID_from":6009,"ID_to":6008,"Cost":1},"675":{"ID_from":6009,"ID_to":6010,"Cost":1},"676":{"ID_from":6010,"ID_to":6009,"Cost":1},"677":{"ID_from":6010,"ID_to":6011,"Cost":1},"678":{"ID_from":6011,"ID_to":6010,"Cost":1},"679":{"ID_from":6011,"ID_to":6012,"Cost":1},"680":{"ID_from":6012,"ID_to":2037,"Cost":3},"681":{"ID_from":6012,"ID_to":6011,"Cost":1},"682":{"ID_from":6012,"ID_to":6013,"Cost":1},"683":{"ID_from":6013,"ID_to":6012,"Cost":1},"684":{"ID_from":6013,"ID_to":6014,"Cost":1},"685":{"ID_from":6014,"ID_to":6013,"Cost":1},"686":{"ID_from":6014,"ID_to":6015,"Cost":1},"687":{"ID_from":6015,"ID_to":6014,"Cost":1},"688":{"ID_from":6015,"ID_to":6016,"Cost":1},"689":{"ID_from":6016,"ID_to":5019,"Cost":3},"690":{"ID_from":6016,"ID_to":6015,"Cost":1},"691":{"ID_from":6016,"ID_to":6017,"Cost":1},"692":{"ID_from":6017,"ID_to":6016,"Cost":1},"693":{"ID_from":6017,"ID_to":6018,"Cost":1},"694":{"ID_from":6018,"ID_to":4019,"Cost":3},"695":{"ID_from":6018,"ID_to":6017,"Cost":1},"696":{"ID_from":6018,"ID_to":6019,"Cost":1},"697":{"ID_from":6019,"ID_to":6018,"Cost":1},"698":{"ID_from":6019,"ID_to":6020,"Cost":1},"699":{"ID_from":6020,"ID_to":6019,"Cost":1},"700":{"ID_from":6020,"ID_to":6021,"Cost":1},"701":{"ID_from":6021,"ID_to":6020,"Cost":1},"702":{"ID_from":6021,"ID_to":6022,"Cost":1},"703":{"ID_from":6022,"ID_to":6021,"Cost":1},"704":{"ID_from":6022,"ID_to":6023,"Cost":1},"705":{"ID_from":6023,"ID_to":3024,"Cost":3},"706":{"ID_from":6023,"ID_to":6022,"Cost":1},"707":{"ID_from":6023,"ID_to":6024,"Cost":1},"708":{"ID_from":6024,"ID_to":5027,"Cost":3},"709":{"ID_from":6024,"ID_to":6023,"Cost":1},"710":{"ID_from":6024,"ID_to":6025,"Cost":1},"711":{"ID_from":6025,"ID_to":2005,"Cost":3},"712":{"ID_from":6025,"ID_to":6024,"Cost":1},"713":{"ID_from":6025,"ID_to":6026,"Cost":1},"714":{"ID_from":6026,"ID_to":1027,"Cost":3},"715":{"ID_from":6026,"ID_to":6025,"Cost":1},"716":{"ID_from":6026,"ID_to":6027,"Cost":1},"717":{"ID_from":6027,"ID_to":6026,"Cost":1},"718":{"ID_from":6027,"ID_to":6028,"Cost":1},"719":{"ID_from":6028,"ID_to":6027,"Cost":1},"720":{"ID_from":6028,"ID_to":6029,"Cost":1},"721":{"ID_from":6029,"ID_to":6028,"Cost":1},"722":{"ID_from":6029,"ID_to":6030,"Cost":1},"723":{"ID_from":6030,"ID_to":6029,"Cost":1},"724":{"ID_from":6030,"ID_to":6031,"Cost":1},"725":{"ID_from":6031,"ID_to":6030,"Cost":1},"726":{"ID_from":6031,"ID_to":6032,"Cost":1},"727":{"ID_from":6032,"ID_to":6031,"Cost":1},"728":{"ID_from":6032,"ID_to":6033,"Cost":1},"729":{"ID_from":6033,"ID_to":6032,"Cost":1},"730":{"ID_from":6033,"ID_to":6034,"Cost":1},"731":{"ID_from":6034,"ID_to":1020,"Cost":3},"732":{"ID_from":6034,"ID_to":6033,"Cost":1},"733":{"ID_from":6034,"ID_to":6035,"Cost":1},"734":{"ID_from":6035,"ID_to":6034,"Cost":1},"735":{"ID_from":6035,"ID_to":6036,"Cost":1},"736":{"ID_from":6035,"ID_to":7008,"Cost":3},"737":{"ID_from":6036,"ID_to":6035,"Cost":1},"738":{"ID_from":6036,"ID_to":6037,"Cost":1},"739":{"ID_from":6037,"ID_to":6036,"Cost":1},"740":{"ID_from":7000,"ID_to":7001,"Cost":1},"741":{"ID_from":7001,"ID_to":1013,"Cost":3},"742":{"ID_from":7001,"ID_to":7000,"Cost":1},"743":{"ID_from":7001,"ID_to":7002,"Cost":1},"744":{"ID_from":7002,"ID_to":7001,"Cost":1},"745":{"ID_from":7002,"ID_to":7003,"Cost":1},"746":{"ID_from":7003,"ID_to":7002,"Cost":1},"747":{"ID_from":7003,"ID_to":7004,"Cost":1},"748":{"ID_from":7004,"ID_to":4002,"Cost":3},"749":{"ID_from":7004,"ID_to":7003,"Cost":1},"750":{"ID_from":7004,"ID_to":7005,"Cost":1},"751":{"ID_from":7005,"ID_to":7004,"Cost":1},"752":{"ID_from":7005,"ID_to":7006,"Cost":1},"753":{"ID_from":7006,"ID_to":7005,"Cost":1},"754":{"ID_from":7006,"ID_to":7007,"Cost":1},"755":{"ID_from":7007,"ID_to":7006,"Cost":1},"756":{"ID_from":7007,"ID_to":7008,"Cost":1},"757":{"ID_from":7008,"ID_to":6035,"Cost":3},"758":{"ID_from":7008,"ID_to":7007,"Cost":1},"759":{"ID_from":7008,"ID_to":7009,"Cost":1},"760":{"ID_from":7009,"ID_to":7008,"Cost":1},"761":{"ID_from":7009,"ID_to":7010,"Cost":1},"762":{"ID_from":7010,"ID_to":7009,"Cost":1},"763":{"ID_from":7010,"ID_to":7011,"Cost":1},"764":{"ID_from":7011,"ID_to":7010,"Cost":1},"765":{"ID_from":7011,"ID_to":7012,"Cost":1},"766":{"ID_from":7012,"ID_to":7011,"Cost":1},"767":{"ID_from":7012,"ID_to":7013,"Cost":1},"768":{"ID_from":7013,"ID_to":7012,"Cost":1},"769":{"ID_from":7013,"ID_to":7014,"Cost":1},"770":{"ID_from":7014,"ID_to":7013,"Cost":1},"771":{"ID_from":7014,"ID_to":7015,"Cost":1},"772":{"ID_from":7015,"ID_to":7014,"Cost":1},"773":{"ID_from":7015,"ID_to":7016,"Cost":1},"774":{"ID_from":7016,"ID_to":5034,"Cost":3},"775":{"ID_from":7016,"ID_to":7015,"Cost":1},"776":{"ID_from":7016,"ID_to":7017,"Cost":1},"777":{"ID_from":7017,"ID_to":7016,"Cost":1},"778":{"ID_from":7017,"ID_to":7018,"Cost":1},"779":{"ID_from":7018,"ID_to":2011,"Cost":3},"780":{"ID_from":7018,"ID_to":7017,"Cost":1},"781":{"ID_from":7018,"ID_to":7019,"Cost":1},"782":{"ID_from":7019,"ID_to":7018,"Cost":1},"783":{"ID_from":7019,"ID_to":7020,"Cost":1},"784":{"ID_from":7020,"ID_to":7019,"Cost":1},"785":{"ID_from":7020,"ID_to":7021,"Cost":1},"786":{"ID_from":7021,"ID_to":7020,"Cost":1},"787":{"ID_from":7021,"ID_to":7022,"Cost":1},"788":{"ID_from":7022,"ID_to":7021,"Cost":1},"789":{"ID_from":7022,"ID_to":7023,"Cost":1},"790":{"ID_from":7023,"ID_to":7022,"Cost":1},"791":{"ID_from":7023,"ID_to":7024,"Cost":1},"792":{"ID_from":7024,"ID_to":7023,"Cost":1},"793":{"ID_from":7024,"ID_to":7025,"Cost":1},"794":{"ID_from":7025,"ID_to":3030,"Cost":3},"795":{"ID_from":7025,"ID_to":7024,"Cost":1},"796":{"ID_from":7025,"ID_to":7026,"Cost":1},"797":{"ID_from":7025,"ID_to":9022,"Cost":3},"798":{"ID_from":7026,"ID_to":7025,"Cost":1},"799":{"ID_from":7026,"ID_to":7027,"Cost":1},"800":{"ID_from":7027,"ID_to":4023,"Cost":3},"801":{"ID_from":7027,"ID_to":7026,"Cost":1},"802":{"ID_from":7027,"ID_to":7028,"Cost":1},"803":{"ID_from":7028,"ID_to":7027,"Cost":1},"804":{"ID_from":7028,"ID_to":7029,"Cost":1},"805":{"ID_from":7029,"ID_to":7028,"Cost":1},"806":{"ID_from":7029,"ID_to":7030,"Cost":1},"807":{"ID_from":7030,"ID_to":7029,"Cost":1},"808":{"ID_from":7030,"ID_to":7031,"Cost":1},"809":{"ID_from":7031,"ID_to":7030,"Cost":1},"810":{"ID_from":7031,"ID_to":7032,"Cost":1},"811":{"ID_from":7032,"ID_to":7031,"Cost":1},"812":{"ID_from":7032,"ID_to":7033,"Cost":1},"813":{"ID_from":7033,"ID_to":7032,"Cost":1},"814":{"ID_from":7033,"ID_to":7034,"Cost":1},"815":{"ID_from":7034,"ID_to":7033,"Cost":1},"816":{"ID_from":7034,"ID_to":7035,"Cost":1},"817":{"ID_from":7035,"ID_to":2032,"Cost":3},"818":{"ID_from":7035,"ID_to":7034,"Cost":1},"819":{"ID_from":7035,"ID_to":7036,"Cost":1},"820":{"ID_from":7036,"ID_to":7035,"Cost":1},"821":{"ID_from":7036,"ID_to":7037,"Cost":1},"822":{"ID_from":7037,"ID_to":1063,"Cost":3},"823":{"ID_from":7037,"ID_to":7036,"Cost":1},"824":{"ID_from":7037,"ID_to":7038,"Cost":1},"825":{"ID_from":7038,"ID_to":7037,"Cost":1},"826":{"ID_from":7038,"ID_to":7039,"Cost":1},"827":{"ID_from":7039,"ID_to":7038,"Cost":1},"828":{"ID_from":7039,"ID_to":7040,"Cost":1},"829":{"ID_from":7040,"ID_to":7039,"Cost":1},"830":{"ID_from":7040,"ID_to":7041,"Cost":1},"831":{"ID_from":7041,"ID_to":1045,"Cost":3},"832":{"ID_from":7041,"ID_to":7040,"Cost":1},"833":{"ID_from":7041,"ID_to":7042,"Cost":1},"834":{"ID_from":7042,"ID_to":7041,"Cost":1},"835":{"ID_from":7042,"ID_to":7043,"Cost":1},"836":{"ID_from":7043,"ID_to":7042,"Cost":1},"837":{"ID_from":7043,"ID_to":7044,"Cost":1},"838":{"ID_from":7044,"ID_to":7043,"Cost":1},"839":{"ID_from":7044,"ID_to":7045,"Cost":1},"840":{"ID_from":7045,"ID_to":7044,"Cost":1},"841":{"ID_from":7045,"ID_to":7046,"Cost":1},"842":{"ID_from":7046,"ID_to":7045,"Cost":1},"843":{"ID_from":7046,"ID_to":7047,"Cost":1},"844":{"ID_from":7047,"ID_to":7046,"Cost":1},"845":{"ID_from":7047,"ID_to":7048,"Cost":1},"846":{"ID_from":7048,"ID_to":7047,"Cost":1},"847":{"ID_from":7048,"ID_to":7049,"Cost":1},"848":{"ID_from":7049,"ID_to":7048,"Cost":1},"849":{"ID_from":7049,"ID_to":7050,"Cost":1},"850":{"ID_from":7050,"ID_to":7049,"Cost":1},"851":{"ID_from":8000,"ID_to":8001,"Cost":1},"852":{"ID_from":8001,"ID_to":5037,"Cost":3},"853":{"ID_from":8001,"ID_to":8000,"Cost":1},"854":{"ID_from":8001,"ID_to":8002,"Cost":1},"855":{"ID_from":8002,"ID_to":8001,"Cost":1},"856":{"ID_from":8002,"ID_to":8003,"Cost":1},"857":{"ID_from":8003,"ID_to":8002,"Cost":1},"858":{"ID_from":8003,"ID_to":8004,"Cost":1},"859":{"ID_from":8004,"ID_to":2015,"Cost":3},"860":{"ID_from":8004,"ID_to":8003,"Cost":1},"861":{"ID_from":8004,"ID_to":8005,"Cost":1},"862":{"ID_from":8005,"ID_to":8004,"Cost":1},"863":{"ID_from":8005,"ID_to":8006,"Cost":1},"864":{"ID_from":8006,"ID_to":8005,"Cost":1},"865":{"ID_from":8006,"ID_to":8007,"Cost":1},"866":{"ID_from":8007,"ID_to":3041,"Cost":3},"867":{"ID_from":8007,"ID_to":8006,"Cost":1},"868":{"ID_from":8007,"ID_to":8008,"Cost":1},"869":{"ID_from":8008,"ID_to":8007,"Cost":1},"870":{"ID_from":8008,"ID_to":8009,"Cost":1},"871":{"ID_from":8009,"ID_to":8008,"Cost":1},"872":{"ID_from":8009,"ID_to":8010,"Cost":1},"873":{"ID_from":8010,"ID_to":8009,"Cost":1},"874":{"ID_from":8010,"ID_to":8011,"Cost":1},"875":{"ID_from":8011,"ID_to":8010,"Cost":1},"876":{"ID_from":8011,"ID_to":8012,"Cost":1},"877":{"ID_from":8012,"ID_to":8011,"Cost":1},"878":{"ID_from":8012,"ID_to":8013,"Cost":1},"879":{"ID_from":8013,"ID_to":8012,"Cost":1},"880":{"ID_from":8013,"ID_to":8014,"Cost":1},"881":{"ID_from":8014,"ID_to":8013,"Cost":1},"882":{"ID_from":8014,"ID_to":8015,"Cost":1},"883":{"ID_from":8015,"ID_to":8014,"Cost":1},"884":{"ID_from":8015,"ID_to":8016,"Cost":1},"885":{"ID_from":8016,"ID_to":8015,"Cost":1},"886":{"ID_from":9000,"ID_to":9001,"Cost":1},"887":{"ID_from":9001,"ID_to":5002,"Cost":3},"888":{"ID_from":9001,"ID_to":9000,"Cost":1},"889":{"ID_from":9001,"ID_to":9002,"Cost":1},"890":{"ID_from":9002,"ID_to":9001,"Cost":1},"891":{"ID_from":9002,"ID_to":9003,"Cost":1},"892":{"ID_from":9003,"ID_to":9002,"Cost":1},"893":{"ID_from":9003,"ID_to":9004,"Cost":1},"894":{"ID_from":9004,"ID_to":9003,"Cost":1},"895":{"ID_from":9004,"ID_to":9005,"Cost":1},"896":{"ID_from":9005,"ID_to":9004,"Cost":1},"897":{"ID_from":9005,"ID_to":9006,"Cost":1},"898":{"ID_from":9006,"ID_to":9005,"Cost":1},"899":{"ID_from":9006,"ID_to":9007,"Cost":1},"900":{"ID_from":9007,"ID_to":9006,"Cost":1},"901":{"ID_from":9007,"ID_to":9008,"Cost":1},"902":{"ID_from":9008,"ID_to":9007,"Cost":1},"903":{"ID_from":9008,"ID_to":9009,"Cost":1},"904":{"ID_from":9009,"ID_to":9008,"Cost":1},"905":{"ID_from":9009,"ID_to":9010,"Cost":1},"906":{"ID_from":9010,"ID_to":9009,"Cost":1},"907":{"ID_from":9010,"ID_to":9011,"Cost":1},"908":{"ID_from":9011,"ID_to":9010,"Cost":1},"909":{"ID_from":9011,"ID_to":9012,"Cost":1},"910":{"ID_from":9012,"ID_to":2036,"Cost":3},"911":{"ID_from":9012,"ID_to":9011,"Cost":1},"912":{"ID_from":9012,"ID_to":9013,"Cost":1},"913":{"ID_from":9013,"ID_to":9012,"Cost":1},"914":{"ID_from":9013,"ID_to":9014,"Cost":1},"915":{"ID_from":9014,"ID_to":5016,"Cost":3},"916":{"ID_from":9014,"ID_to":9013,"Cost":1},"917":{"ID_from":9014,"ID_to":9015,"Cost":1},"918":{"ID_from":9015,"ID_to":9014,"Cost":1},"919":{"ID_from":9015,"ID_to":9016,"Cost":1},"920":{"ID_from":9016,"ID_to":1036,"Cost":3},"921":{"ID_from":9016,"ID_to":9015,"Cost":1},"922":{"ID_from":9016,"ID_to":9017,"Cost":1},"923":{"ID_from":9017,"ID_to":9016,"Cost":1},"924":{"ID_from":9017,"ID_to":9018,"Cost":1},"925":{"ID_from":9018,"ID_to":9017,"Cost":1},"926":{"ID_from":9018,"ID_to":9019,"Cost":1},"927":{"ID_from":9019,"ID_to":4022,"Cost":3},"928":{"ID_from":9019,"ID_to":9018,"Cost":1},"929":{"ID_from":9019,"ID_to":9020,"Cost":1},"930":{"ID_from":9020,"ID_to":9019,"Cost":1},"931":{"ID_from":9020,"ID_to":9021,"Cost":1},"932":{"ID_from":9021,"ID_to":9020,"Cost":1},"933":{"ID_from":9021,"ID_to":9022,"Cost":1},"934":{"ID_from":9022,"ID_to":3030,"Cost":3},"935":{"ID_from":9022,"ID_to":7025,"Cost":3},"936":{"ID_from":9022,"ID_to":9021,"Cost":1},"937":{"ID_from":9022,"ID_to":9023,"Cost":1},"938":{"ID_from":9023,"ID_to":9022,"Cost":1},"939":{"ID_from":9023,"ID_to":9024,"Cost":1},"940":{"ID_from":9024,"ID_to":9023,"Cost":1},"941":{"ID_from":9024,"ID_to":9025,"Cost":1},"942":{"ID_from":9025,"ID_to":9024,"Cost":1},"943":{"ID_from":9025,"ID_to":9026,"Cost":1},"944":{"ID_from":9026,"ID_to":9025,"Cost":1},"945":{"ID_from":9026,"ID_to":9027,"Cost":1},"946":{"ID_from":9027,"ID_to":9026,"Cost":1},"947":{"ID_from":9027,"ID_to":9028,"Cost":1},"948":{"ID_from":9028,"ID_to":9027,"Cost":1},"949":{"ID_from":9028,"ID_to":9029,"Cost":1},"950":{"ID_from":9029,"ID_to":2017,"Cost":3},"951":{"ID_from":9029,"ID_to":9028,"Cost":1}}
+{
+    "0": {
+        "ID_from": 1000,
+        "ID_to": 1001,
+        "Cost": 1,
+        "Congestion": 0.015622277780463415
+    },
+    "1": {
+        "ID_from": 1001,
+        "ID_to": 1000,
+        "Cost": 1,
+        "Congestion": 0.012586820081232925
+    },
+    "2": {
+        "ID_from": 1001,
+        "ID_to": 1002,
+        "Cost": 1,
+        "Congestion": 0.023867181372316103
+    },
+    "3": {
+        "ID_from": 1002,
+        "ID_to": 1001,
+        "Cost": 1,
+        "Congestion": 0.023302095939469337
+    },
+    "4": {
+        "ID_from": 1002,
+        "ID_to": 1003,
+        "Cost": 1,
+        "Congestion": 0.03017498366926512
+    },
+    "5": {
+        "ID_from": 1003,
+        "ID_to": 1002,
+        "Cost": 1,
+        "Congestion": 0.029276052979479397
+    },
+    "6": {
+        "ID_from": 1003,
+        "ID_to": 1004,
+        "Cost": 1,
+        "Congestion": 0.04280091763373677
+    },
+    "7": {
+        "ID_from": 1004,
+        "ID_to": 1003,
+        "Cost": 1,
+        "Congestion": 0.04139791365995905
+    },
+    "8": {
+        "ID_from": 1004,
+        "ID_to": 1005,
+        "Cost": 1,
+        "Congestion": 0.06420681658577393
+    },
+    "9": {
+        "ID_from": 1005,
+        "ID_to": 1004,
+        "Cost": 1,
+        "Congestion": 0.06271828542364674
+    },
+    "10": {
+        "ID_from": 1005,
+        "ID_to": 1006,
+        "Cost": 1,
+        "Congestion": 0.0822435503065826
+    },
+    "11": {
+        "ID_from": 1006,
+        "ID_to": 1005,
+        "Cost": 1,
+        "Congestion": 0.08048204831143024
+    },
+    "12": {
+        "ID_from": 1006,
+        "ID_to": 1007,
+        "Cost": 1,
+        "Congestion": 0.08853881963390231
+    },
+    "13": {
+        "ID_from": 1007,
+        "ID_to": 1006,
+        "Cost": 1,
+        "Congestion": 0.08611637564698013
+    },
+    "14": {
+        "ID_from": 1007,
+        "ID_to": 1008,
+        "Cost": 1,
+        "Congestion": 0.11862896473952289
+    },
+    "15": {
+        "ID_from": 1008,
+        "ID_to": 1007,
+        "Cost": 1,
+        "Congestion": 0.1122868689322695
+    },
+    "16": {
+        "ID_from": 1008,
+        "ID_to": 1009,
+        "Cost": 1,
+        "Congestion": 0.13231414122508264
+    },
+    "17": {
+        "ID_from": 1009,
+        "ID_to": 1008,
+        "Cost": 1,
+        "Congestion": 0.12458983791013971
+    },
+    "18": {
+        "ID_from": 1009,
+        "ID_to": 1010,
+        "Cost": 1,
+        "Congestion": 0.14917800934849354
+    },
+    "19": {
+        "ID_from": 1010,
+        "ID_to": 1009,
+        "Cost": 1,
+        "Congestion": 0.14002715109486508
+    },
+    "20": {
+        "ID_from": 1010,
+        "ID_to": 1011,
+        "Cost": 1,
+        "Congestion": 0.187118613814996
+    },
+    "21": {
+        "ID_from": 1011,
+        "ID_to": 1010,
+        "Cost": 1,
+        "Congestion": 0.1830575184802769
+    },
+    "22": {
+        "ID_from": 1011,
+        "ID_to": 1012,
+        "Cost": 1,
+        "Congestion": 0.22153800471542653
+    },
+    "23": {
+        "ID_from": 1012,
+        "ID_to": 1011,
+        "Cost": 1,
+        "Congestion": 0.21594003676429574
+    },
+    "24": {
+        "ID_from": 1012,
+        "ID_to": 1013,
+        "Cost": 1,
+        "Congestion": 0.23582462601825213
+    },
+    "25": {
+        "ID_from": 1013,
+        "ID_to": 1012,
+        "Cost": 1,
+        "Congestion": 0.2307732883578766
+    },
+    "26": {
+        "ID_from": 1013,
+        "ID_to": 1014,
+        "Cost": 1,
+        "Congestion": 0.22024049804644058
+    },
+    "27": {
+        "ID_from": 1013,
+        "ID_to": 7001,
+        "Cost": 3,
+        "Congestion": 0.05080741935275062
+    },
+    "28": {
+        "ID_from": 1014,
+        "ID_to": 1013,
+        "Cost": 1,
+        "Congestion": 0.21099157963483334
+    },
+    "29": {
+        "ID_from": 1014,
+        "ID_to": 1015,
+        "Cost": 1,
+        "Congestion": 0.23217367555777568
+    },
+    "30": {
+        "ID_from": 1015,
+        "ID_to": 1014,
+        "Cost": 1,
+        "Congestion": 0.22209937157486678
+    },
+    "31": {
+        "ID_from": 1015,
+        "ID_to": 1016,
+        "Cost": 1,
+        "Congestion": 0.25361510754458605
+    },
+    "32": {
+        "ID_from": 1016,
+        "ID_to": 1015,
+        "Cost": 1,
+        "Congestion": 0.24253568694239475
+    },
+    "33": {
+        "ID_from": 1016,
+        "ID_to": 1017,
+        "Cost": 1,
+        "Congestion": 0.20321204861855688
+    },
+    "34": {
+        "ID_from": 1016,
+        "ID_to": 4003,
+        "Cost": 3,
+        "Congestion": 0.11081596656258792
+    },
+    "35": {
+        "ID_from": 1017,
+        "ID_to": 1016,
+        "Cost": 1,
+        "Congestion": 0.19737554106964628
+    },
+    "36": {
+        "ID_from": 1017,
+        "ID_to": 1018,
+        "Cost": 1,
+        "Congestion": 0.21195592967158525
+    },
+    "37": {
+        "ID_from": 1018,
+        "ID_to": 1017,
+        "Cost": 1,
+        "Congestion": 0.2025995858060125
+    },
+    "38": {
+        "ID_from": 1018,
+        "ID_to": 1019,
+        "Cost": 1,
+        "Congestion": 0.217013051779482
+    },
+    "39": {
+        "ID_from": 1019,
+        "ID_to": 1018,
+        "Cost": 1,
+        "Congestion": 0.2061426976377005
+    },
+    "40": {
+        "ID_from": 1019,
+        "ID_to": 1020,
+        "Cost": 1,
+        "Congestion": 0.23413983681522643
+    },
+    "41": {
+        "ID_from": 1020,
+        "ID_to": 1019,
+        "Cost": 1,
+        "Congestion": 0.22090736221067261
+    },
+    "42": {
+        "ID_from": 1020,
+        "ID_to": 1021,
+        "Cost": 1,
+        "Congestion": 0.2923094806130798
+    },
+    "43": {
+        "ID_from": 1020,
+        "ID_to": 6034,
+        "Cost": 3,
+        "Congestion": 0.0675617961480813
+    },
+    "44": {
+        "ID_from": 1021,
+        "ID_to": 1020,
+        "Cost": 1,
+        "Congestion": 0.2830484424066662
+    },
+    "45": {
+        "ID_from": 1021,
+        "ID_to": 1022,
+        "Cost": 1,
+        "Congestion": 0.31435290831692
+    },
+    "46": {
+        "ID_from": 1022,
+        "ID_to": 1021,
+        "Cost": 1,
+        "Congestion": 0.30091494810042185
+    },
+    "47": {
+        "ID_from": 1022,
+        "ID_to": 1023,
+        "Cost": 1,
+        "Congestion": 0.33947517707639974
+    },
+    "48": {
+        "ID_from": 1023,
+        "ID_to": 1022,
+        "Cost": 1,
+        "Congestion": 0.32364424601034947
+    },
+    "49": {
+        "ID_from": 1023,
+        "ID_to": 1024,
+        "Cost": 1,
+        "Congestion": 0.3919526490634911
+    },
+    "50": {
+        "ID_from": 1024,
+        "ID_to": 1023,
+        "Cost": 1,
+        "Congestion": 0.374148670492941
+    },
+    "51": {
+        "ID_from": 1024,
+        "ID_to": 1025,
+        "Cost": 1,
+        "Congestion": 0.432380290514236
+    },
+    "52": {
+        "ID_from": 1025,
+        "ID_to": 1024,
+        "Cost": 1,
+        "Congestion": 0.42006933348978887
+    },
+    "53": {
+        "ID_from": 1025,
+        "ID_to": 1026,
+        "Cost": 1,
+        "Congestion": 0.46829826649748535
+    },
+    "54": {
+        "ID_from": 1026,
+        "ID_to": 1025,
+        "Cost": 1,
+        "Congestion": 0.4580221954760387
+    },
+    "55": {
+        "ID_from": 1026,
+        "ID_to": 1027,
+        "Cost": 1,
+        "Congestion": 0.4618400685649846
+    },
+    "56": {
+        "ID_from": 1026,
+        "ID_to": 2046,
+        "Cost": 3,
+        "Congestion": 0.08674688042679307
+    },
+    "57": {
+        "ID_from": 1027,
+        "ID_to": 1026,
+        "Cost": 1,
+        "Congestion": 0.46817720627436266
+    },
+    "58": {
+        "ID_from": 1027,
+        "ID_to": 1028,
+        "Cost": 1,
+        "Congestion": 0.4889183069362825
+    },
+    "59": {
+        "ID_from": 1027,
+        "ID_to": 6026,
+        "Cost": 3,
+        "Congestion": 0.09043790884509512
+    },
+    "60": {
+        "ID_from": 1028,
+        "ID_to": 1027,
+        "Cost": 1,
+        "Congestion": 0.4995760137691887
+    },
+    "61": {
+        "ID_from": 1028,
+        "ID_to": 1029,
+        "Cost": 1,
+        "Congestion": 0.4984300045352823
+    },
+    "62": {
+        "ID_from": 1028,
+        "ID_to": 4012,
+        "Cost": 3,
+        "Congestion": 0.18659291771526992
+    },
+    "63": {
+        "ID_from": 1029,
+        "ID_to": 1028,
+        "Cost": 1,
+        "Congestion": 0.6107499274533873
+    },
+    "64": {
+        "ID_from": 1029,
+        "ID_to": 1030,
+        "Cost": 1,
+        "Congestion": 0.5219436459840991
+    },
+    "65": {
+        "ID_from": 1030,
+        "ID_to": 1029,
+        "Cost": 1,
+        "Congestion": 0.6356045966525402
+    },
+    "66": {
+        "ID_from": 1030,
+        "ID_to": 1031,
+        "Cost": 1,
+        "Congestion": 0.5466926801535192
+    },
+    "67": {
+        "ID_from": 1030,
+        "ID_to": 3020,
+        "Cost": 3,
+        "Congestion": 0.18822123969249327
+    },
+    "68": {
+        "ID_from": 1030,
+        "ID_to": 5024,
+        "Cost": 3,
+        "Congestion": 0.049616787237966246
+    },
+    "69": {
+        "ID_from": 1031,
+        "ID_to": 1030,
+        "Cost": 1,
+        "Congestion": 0.6611242018667514
+    },
+    "70": {
+        "ID_from": 1031,
+        "ID_to": 1032,
+        "Cost": 1,
+        "Congestion": 0.5573140276020063
+    },
+    "71": {
+        "ID_from": 1032,
+        "ID_to": 1031,
+        "Cost": 1,
+        "Congestion": 0.6654195673260799
+    },
+    "72": {
+        "ID_from": 1032,
+        "ID_to": 1033,
+        "Cost": 1,
+        "Congestion": 0.6173802815621149
+    },
+    "73": {
+        "ID_from": 1032,
+        "ID_to": 2000,
+        "Cost": 3,
+        "Congestion": 0.1084597682722778
+    },
+    "74": {
+        "ID_from": 1033,
+        "ID_to": 1032,
+        "Cost": 1,
+        "Congestion": 0.7171989115873364
+    },
+    "75": {
+        "ID_from": 1033,
+        "ID_to": 1034,
+        "Cost": 1,
+        "Congestion": 0.6971691602455856
+    },
+    "76": {
+        "ID_from": 1033,
+        "ID_to": 4017,
+        "Cost": 3,
+        "Congestion": 0.1341332122455652
+    },
+    "77": {
+        "ID_from": 1034,
+        "ID_to": 1033,
+        "Cost": 1,
+        "Congestion": 0.7047780500599861
+    },
+    "78": {
+        "ID_from": 1034,
+        "ID_to": 1035,
+        "Cost": 1,
+        "Congestion": 0.7087448038101329
+    },
+    "79": {
+        "ID_from": 1035,
+        "ID_to": 1034,
+        "Cost": 1,
+        "Congestion": 0.7192395820378581
+    },
+    "80": {
+        "ID_from": 1035,
+        "ID_to": 1036,
+        "Cost": 1,
+        "Congestion": 0.7303778111898485
+    },
+    "81": {
+        "ID_from": 1036,
+        "ID_to": 1035,
+        "Cost": 1,
+        "Congestion": 0.7461168797202641
+    },
+    "82": {
+        "ID_from": 1036,
+        "ID_to": 1037,
+        "Cost": 1,
+        "Congestion": 0.707187961077279
+    },
+    "83": {
+        "ID_from": 1036,
+        "ID_to": 9016,
+        "Cost": 3,
+        "Congestion": 0.1394265326272451
+    },
+    "84": {
+        "ID_from": 1037,
+        "ID_to": 1036,
+        "Cost": 1,
+        "Congestion": 0.711198373633717
+    },
+    "85": {
+        "ID_from": 1037,
+        "ID_to": 1038,
+        "Cost": 1,
+        "Congestion": 0.7091553618591986
+    },
+    "86": {
+        "ID_from": 1038,
+        "ID_to": 1037,
+        "Cost": 1,
+        "Congestion": 0.712665557429992
+    },
+    "87": {
+        "ID_from": 1038,
+        "ID_to": 1039,
+        "Cost": 1,
+        "Congestion": 0.725622306702701
+    },
+    "88": {
+        "ID_from": 1038,
+        "ID_to": 5015,
+        "Cost": 3,
+        "Congestion": 0.11161559756992605
+    },
+    "89": {
+        "ID_from": 1039,
+        "ID_to": 1038,
+        "Cost": 1,
+        "Congestion": 0.7196064812806326
+    },
+    "90": {
+        "ID_from": 1039,
+        "ID_to": 1040,
+        "Cost": 1,
+        "Congestion": 0.7819305979231905
+    },
+    "91": {
+        "ID_from": 1040,
+        "ID_to": 1039,
+        "Cost": 1,
+        "Congestion": 0.7886475810197954
+    },
+    "92": {
+        "ID_from": 1040,
+        "ID_to": 1041,
+        "Cost": 1,
+        "Congestion": 0.9647150078455012
+    },
+    "93": {
+        "ID_from": 1040,
+        "ID_to": 2033,
+        "Cost": 3,
+        "Congestion": 0.4570519232668246
+    },
+    "94": {
+        "ID_from": 1041,
+        "ID_to": 1040,
+        "Cost": 1,
+        "Congestion": 1
+    },
+    "95": {
+        "ID_from": 1041,
+        "ID_to": 1042,
+        "Cost": 1,
+        "Congestion": 0.6270433388712532
+    },
+    "96": {
+        "ID_from": 1041,
+        "ID_to": 1063,
+        "Cost": 1,
+        "Congestion": 0.4572457022587854
+    },
+    "97": {
+        "ID_from": 1042,
+        "ID_to": 1041,
+        "Cost": 1,
+        "Congestion": 0.6556674019801265
+    },
+    "98": {
+        "ID_from": 1042,
+        "ID_to": 1043,
+        "Cost": 1,
+        "Congestion": 0.609418127274097
+    },
+    "99": {
+        "ID_from": 1043,
+        "ID_to": 1042,
+        "Cost": 1,
+        "Congestion": 0.638719797092599
+    },
+    "100": {
+        "ID_from": 1043,
+        "ID_to": 1044,
+        "Cost": 1,
+        "Congestion": 0.560222089730829
+    },
+    "101": {
+        "ID_from": 1044,
+        "ID_to": 1043,
+        "Cost": 1,
+        "Congestion": 0.5901866296902745
+    },
+    "102": {
+        "ID_from": 1044,
+        "ID_to": 1045,
+        "Cost": 1,
+        "Congestion": 0.5348353890846649
+    },
+    "103": {
+        "ID_from": 1045,
+        "ID_to": 1044,
+        "Cost": 1,
+        "Congestion": 0.5616626926134947
+    },
+    "104": {
+        "ID_from": 1045,
+        "ID_to": 1046,
+        "Cost": 1,
+        "Congestion": 0.5487865124312598
+    },
+    "105": {
+        "ID_from": 1045,
+        "ID_to": 7041,
+        "Cost": 3,
+        "Congestion": 0.08070048006782678
+    },
+    "106": {
+        "ID_from": 1046,
+        "ID_to": 1045,
+        "Cost": 1,
+        "Congestion": 0.5708179580652345
+    },
+    "107": {
+        "ID_from": 1046,
+        "ID_to": 1047,
+        "Cost": 1,
+        "Congestion": 0.4934460143710467
+    },
+    "108": {
+        "ID_from": 1047,
+        "ID_to": 1046,
+        "Cost": 1,
+        "Congestion": 0.5117778926403785
+    },
+    "109": {
+        "ID_from": 1047,
+        "ID_to": 1048,
+        "Cost": 1,
+        "Congestion": 0.46947209616947
+    },
+    "110": {
+        "ID_from": 1048,
+        "ID_to": 1047,
+        "Cost": 1,
+        "Congestion": 0.48648030003102943
+    },
+    "111": {
+        "ID_from": 1048,
+        "ID_to": 1049,
+        "Cost": 1,
+        "Congestion": 0.4019237970656049
+    },
+    "112": {
+        "ID_from": 1049,
+        "ID_to": 1048,
+        "Cost": 1,
+        "Congestion": 0.4183811011632386
+    },
+    "113": {
+        "ID_from": 1049,
+        "ID_to": 1050,
+        "Cost": 1,
+        "Congestion": 0.3826183411884753
+    },
+    "114": {
+        "ID_from": 1050,
+        "ID_to": 1049,
+        "Cost": 1,
+        "Congestion": 0.3968613036850098
+    },
+    "115": {
+        "ID_from": 1050,
+        "ID_to": 1051,
+        "Cost": 1,
+        "Congestion": 0.32521458578741963
+    },
+    "116": {
+        "ID_from": 1051,
+        "ID_to": 1050,
+        "Cost": 1,
+        "Congestion": 0.3371096134901029
+    },
+    "117": {
+        "ID_from": 1051,
+        "ID_to": 1052,
+        "Cost": 1,
+        "Congestion": 0.30840677171498815
+    },
+    "118": {
+        "ID_from": 1052,
+        "ID_to": 1051,
+        "Cost": 1,
+        "Congestion": 0.3179349963069057
+    },
+    "119": {
+        "ID_from": 1052,
+        "ID_to": 1053,
+        "Cost": 1,
+        "Congestion": 0.24322100624871829
+    },
+    "120": {
+        "ID_from": 1053,
+        "ID_to": 1052,
+        "Cost": 1,
+        "Congestion": 0.25781847274333897
+    },
+    "121": {
+        "ID_from": 1053,
+        "ID_to": 1054,
+        "Cost": 1,
+        "Congestion": 0.2283511198208364
+    },
+    "122": {
+        "ID_from": 1054,
+        "ID_to": 1053,
+        "Cost": 1,
+        "Congestion": 0.24215170980693856
+    },
+    "123": {
+        "ID_from": 1054,
+        "ID_to": 1055,
+        "Cost": 1,
+        "Congestion": 0.18015138450062795
+    },
+    "124": {
+        "ID_from": 1055,
+        "ID_to": 1054,
+        "Cost": 1,
+        "Congestion": 0.19354059008801863
+    },
+    "125": {
+        "ID_from": 1055,
+        "ID_to": 1056,
+        "Cost": 1,
+        "Congestion": 0.1672564737264196
+    },
+    "126": {
+        "ID_from": 1056,
+        "ID_to": 1055,
+        "Cost": 1,
+        "Congestion": 0.17926278318141584
+    },
+    "127": {
+        "ID_from": 1056,
+        "ID_to": 1057,
+        "Cost": 1,
+        "Congestion": 0.10666576319105382
+    },
+    "128": {
+        "ID_from": 1057,
+        "ID_to": 1056,
+        "Cost": 1,
+        "Congestion": 0.11381327445316657
+    },
+    "129": {
+        "ID_from": 1057,
+        "ID_to": 1058,
+        "Cost": 1,
+        "Congestion": 0.09923619124981115
+    },
+    "130": {
+        "ID_from": 1058,
+        "ID_to": 1057,
+        "Cost": 1,
+        "Congestion": 0.10516759128305794
+    },
+    "131": {
+        "ID_from": 1058,
+        "ID_to": 1059,
+        "Cost": 1,
+        "Congestion": 0.07322036307324391
+    },
+    "132": {
+        "ID_from": 1059,
+        "ID_to": 1058,
+        "Cost": 1,
+        "Congestion": 0.07639919243603606
+    },
+    "133": {
+        "ID_from": 1059,
+        "ID_to": 1060,
+        "Cost": 1,
+        "Congestion": 0.06359573102263937
+    },
+    "134": {
+        "ID_from": 1060,
+        "ID_to": 1059,
+        "Cost": 1,
+        "Congestion": 0.06687509959234794
+    },
+    "135": {
+        "ID_from": 1060,
+        "ID_to": 1061,
+        "Cost": 1,
+        "Congestion": 0.007712596694959501
+    },
+    "136": {
+        "ID_from": 1061,
+        "ID_to": 1060,
+        "Cost": 1,
+        "Congestion": 0.008617449557207429
+    },
+    "137": {
+        "ID_from": 1062,
+        "ID_to": 1065,
+        "Cost": 1,
+        "Congestion": 0.002986840795064048
+    },
+    "138": {
+        "ID_from": 1063,
+        "ID_to": 1041,
+        "Cost": 1,
+        "Congestion": 0.4672446706989775
+    },
+    "139": {
+        "ID_from": 1063,
+        "ID_to": 1064,
+        "Cost": 1,
+        "Congestion": 0.4681386432908879
+    },
+    "140": {
+        "ID_from": 1063,
+        "ID_to": 7037,
+        "Cost": 3,
+        "Congestion": 0.12829574062206775
+    },
+    "141": {
+        "ID_from": 1064,
+        "ID_to": 1063,
+        "Cost": 1,
+        "Congestion": 0.48514643397762436
+    },
+    "142": {
+        "ID_from": 1064,
+        "ID_to": 1065,
+        "Cost": 1,
+        "Congestion": 0.4405807089501517
+    },
+    "143": {
+        "ID_from": 1065,
+        "ID_to": 1062,
+        "Cost": 1,
+        "Congestion": 0.002288024444524325
+    },
+    "144": {
+        "ID_from": 1065,
+        "ID_to": 1064,
+        "Cost": 1,
+        "Congestion": 0.4607762811208441
+    },
+    "145": {
+        "ID_from": 1065,
+        "ID_to": 1066,
+        "Cost": 1,
+        "Congestion": 0.4197576619483479
+    },
+    "146": {
+        "ID_from": 1066,
+        "ID_to": 1065,
+        "Cost": 1,
+        "Congestion": 0.43681255456490004
+    },
+    "147": {
+        "ID_from": 1066,
+        "ID_to": 1067,
+        "Cost": 1,
+        "Congestion": 0.41201862206471995
+    },
+    "148": {
+        "ID_from": 1067,
+        "ID_to": 1066,
+        "Cost": 1,
+        "Congestion": 0.4236132716711228
+    },
+    "149": {
+        "ID_from": 1067,
+        "ID_to": 1068,
+        "Cost": 1,
+        "Congestion": 0.4012284238385897
+    },
+    "150": {
+        "ID_from": 1068,
+        "ID_to": 1067,
+        "Cost": 1,
+        "Congestion": 0.41109751765943625
+    },
+    "151": {
+        "ID_from": 1068,
+        "ID_to": 1069,
+        "Cost": 1,
+        "Congestion": 0.3841357945882086
+    },
+    "152": {
+        "ID_from": 1069,
+        "ID_to": 1068,
+        "Cost": 1,
+        "Congestion": 0.39282789106342797
+    },
+    "153": {
+        "ID_from": 1069,
+        "ID_to": 1070,
+        "Cost": 1,
+        "Congestion": 0.3738722565363913
+    },
+    "154": {
+        "ID_from": 1070,
+        "ID_to": 1069,
+        "Cost": 1,
+        "Congestion": 0.3822960648265788
+    },
+    "155": {
+        "ID_from": 1070,
+        "ID_to": 1071,
+        "Cost": 1,
+        "Congestion": 0.30164296213844966
+    },
+    "156": {
+        "ID_from": 1070,
+        "ID_to": 4034,
+        "Cost": 3,
+        "Congestion": 0.23400858494647114
+    },
+    "157": {
+        "ID_from": 1071,
+        "ID_to": 1070,
+        "Cost": 1,
+        "Congestion": 0.30898728234122486
+    },
+    "158": {
+        "ID_from": 1071,
+        "ID_to": 1072,
+        "Cost": 1,
+        "Congestion": 0.28895863279900186
+    },
+    "159": {
+        "ID_from": 1072,
+        "ID_to": 1071,
+        "Cost": 1,
+        "Congestion": 0.29564931043187925
+    },
+    "160": {
+        "ID_from": 1072,
+        "ID_to": 1073,
+        "Cost": 1,
+        "Congestion": 0.27783940968886695
+    },
+    "161": {
+        "ID_from": 1073,
+        "ID_to": 1072,
+        "Cost": 1,
+        "Congestion": 0.283435587215765
+    },
+    "162": {
+        "ID_from": 1073,
+        "ID_to": 1074,
+        "Cost": 1,
+        "Congestion": 0.26377301056667063
+    },
+    "163": {
+        "ID_from": 1074,
+        "ID_to": 1073,
+        "Cost": 1,
+        "Congestion": 0.26798036978871204
+    },
+    "164": {
+        "ID_from": 1074,
+        "ID_to": 1075,
+        "Cost": 1,
+        "Congestion": 0.24169790612640477
+    },
+    "165": {
+        "ID_from": 1075,
+        "ID_to": 1074,
+        "Cost": 1,
+        "Congestion": 0.2441691047424344
+    },
+    "166": {
+        "ID_from": 1075,
+        "ID_to": 1076,
+        "Cost": 1,
+        "Congestion": 0.2286088031854126
+    },
+    "167": {
+        "ID_from": 1076,
+        "ID_to": 1075,
+        "Cost": 1,
+        "Congestion": 0.23087010899138655
+    },
+    "168": {
+        "ID_from": 1076,
+        "ID_to": 1077,
+        "Cost": 1,
+        "Congestion": 0.17671266817420386
+    },
+    "169": {
+        "ID_from": 1077,
+        "ID_to": 1076,
+        "Cost": 1,
+        "Congestion": 0.18100114738648332
+    },
+    "170": {
+        "ID_from": 1077,
+        "ID_to": 1078,
+        "Cost": 1,
+        "Congestion": 0.168424518950883
+    },
+    "171": {
+        "ID_from": 1078,
+        "ID_to": 1077,
+        "Cost": 1,
+        "Congestion": 0.1717350133572534
+    },
+    "172": {
+        "ID_from": 1078,
+        "ID_to": 1079,
+        "Cost": 1,
+        "Congestion": 0.12852050772574944
+    },
+    "173": {
+        "ID_from": 1078,
+        "ID_to": 1097,
+        "Cost": 1,
+        "Congestion": 0.002169994170103248
+    },
+    "174": {
+        "ID_from": 1079,
+        "ID_to": 1078,
+        "Cost": 1,
+        "Congestion": 0.1317597983376324
+    },
+    "175": {
+        "ID_from": 1079,
+        "ID_to": 1080,
+        "Cost": 1,
+        "Congestion": 0.12447511303430218
+    },
+    "176": {
+        "ID_from": 1080,
+        "ID_to": 1079,
+        "Cost": 1,
+        "Congestion": 0.12681106575828804
+    },
+    "177": {
+        "ID_from": 1080,
+        "ID_to": 1081,
+        "Cost": 1,
+        "Congestion": 0.12018897514601942
+    },
+    "178": {
+        "ID_from": 1081,
+        "ID_to": 1080,
+        "Cost": 1,
+        "Congestion": 0.12215114238018171
+    },
+    "179": {
+        "ID_from": 1081,
+        "ID_to": 1082,
+        "Cost": 1,
+        "Congestion": 0.10181123447134074
+    },
+    "180": {
+        "ID_from": 1082,
+        "ID_to": 1081,
+        "Cost": 1,
+        "Congestion": 0.10310226806810058
+    },
+    "181": {
+        "ID_from": 1082,
+        "ID_to": 1083,
+        "Cost": 1,
+        "Congestion": 0.09960846176528393
+    },
+    "182": {
+        "ID_from": 1083,
+        "ID_to": 1082,
+        "Cost": 1,
+        "Congestion": 0.1003890867307666
+    },
+    "183": {
+        "ID_from": 1083,
+        "ID_to": 1084,
+        "Cost": 1,
+        "Congestion": 0.09433015340217102
+    },
+    "184": {
+        "ID_from": 1084,
+        "ID_to": 1083,
+        "Cost": 1,
+        "Congestion": 0.09504095182257612
+    },
+    "185": {
+        "ID_from": 1084,
+        "ID_to": 1085,
+        "Cost": 1,
+        "Congestion": 0.08755808032917363
+    },
+    "186": {
+        "ID_from": 1085,
+        "ID_to": 1084,
+        "Cost": 1,
+        "Congestion": 0.08844544212391692
+    },
+    "187": {
+        "ID_from": 1085,
+        "ID_to": 1086,
+        "Cost": 1,
+        "Congestion": 0.08436602937204726
+    },
+    "188": {
+        "ID_from": 1086,
+        "ID_to": 1085,
+        "Cost": 1,
+        "Congestion": 0.08503330671110224
+    },
+    "189": {
+        "ID_from": 1086,
+        "ID_to": 1087,
+        "Cost": 1,
+        "Congestion": 0.05917902989030622
+    },
+    "190": {
+        "ID_from": 1087,
+        "ID_to": 1086,
+        "Cost": 1,
+        "Congestion": 0.059351461516414954
+    },
+    "191": {
+        "ID_from": 1087,
+        "ID_to": 1088,
+        "Cost": 1,
+        "Congestion": 0.05446814828403675
+    },
+    "192": {
+        "ID_from": 1088,
+        "ID_to": 1087,
+        "Cost": 1,
+        "Congestion": 0.05473547239448169
+    },
+    "193": {
+        "ID_from": 1088,
+        "ID_to": 1089,
+        "Cost": 1,
+        "Congestion": 0.05295441345770997
+    },
+    "194": {
+        "ID_from": 1089,
+        "ID_to": 1088,
+        "Cost": 1,
+        "Congestion": 0.05343865435020064
+    },
+    "195": {
+        "ID_from": 1089,
+        "ID_to": 1090,
+        "Cost": 1,
+        "Congestion": 0.041744842786291245
+    },
+    "196": {
+        "ID_from": 1090,
+        "ID_to": 1089,
+        "Cost": 1,
+        "Congestion": 0.04256017443690125
+    },
+    "197": {
+        "ID_from": 1090,
+        "ID_to": 1091,
+        "Cost": 1,
+        "Congestion": 0.02759236557598154
+    },
+    "198": {
+        "ID_from": 1091,
+        "ID_to": 1090,
+        "Cost": 1,
+        "Congestion": 0.02848854176694764
+    },
+    "199": {
+        "ID_from": 1091,
+        "ID_to": 1092,
+        "Cost": 1,
+        "Congestion": 0.02723111305578728
+    },
+    "200": {
+        "ID_from": 1092,
+        "ID_to": 1091,
+        "Cost": 1,
+        "Congestion": 0.02812604972228454
+    },
+    "201": {
+        "ID_from": 1092,
+        "ID_to": 1093,
+        "Cost": 1,
+        "Congestion": 0.02400201408953691
+    },
+    "202": {
+        "ID_from": 1093,
+        "ID_to": 1092,
+        "Cost": 1,
+        "Congestion": 0.024413536213189393
+    },
+    "203": {
+        "ID_from": 1093,
+        "ID_to": 1094,
+        "Cost": 1,
+        "Congestion": 0.021783540740208204
+    },
+    "204": {
+        "ID_from": 1094,
+        "ID_to": 1093,
+        "Cost": 1,
+        "Congestion": 0.02124751526990852
+    },
+    "205": {
+        "ID_from": 1094,
+        "ID_to": 1095,
+        "Cost": 1,
+        "Congestion": 0.01911126371034572
+    },
+    "206": {
+        "ID_from": 1095,
+        "ID_to": 1094,
+        "Cost": 1,
+        "Congestion": 0.018532956683164736
+    },
+    "207": {
+        "ID_from": 1095,
+        "ID_to": 1096,
+        "Cost": 1,
+        "Congestion": 0.0017500708250508996
+    },
+    "208": {
+        "ID_from": 1096,
+        "ID_to": 1095,
+        "Cost": 1,
+        "Congestion": 0.0017663223680867072
+    },
+    "209": {
+        "ID_from": 1097,
+        "ID_to": 1078,
+        "Cost": 1,
+        "Congestion": 0.0028179900174208276
+    },
+    "210": {
+        "ID_from": 2000,
+        "ID_to": 1032,
+        "Cost": 3,
+        "Congestion": 0.1182538020002895
+    },
+    "211": {
+        "ID_from": 2000,
+        "ID_to": 2001,
+        "Cost": 1,
+        "Congestion": 0.4661379130732508
+    },
+    "212": {
+        "ID_from": 2000,
+        "ID_to": 2042,
+        "Cost": 1,
+        "Congestion": 0.4970597790974582
+    },
+    "213": {
+        "ID_from": 2001,
+        "ID_to": 2000,
+        "Cost": 1,
+        "Congestion": 0.5006745078984565
+    },
+    "214": {
+        "ID_from": 2001,
+        "ID_to": 2002,
+        "Cost": 1,
+        "Congestion": 0.4635835285928684
+    },
+    "215": {
+        "ID_from": 2002,
+        "ID_to": 2001,
+        "Cost": 1,
+        "Congestion": 0.49793502109739507
+    },
+    "216": {
+        "ID_from": 2002,
+        "ID_to": 2003,
+        "Cost": 1,
+        "Congestion": 0.45875709576111556
+    },
+    "217": {
+        "ID_from": 2002,
+        "ID_to": 3021,
+        "Cost": 3,
+        "Congestion": 0.11588135216694356
+    },
+    "218": {
+        "ID_from": 2003,
+        "ID_to": 2002,
+        "Cost": 1,
+        "Congestion": 0.49102012726059996
+    },
+    "219": {
+        "ID_from": 2003,
+        "ID_to": 2004,
+        "Cost": 1,
+        "Congestion": 0.4590811625472448
+    },
+    "220": {
+        "ID_from": 2003,
+        "ID_to": 5025,
+        "Cost": 3,
+        "Congestion": 0.015625307729165004
+    },
+    "221": {
+        "ID_from": 2004,
+        "ID_to": 2003,
+        "Cost": 1,
+        "Congestion": 0.5056091925338208
+    },
+    "222": {
+        "ID_from": 2004,
+        "ID_to": 2005,
+        "Cost": 1,
+        "Congestion": 0.5136147301782478
+    },
+    "223": {
+        "ID_from": 2004,
+        "ID_to": 4013,
+        "Cost": 3,
+        "Congestion": 0.2012460250860471
+    },
+    "224": {
+        "ID_from": 2004,
+        "ID_to": 5026,
+        "Cost": 3,
+        "Congestion": 0.0013180276851921862
+    },
+    "225": {
+        "ID_from": 2005,
+        "ID_to": 2004,
+        "Cost": 1,
+        "Congestion": 0.5346749395284215
+    },
+    "226": {
+        "ID_from": 2005,
+        "ID_to": 2006,
+        "Cost": 1,
+        "Congestion": 0.50955804204164
+    },
+    "227": {
+        "ID_from": 2005,
+        "ID_to": 6025,
+        "Cost": 3,
+        "Congestion": 0.07253724736597607
+    },
+    "228": {
+        "ID_from": 2006,
+        "ID_to": 2005,
+        "Cost": 1,
+        "Congestion": 0.5248138337541519
+    },
+    "229": {
+        "ID_from": 2006,
+        "ID_to": 2007,
+        "Cost": 1,
+        "Congestion": 0.49794438639338184
+    },
+    "230": {
+        "ID_from": 2007,
+        "ID_to": 2006,
+        "Cost": 1,
+        "Congestion": 0.511336621929474
+    },
+    "231": {
+        "ID_from": 2007,
+        "ID_to": 2008,
+        "Cost": 1,
+        "Congestion": 0.4543486581252413
+    },
+    "232": {
+        "ID_from": 2007,
+        "ID_to": 5030,
+        "Cost": 3,
+        "Congestion": 0.06030575763247521
+    },
+    "233": {
+        "ID_from": 2008,
+        "ID_to": 2007,
+        "Cost": 1,
+        "Congestion": 0.45503673193038446
+    },
+    "234": {
+        "ID_from": 2008,
+        "ID_to": 2009,
+        "Cost": 1,
+        "Congestion": 0.44486684683843447
+    },
+    "235": {
+        "ID_from": 2009,
+        "ID_to": 2008,
+        "Cost": 1,
+        "Congestion": 0.44940350639436244
+    },
+    "236": {
+        "ID_from": 2009,
+        "ID_to": 2010,
+        "Cost": 1,
+        "Congestion": 0.43770638943186946
+    },
+    "237": {
+        "ID_from": 2010,
+        "ID_to": 2009,
+        "Cost": 1,
+        "Congestion": 0.44674224735977847
+    },
+    "238": {
+        "ID_from": 2010,
+        "ID_to": 2011,
+        "Cost": 1,
+        "Congestion": 0.5159213474898046
+    },
+    "239": {
+        "ID_from": 2010,
+        "ID_to": 2043,
+        "Cost": 1,
+        "Congestion": 0.07856959978096226
+    },
+    "240": {
+        "ID_from": 2011,
+        "ID_to": 2010,
+        "Cost": 1,
+        "Congestion": 0.5173181538412381
+    },
+    "241": {
+        "ID_from": 2011,
+        "ID_to": 2012,
+        "Cost": 1,
+        "Congestion": 0.5387236396184524
+    },
+    "242": {
+        "ID_from": 2011,
+        "ID_to": 7018,
+        "Cost": 3,
+        "Congestion": 0.18940663825952034
+    },
+    "243": {
+        "ID_from": 2012,
+        "ID_to": 2011,
+        "Cost": 1,
+        "Congestion": 0.5420820623042842
+    },
+    "244": {
+        "ID_from": 2012,
+        "ID_to": 2013,
+        "Cost": 1,
+        "Congestion": 0.5267941806805237
+    },
+    "245": {
+        "ID_from": 2013,
+        "ID_to": 2012,
+        "Cost": 1,
+        "Congestion": 0.5274318471572677
+    },
+    "246": {
+        "ID_from": 2013,
+        "ID_to": 2014,
+        "Cost": 1,
+        "Congestion": 0.5273941105234388
+    },
+    "247": {
+        "ID_from": 2014,
+        "ID_to": 2013,
+        "Cost": 1,
+        "Congestion": 0.5295331165818212
+    },
+    "248": {
+        "ID_from": 2014,
+        "ID_to": 2015,
+        "Cost": 1,
+        "Congestion": 0.5271793973404487
+    },
+    "249": {
+        "ID_from": 2015,
+        "ID_to": 2014,
+        "Cost": 1,
+        "Congestion": 0.5267125097905218
+    },
+    "250": {
+        "ID_from": 2015,
+        "ID_to": 2016,
+        "Cost": 1,
+        "Congestion": 0.6374550689595666
+    },
+    "251": {
+        "ID_from": 2015,
+        "ID_to": 8004,
+        "Cost": 3,
+        "Congestion": 0.24151955232783384
+    },
+    "252": {
+        "ID_from": 2016,
+        "ID_to": 2015,
+        "Cost": 1,
+        "Congestion": 0.6312458777203602
+    },
+    "253": {
+        "ID_from": 2016,
+        "ID_to": 2017,
+        "Cost": 1,
+        "Congestion": 0.6285021214461284
+    },
+    "254": {
+        "ID_from": 2017,
+        "ID_to": 2016,
+        "Cost": 1,
+        "Congestion": 0.6236609520456905
+    },
+    "255": {
+        "ID_from": 2017,
+        "ID_to": 2018,
+        "Cost": 1,
+        "Congestion": 0.6036105419627925
+    },
+    "256": {
+        "ID_from": 2017,
+        "ID_to": 9029,
+        "Cost": 3,
+        "Congestion": 0.044334347126623895
+    },
+    "257": {
+        "ID_from": 2018,
+        "ID_to": 2017,
+        "Cost": 1,
+        "Congestion": 0.6053104809093262
+    },
+    "258": {
+        "ID_from": 2018,
+        "ID_to": 2019,
+        "Cost": 1,
+        "Congestion": 0.645812493828201
+    },
+    "259": {
+        "ID_from": 2019,
+        "ID_to": 2018,
+        "Cost": 1,
+        "Congestion": 0.6531226582456129
+    },
+    "260": {
+        "ID_from": 2019,
+        "ID_to": 2020,
+        "Cost": 1,
+        "Congestion": 0.7150453066852099
+    },
+    "261": {
+        "ID_from": 2020,
+        "ID_to": 2019,
+        "Cost": 1,
+        "Congestion": 0.7044541209987978
+    },
+    "262": {
+        "ID_from": 2020,
+        "ID_to": 2021,
+        "Cost": 1,
+        "Congestion": 0.7604853096380327
+    },
+    "263": {
+        "ID_from": 2021,
+        "ID_to": 2020,
+        "Cost": 1,
+        "Congestion": 0.7677669649926613
+    },
+    "264": {
+        "ID_from": 2021,
+        "ID_to": 2022,
+        "Cost": 1,
+        "Congestion": 0.8475400053079192
+    },
+    "265": {
+        "ID_from": 2022,
+        "ID_to": 2021,
+        "Cost": 1,
+        "Congestion": 0.8691107610143112
+    },
+    "266": {
+        "ID_from": 2022,
+        "ID_to": 2023,
+        "Cost": 1,
+        "Congestion": 0.8565687015388972
+    },
+    "267": {
+        "ID_from": 2022,
+        "ID_to": 3031,
+        "Cost": 3,
+        "Congestion": 0.3049077318644142
+    },
+    "268": {
+        "ID_from": 2023,
+        "ID_to": 2022,
+        "Cost": 1,
+        "Congestion": 0.8733408448516145
+    },
+    "269": {
+        "ID_from": 2023,
+        "ID_to": 2024,
+        "Cost": 1,
+        "Congestion": 0.8636152604192705
+    },
+    "270": {
+        "ID_from": 2024,
+        "ID_to": 2023,
+        "Cost": 1,
+        "Congestion": 0.8807779916646111
+    },
+    "271": {
+        "ID_from": 2024,
+        "ID_to": 2025,
+        "Cost": 1,
+        "Congestion": 0.8686868436459704
+    },
+    "272": {
+        "ID_from": 2025,
+        "ID_to": 2024,
+        "Cost": 1,
+        "Congestion": 0.8870933688333141
+    },
+    "273": {
+        "ID_from": 2025,
+        "ID_to": 2026,
+        "Cost": 1,
+        "Congestion": 0.8287182394235164
+    },
+    "274": {
+        "ID_from": 2025,
+        "ID_to": 4024,
+        "Cost": 3,
+        "Congestion": 0.28395604976773375
+    },
+    "275": {
+        "ID_from": 2026,
+        "ID_to": 2025,
+        "Cost": 1,
+        "Congestion": 0.8456687365348047
+    },
+    "276": {
+        "ID_from": 2026,
+        "ID_to": 2027,
+        "Cost": 1,
+        "Congestion": 0.7950856711109128
+    },
+    "277": {
+        "ID_from": 2027,
+        "ID_to": 2026,
+        "Cost": 1,
+        "Congestion": 0.8071893520991829
+    },
+    "278": {
+        "ID_from": 2027,
+        "ID_to": 2028,
+        "Cost": 1,
+        "Congestion": 0.7297661747269499
+    },
+    "279": {
+        "ID_from": 2028,
+        "ID_to": 2027,
+        "Cost": 1,
+        "Congestion": 0.7378358921938742
+    },
+    "280": {
+        "ID_from": 2028,
+        "ID_to": 2029,
+        "Cost": 1,
+        "Congestion": 0.7188002394761274
+    },
+    "281": {
+        "ID_from": 2029,
+        "ID_to": 2028,
+        "Cost": 1,
+        "Congestion": 0.719692421643805
+    },
+    "282": {
+        "ID_from": 2029,
+        "ID_to": 2030,
+        "Cost": 1,
+        "Congestion": 0.6775148470929502
+    },
+    "283": {
+        "ID_from": 2030,
+        "ID_to": 2029,
+        "Cost": 1,
+        "Congestion": 0.6736267342841037
+    },
+    "284": {
+        "ID_from": 2030,
+        "ID_to": 2031,
+        "Cost": 1,
+        "Congestion": 0.6849613592019336
+    },
+    "285": {
+        "ID_from": 2031,
+        "ID_to": 2030,
+        "Cost": 1,
+        "Congestion": 0.6751820620426069
+    },
+    "286": {
+        "ID_from": 2031,
+        "ID_to": 2032,
+        "Cost": 1,
+        "Congestion": 0.7284970393958062
+    },
+    "287": {
+        "ID_from": 2032,
+        "ID_to": 2031,
+        "Cost": 1,
+        "Congestion": 0.719166174644315
+    },
+    "288": {
+        "ID_from": 2032,
+        "ID_to": 2033,
+        "Cost": 1,
+        "Congestion": 0.7482804008181413
+    },
+    "289": {
+        "ID_from": 2032,
+        "ID_to": 7035,
+        "Cost": 3,
+        "Congestion": 0.16384364968890003
+    },
+    "290": {
+        "ID_from": 2033,
+        "ID_to": 1040,
+        "Cost": 3,
+        "Congestion": 0.4286792081752423
+    },
+    "291": {
+        "ID_from": 2033,
+        "ID_to": 2032,
+        "Cost": 1,
+        "Congestion": 0.7448010556341277
+    },
+    "292": {
+        "ID_from": 2033,
+        "ID_to": 2034,
+        "Cost": 1,
+        "Congestion": 0.6289290687631708
+    },
+    "293": {
+        "ID_from": 2033,
+        "ID_to": 2047,
+        "Cost": 1,
+        "Congestion": 0.15956067947425984
+    },
+    "294": {
+        "ID_from": 2034,
+        "ID_to": 2033,
+        "Cost": 1,
+        "Congestion": 0.5961875808187169
+    },
+    "295": {
+        "ID_from": 2034,
+        "ID_to": 2035,
+        "Cost": 1,
+        "Congestion": 0.6165853332027701
+    },
+    "296": {
+        "ID_from": 2035,
+        "ID_to": 2034,
+        "Cost": 1,
+        "Congestion": 0.5850005970376192
+    },
+    "297": {
+        "ID_from": 2035,
+        "ID_to": 2036,
+        "Cost": 1,
+        "Congestion": 0.6365869886565607
+    },
+    "298": {
+        "ID_from": 2035,
+        "ID_to": 5013,
+        "Cost": 3,
+        "Congestion": 0.10625644466645705
+    },
+    "299": {
+        "ID_from": 2036,
+        "ID_to": 2035,
+        "Cost": 1,
+        "Congestion": 0.6039468662686691
+    },
+    "300": {
+        "ID_from": 2036,
+        "ID_to": 2037,
+        "Cost": 1,
+        "Congestion": 0.6602572233632733
+    },
+    "301": {
+        "ID_from": 2036,
+        "ID_to": 9012,
+        "Cost": 3,
+        "Congestion": 0.15490034292133054
+    },
+    "302": {
+        "ID_from": 2037,
+        "ID_to": 2036,
+        "Cost": 1,
+        "Congestion": 0.6431245161550667
+    },
+    "303": {
+        "ID_from": 2037,
+        "ID_to": 2038,
+        "Cost": 1,
+        "Congestion": 0.5335869124946683
+    },
+    "304": {
+        "ID_from": 2037,
+        "ID_to": 6012,
+        "Cost": 3,
+        "Congestion": 0.20580416973276816
+    },
+    "305": {
+        "ID_from": 2038,
+        "ID_to": 2037,
+        "Cost": 1,
+        "Congestion": 0.5259762322560351
+    },
+    "306": {
+        "ID_from": 2038,
+        "ID_to": 2039,
+        "Cost": 1,
+        "Congestion": 0.49019666983847204
+    },
+    "307": {
+        "ID_from": 2039,
+        "ID_to": 2038,
+        "Cost": 1,
+        "Congestion": 0.5049512804907526
+    },
+    "308": {
+        "ID_from": 2039,
+        "ID_to": 2040,
+        "Cost": 1,
+        "Congestion": 0.4655678695425287
+    },
+    "309": {
+        "ID_from": 2040,
+        "ID_to": 2039,
+        "Cost": 1,
+        "Congestion": 0.48320960813260266
+    },
+    "310": {
+        "ID_from": 2040,
+        "ID_to": 2041,
+        "Cost": 1,
+        "Congestion": 0.4666272497885578
+    },
+    "311": {
+        "ID_from": 2041,
+        "ID_to": 2040,
+        "Cost": 1,
+        "Congestion": 0.48729824845551806
+    },
+    "312": {
+        "ID_from": 2041,
+        "ID_to": 2042,
+        "Cost": 1,
+        "Congestion": 0.4711276876850076
+    },
+    "313": {
+        "ID_from": 2042,
+        "ID_to": 2000,
+        "Cost": 1,
+        "Congestion": 0.46815668525815646
+    },
+    "314": {
+        "ID_from": 2042,
+        "ID_to": 2041,
+        "Cost": 1,
+        "Congestion": 0.48989215999396213
+    },
+    "315": {
+        "ID_from": 2042,
+        "ID_to": 5021,
+        "Cost": 3,
+        "Congestion": 0.03371437692754663
+    },
+    "316": {
+        "ID_from": 2043,
+        "ID_to": 2010,
+        "Cost": 1,
+        "Congestion": 0.09566112723181545
+    },
+    "317": {
+        "ID_from": 2043,
+        "ID_to": 2044,
+        "Cost": 1,
+        "Congestion": 0.07433056382249514
+    },
+    "318": {
+        "ID_from": 2044,
+        "ID_to": 2043,
+        "Cost": 1,
+        "Congestion": 0.0912792705095506
+    },
+    "319": {
+        "ID_from": 2044,
+        "ID_to": 2045,
+        "Cost": 1,
+        "Congestion": 0.07135019609965722
+    },
+    "320": {
+        "ID_from": 2045,
+        "ID_to": 2044,
+        "Cost": 1,
+        "Congestion": 0.0890281563492093
+    },
+    "321": {
+        "ID_from": 2045,
+        "ID_to": 2046,
+        "Cost": 1,
+        "Congestion": 0.06734543026579949
+    },
+    "322": {
+        "ID_from": 2046,
+        "ID_to": 1026,
+        "Cost": 3,
+        "Congestion": 0.06874898513934115
+    },
+    "323": {
+        "ID_from": 2046,
+        "ID_to": 2045,
+        "Cost": 1,
+        "Congestion": 0.08544978693263006
+    },
+    "324": {
+        "ID_from": 2047,
+        "ID_to": 2033,
+        "Cost": 1,
+        "Congestion": 0.1601754836108009
+    },
+    "325": {
+        "ID_from": 2047,
+        "ID_to": 2048,
+        "Cost": 1,
+        "Congestion": 0.15758584154552724
+    },
+    "326": {
+        "ID_from": 2048,
+        "ID_to": 2047,
+        "Cost": 1,
+        "Congestion": 0.15868585064914584
+    },
+    "327": {
+        "ID_from": 2048,
+        "ID_to": 2049,
+        "Cost": 1,
+        "Congestion": 0.13741919161244093
+    },
+    "328": {
+        "ID_from": 2049,
+        "ID_to": 2048,
+        "Cost": 1,
+        "Congestion": 0.1399580131744924
+    },
+    "329": {
+        "ID_from": 2049,
+        "ID_to": 2050,
+        "Cost": 1,
+        "Congestion": 0.10889690723495282
+    },
+    "330": {
+        "ID_from": 2050,
+        "ID_to": 2049,
+        "Cost": 1,
+        "Congestion": 0.1126485346272867
+    },
+    "331": {
+        "ID_from": 2050,
+        "ID_to": 5008,
+        "Cost": 3,
+        "Congestion": 0.10889690723495282
+    },
+    "332": {
+        "ID_from": 3000,
+        "ID_to": 3001,
+        "Cost": 1,
+        "Congestion": 0.05188291341687453
+    },
+    "333": {
+        "ID_from": 3001,
+        "ID_to": 3000,
+        "Cost": 1,
+        "Congestion": 0.04029487460763886
+    },
+    "334": {
+        "ID_from": 3001,
+        "ID_to": 3002,
+        "Cost": 1,
+        "Congestion": 0.08465993439610162
+    },
+    "335": {
+        "ID_from": 3002,
+        "ID_to": 3001,
+        "Cost": 1,
+        "Congestion": 0.07372567588170474
+    },
+    "336": {
+        "ID_from": 3002,
+        "ID_to": 3003,
+        "Cost": 1,
+        "Congestion": 0.10878893088122339
+    },
+    "337": {
+        "ID_from": 3003,
+        "ID_to": 3002,
+        "Cost": 1,
+        "Congestion": 0.10010220567870232
+    },
+    "338": {
+        "ID_from": 3003,
+        "ID_to": 3004,
+        "Cost": 1,
+        "Congestion": 0.12841721402001335
+    },
+    "339": {
+        "ID_from": 3004,
+        "ID_to": 3003,
+        "Cost": 1,
+        "Congestion": 0.12121695410550475
+    },
+    "340": {
+        "ID_from": 3004,
+        "ID_to": 3005,
+        "Cost": 1,
+        "Congestion": 0.1523783238020788
+    },
+    "341": {
+        "ID_from": 3005,
+        "ID_to": 3004,
+        "Cost": 1,
+        "Congestion": 0.14493002126886265
+    },
+    "342": {
+        "ID_from": 3005,
+        "ID_to": 3006,
+        "Cost": 1,
+        "Congestion": 0.15500308572730268
+    },
+    "343": {
+        "ID_from": 3006,
+        "ID_to": 3005,
+        "Cost": 1,
+        "Congestion": 0.14677112827990224
+    },
+    "344": {
+        "ID_from": 3006,
+        "ID_to": 3007,
+        "Cost": 1,
+        "Congestion": 0.18458695394987557
+    },
+    "345": {
+        "ID_from": 3007,
+        "ID_to": 3006,
+        "Cost": 1,
+        "Congestion": 0.17970377844243834
+    },
+    "346": {
+        "ID_from": 3007,
+        "ID_to": 3008,
+        "Cost": 1,
+        "Congestion": 0.2075021805301281
+    },
+    "347": {
+        "ID_from": 3008,
+        "ID_to": 3007,
+        "Cost": 1,
+        "Congestion": 0.20079332320504117
+    },
+    "348": {
+        "ID_from": 3008,
+        "ID_to": 3009,
+        "Cost": 1,
+        "Congestion": 0.21967596351335775
+    },
+    "349": {
+        "ID_from": 3009,
+        "ID_to": 3008,
+        "Cost": 1,
+        "Congestion": 0.209378131951236
+    },
+    "350": {
+        "ID_from": 3009,
+        "ID_to": 3010,
+        "Cost": 1,
+        "Congestion": 0.24076908912442607
+    },
+    "351": {
+        "ID_from": 3010,
+        "ID_to": 3009,
+        "Cost": 1,
+        "Congestion": 0.22784374113826084
+    },
+    "352": {
+        "ID_from": 3010,
+        "ID_to": 3011,
+        "Cost": 1,
+        "Congestion": 0.2431053172982939
+    },
+    "353": {
+        "ID_from": 3011,
+        "ID_to": 3010,
+        "Cost": 1,
+        "Congestion": 0.23093098341530033
+    },
+    "354": {
+        "ID_from": 3011,
+        "ID_to": 3012,
+        "Cost": 1,
+        "Congestion": 0.3028625164908401
+    },
+    "355": {
+        "ID_from": 3012,
+        "ID_to": 3011,
+        "Cost": 1,
+        "Congestion": 0.2835012820126131
+    },
+    "356": {
+        "ID_from": 3012,
+        "ID_to": 3013,
+        "Cost": 1,
+        "Congestion": 0.3471954863680542
+    },
+    "357": {
+        "ID_from": 3012,
+        "ID_to": 6003,
+        "Cost": 3,
+        "Congestion": 0.07883926521540387
+    },
+    "358": {
+        "ID_from": 3013,
+        "ID_to": 3012,
+        "Cost": 1,
+        "Congestion": 0.3257446890852571
+    },
+    "359": {
+        "ID_from": 3013,
+        "ID_to": 3014,
+        "Cost": 1,
+        "Congestion": 0.417896447095925
+    },
+    "360": {
+        "ID_from": 3013,
+        "ID_to": 6001,
+        "Cost": 3,
+        "Congestion": 0.03865333103608132
+    },
+    "361": {
+        "ID_from": 3014,
+        "ID_to": 3013,
+        "Cost": 1,
+        "Congestion": 0.3897472595835556
+    },
+    "362": {
+        "ID_from": 3014,
+        "ID_to": 3015,
+        "Cost": 1,
+        "Congestion": 0.44591865221270954
+    },
+    "363": {
+        "ID_from": 3015,
+        "ID_to": 3014,
+        "Cost": 1,
+        "Congestion": 0.4106412349299648
+    },
+    "364": {
+        "ID_from": 3015,
+        "ID_to": 3016,
+        "Cost": 1,
+        "Congestion": 0.4813285608886784
+    },
+    "365": {
+        "ID_from": 3016,
+        "ID_to": 3015,
+        "Cost": 1,
+        "Congestion": 0.4417371852795727
+    },
+    "366": {
+        "ID_from": 3016,
+        "ID_to": 3017,
+        "Cost": 1,
+        "Congestion": 0.49019625666364913
+    },
+    "367": {
+        "ID_from": 3017,
+        "ID_to": 3016,
+        "Cost": 1,
+        "Congestion": 0.45063146196815274
+    },
+    "368": {
+        "ID_from": 3017,
+        "ID_to": 3018,
+        "Cost": 1,
+        "Congestion": 0.4990270421544368
+    },
+    "369": {
+        "ID_from": 3018,
+        "ID_to": 3017,
+        "Cost": 1,
+        "Congestion": 0.45981441013302987
+    },
+    "370": {
+        "ID_from": 3018,
+        "ID_to": 3019,
+        "Cost": 1,
+        "Congestion": 0.5406873218269654
+    },
+    "371": {
+        "ID_from": 3019,
+        "ID_to": 3018,
+        "Cost": 1,
+        "Congestion": 0.504888340192724
+    },
+    "372": {
+        "ID_from": 3019,
+        "ID_to": 3020,
+        "Cost": 1,
+        "Congestion": 0.5705128973209607
+    },
+    "373": {
+        "ID_from": 3020,
+        "ID_to": 1030,
+        "Cost": 3,
+        "Congestion": 0.17828645107479854
+    },
+    "374": {
+        "ID_from": 3020,
+        "ID_to": 3019,
+        "Cost": 1,
+        "Congestion": 0.5422572484292126
+    },
+    "375": {
+        "ID_from": 3020,
+        "ID_to": 3021,
+        "Cost": 1,
+        "Congestion": 0.4436359990408835
+    },
+    "376": {
+        "ID_from": 3020,
+        "ID_to": 5024,
+        "Cost": 3,
+        "Congestion": 0.06636785863471338
+    },
+    "377": {
+        "ID_from": 3021,
+        "ID_to": 2002,
+        "Cost": 3,
+        "Congestion": 0.11781983071125704
+    },
+    "378": {
+        "ID_from": 3021,
+        "ID_to": 3020,
+        "Cost": 1,
+        "Congestion": 0.4162116578928993
+    },
+    "379": {
+        "ID_from": 3021,
+        "ID_to": 3022,
+        "Cost": 1,
+        "Congestion": 0.4006746318509034
+    },
+    "380": {
+        "ID_from": 3022,
+        "ID_to": 3021,
+        "Cost": 1,
+        "Congestion": 0.37907894793019387
+    },
+    "381": {
+        "ID_from": 3022,
+        "ID_to": 3023,
+        "Cost": 1,
+        "Congestion": 0.4402633906861305
+    },
+    "382": {
+        "ID_from": 3022,
+        "ID_to": 4014,
+        "Cost": 3,
+        "Congestion": 0.21730227415554296
+    },
+    "383": {
+        "ID_from": 3023,
+        "ID_to": 3022,
+        "Cost": 1,
+        "Congestion": 0.4154599551650227
+    },
+    "384": {
+        "ID_from": 3023,
+        "ID_to": 3024,
+        "Cost": 1,
+        "Congestion": 0.42694387391887645
+    },
+    "385": {
+        "ID_from": 3024,
+        "ID_to": 3023,
+        "Cost": 1,
+        "Congestion": 0.40582347876949376
+    },
+    "386": {
+        "ID_from": 3024,
+        "ID_to": 3025,
+        "Cost": 1,
+        "Congestion": 0.4914608470717405
+    },
+    "387": {
+        "ID_from": 3024,
+        "ID_to": 6023,
+        "Cost": 3,
+        "Congestion": 0.09525538955568419
+    },
+    "388": {
+        "ID_from": 3025,
+        "ID_to": 3024,
+        "Cost": 1,
+        "Congestion": 0.46511310178740806
+    },
+    "389": {
+        "ID_from": 3025,
+        "ID_to": 3026,
+        "Cost": 1,
+        "Congestion": 0.4903534008213089
+    },
+    "390": {
+        "ID_from": 3026,
+        "ID_to": 3025,
+        "Cost": 1,
+        "Congestion": 0.4616852657313215
+    },
+    "391": {
+        "ID_from": 3026,
+        "ID_to": 3027,
+        "Cost": 1,
+        "Congestion": 0.49040917942240636
+    },
+    "392": {
+        "ID_from": 3027,
+        "ID_to": 3026,
+        "Cost": 1,
+        "Congestion": 0.46439417759548507
+    },
+    "393": {
+        "ID_from": 3027,
+        "ID_to": 3028,
+        "Cost": 1,
+        "Congestion": 0.47862942749532456
+    },
+    "394": {
+        "ID_from": 3028,
+        "ID_to": 3027,
+        "Cost": 1,
+        "Congestion": 0.46346398334409655
+    },
+    "395": {
+        "ID_from": 3028,
+        "ID_to": 3029,
+        "Cost": 1,
+        "Congestion": 0.4880905800409842
+    },
+    "396": {
+        "ID_from": 3029,
+        "ID_to": 3028,
+        "Cost": 1,
+        "Congestion": 0.48236246202062594
+    },
+    "397": {
+        "ID_from": 3029,
+        "ID_to": 3030,
+        "Cost": 1,
+        "Congestion": 0.49155477548148985
+    },
+    "398": {
+        "ID_from": 3030,
+        "ID_to": 3029,
+        "Cost": 1,
+        "Congestion": 0.48512191893812967
+    },
+    "399": {
+        "ID_from": 3030,
+        "ID_to": 3031,
+        "Cost": 1,
+        "Congestion": 0.5673187804897196
+    },
+    "400": {
+        "ID_from": 3030,
+        "ID_to": 7025,
+        "Cost": 3,
+        "Congestion": 0.19413211870953384
+    },
+    "401": {
+        "ID_from": 3030,
+        "ID_to": 9022,
+        "Cost": 3,
+        "Congestion": 0.14873412186371043
+    },
+    "402": {
+        "ID_from": 3031,
+        "ID_to": 2022,
+        "Cost": 3,
+        "Congestion": 0.32739821472668
+    },
+    "403": {
+        "ID_from": 3031,
+        "ID_to": 3030,
+        "Cost": 1,
+        "Congestion": 0.5557501608971623
+    },
+    "404": {
+        "ID_from": 3031,
+        "ID_to": 3032,
+        "Cost": 1,
+        "Congestion": 0.44927073955125635
+    },
+    "405": {
+        "ID_from": 3032,
+        "ID_to": 3031,
+        "Cost": 1,
+        "Congestion": 0.4427844457307954
+    },
+    "406": {
+        "ID_from": 3032,
+        "ID_to": 3033,
+        "Cost": 1,
+        "Congestion": 0.3573897487745579
+    },
+    "407": {
+        "ID_from": 3033,
+        "ID_to": 3032,
+        "Cost": 1,
+        "Congestion": 0.35565551631771986
+    },
+    "408": {
+        "ID_from": 3033,
+        "ID_to": 3034,
+        "Cost": 1,
+        "Congestion": 0.2555015260612085
+    },
+    "409": {
+        "ID_from": 3034,
+        "ID_to": 3033,
+        "Cost": 1,
+        "Congestion": 0.2667770669793574
+    },
+    "410": {
+        "ID_from": 3034,
+        "ID_to": 3035,
+        "Cost": 1,
+        "Congestion": 0.23203443564244347
+    },
+    "411": {
+        "ID_from": 3035,
+        "ID_to": 3034,
+        "Cost": 1,
+        "Congestion": 0.24210130247853937
+    },
+    "412": {
+        "ID_from": 3035,
+        "ID_to": 3036,
+        "Cost": 1,
+        "Congestion": 0.21827791763745535
+    },
+    "413": {
+        "ID_from": 3036,
+        "ID_to": 3035,
+        "Cost": 1,
+        "Congestion": 0.226626803559749
+    },
+    "414": {
+        "ID_from": 3036,
+        "ID_to": 3037,
+        "Cost": 1,
+        "Congestion": 0.19676679683050838
+    },
+    "415": {
+        "ID_from": 3037,
+        "ID_to": 3036,
+        "Cost": 1,
+        "Congestion": 0.20331685729864374
+    },
+    "416": {
+        "ID_from": 3037,
+        "ID_to": 3038,
+        "Cost": 1,
+        "Congestion": 0.19136412284568927
+    },
+    "417": {
+        "ID_from": 3038,
+        "ID_to": 3037,
+        "Cost": 1,
+        "Congestion": 0.19830063949821847
+    },
+    "418": {
+        "ID_from": 3038,
+        "ID_to": 3039,
+        "Cost": 1,
+        "Congestion": 0.17486729168999382
+    },
+    "419": {
+        "ID_from": 3039,
+        "ID_to": 3038,
+        "Cost": 1,
+        "Congestion": 0.17846370307384163
+    },
+    "420": {
+        "ID_from": 3039,
+        "ID_to": 3040,
+        "Cost": 1,
+        "Congestion": 0.15781928532049075
+    },
+    "421": {
+        "ID_from": 3040,
+        "ID_to": 3039,
+        "Cost": 1,
+        "Congestion": 0.16314745011223894
+    },
+    "422": {
+        "ID_from": 3040,
+        "ID_to": 3041,
+        "Cost": 1,
+        "Congestion": 0.13253794425417745
+    },
+    "423": {
+        "ID_from": 3041,
+        "ID_to": 3040,
+        "Cost": 1,
+        "Congestion": 0.1381553314219866
+    },
+    "424": {
+        "ID_from": 3041,
+        "ID_to": 3042,
+        "Cost": 1,
+        "Congestion": 0.0798182140958998
+    },
+    "425": {
+        "ID_from": 3041,
+        "ID_to": 8007,
+        "Cost": 3,
+        "Congestion": 0.057545198915443636
+    },
+    "426": {
+        "ID_from": 3042,
+        "ID_to": 3041,
+        "Cost": 1,
+        "Congestion": 0.08207483725388036
+    },
+    "427": {
+        "ID_from": 3042,
+        "ID_to": 3043,
+        "Cost": 1,
+        "Congestion": 0.06385327666227462
+    },
+    "428": {
+        "ID_from": 3043,
+        "ID_to": 3042,
+        "Cost": 1,
+        "Congestion": 0.06652376326790435
+    },
+    "429": {
+        "ID_from": 3043,
+        "ID_to": 5047,
+        "Cost": 3,
+        "Congestion": 0.044461054072326804
+    },
+    "430": {
+        "ID_from": 4000,
+        "ID_to": 4001,
+        "Cost": 1,
+        "Congestion": 0.04976236250058361
+    },
+    "431": {
+        "ID_from": 4001,
+        "ID_to": 4000,
+        "Cost": 1,
+        "Congestion": 0.04725714582413158
+    },
+    "432": {
+        "ID_from": 4001,
+        "ID_to": 4002,
+        "Cost": 1,
+        "Congestion": 0.1283301718573131
+    },
+    "433": {
+        "ID_from": 4002,
+        "ID_to": 4001,
+        "Cost": 1,
+        "Congestion": 0.11749466212559992
+    },
+    "434": {
+        "ID_from": 4002,
+        "ID_to": 4003,
+        "Cost": 1,
+        "Congestion": 0.2595021601468368
+    },
+    "435": {
+        "ID_from": 4002,
+        "ID_to": 7004,
+        "Cost": 3,
+        "Congestion": 0.09306597616890257
+    },
+    "436": {
+        "ID_from": 4003,
+        "ID_to": 1016,
+        "Cost": 3,
+        "Congestion": 0.1055726403344843
+    },
+    "437": {
+        "ID_from": 4003,
+        "ID_to": 4002,
+        "Cost": 1,
+        "Congestion": 0.26142108174953094
+    },
+    "438": {
+        "ID_from": 4003,
+        "ID_to": 4004,
+        "Cost": 1,
+        "Congestion": 0.36122772970488715
+    },
+    "439": {
+        "ID_from": 4004,
+        "ID_to": 4003,
+        "Cost": 1,
+        "Congestion": 0.36537338815336884
+    },
+    "440": {
+        "ID_from": 4004,
+        "ID_to": 4005,
+        "Cost": 1,
+        "Congestion": 0.43676200951155986
+    },
+    "441": {
+        "ID_from": 4005,
+        "ID_to": 4004,
+        "Cost": 1,
+        "Congestion": 0.4244478848134702
+    },
+    "442": {
+        "ID_from": 4005,
+        "ID_to": 4006,
+        "Cost": 1,
+        "Congestion": 0.5156614605261727
+    },
+    "443": {
+        "ID_from": 4006,
+        "ID_to": 4005,
+        "Cost": 1,
+        "Congestion": 0.5005135074424493
+    },
+    "444": {
+        "ID_from": 4006,
+        "ID_to": 4007,
+        "Cost": 1,
+        "Congestion": 0.5467897762369112
+    },
+    "445": {
+        "ID_from": 4007,
+        "ID_to": 4006,
+        "Cost": 1,
+        "Congestion": 0.5259130165081246
+    },
+    "446": {
+        "ID_from": 4007,
+        "ID_to": 4008,
+        "Cost": 1,
+        "Congestion": 0.5995557819753585
+    },
+    "447": {
+        "ID_from": 4008,
+        "ID_to": 4007,
+        "Cost": 1,
+        "Congestion": 0.5743680938689125
+    },
+    "448": {
+        "ID_from": 4008,
+        "ID_to": 4009,
+        "Cost": 1,
+        "Congestion": 0.6488569036485954
+    },
+    "449": {
+        "ID_from": 4009,
+        "ID_to": 4008,
+        "Cost": 1,
+        "Congestion": 0.6196714736802817
+    },
+    "450": {
+        "ID_from": 4009,
+        "ID_to": 4010,
+        "Cost": 1,
+        "Congestion": 0.6896320251254364
+    },
+    "451": {
+        "ID_from": 4010,
+        "ID_to": 4009,
+        "Cost": 1,
+        "Congestion": 0.6542984160667713
+    },
+    "452": {
+        "ID_from": 4010,
+        "ID_to": 4011,
+        "Cost": 1,
+        "Congestion": 0.7175480443127243
+    },
+    "453": {
+        "ID_from": 4011,
+        "ID_to": 4010,
+        "Cost": 1,
+        "Congestion": 0.6791624505619108
+    },
+    "454": {
+        "ID_from": 4011,
+        "ID_to": 4012,
+        "Cost": 1,
+        "Congestion": 0.7867834739436118
+    },
+    "455": {
+        "ID_from": 4012,
+        "ID_to": 1028,
+        "Cost": 3,
+        "Congestion": 0.09379977465445156
+    },
+    "456": {
+        "ID_from": 4012,
+        "ID_to": 4011,
+        "Cost": 1,
+        "Congestion": 0.7563129325510006
+    },
+    "457": {
+        "ID_from": 4012,
+        "ID_to": 4013,
+        "Cost": 1,
+        "Congestion": 0.7723454929306477
+    },
+    "458": {
+        "ID_from": 4013,
+        "ID_to": 2004,
+        "Cost": 3,
+        "Congestion": 0.21446321222215198
+    },
+    "459": {
+        "ID_from": 4013,
+        "ID_to": 4012,
+        "Cost": 1,
+        "Congestion": 0.6499828050411185
+    },
+    "460": {
+        "ID_from": 4013,
+        "ID_to": 4014,
+        "Cost": 1,
+        "Congestion": 0.5932302131610229
+    },
+    "461": {
+        "ID_from": 4013,
+        "ID_to": 5026,
+        "Cost": 3,
+        "Congestion": 0.11150858529078349
+    },
+    "462": {
+        "ID_from": 4014,
+        "ID_to": 3022,
+        "Cost": 3,
+        "Congestion": 0.22050575628277078
+    },
+    "463": {
+        "ID_from": 4014,
+        "ID_to": 4013,
+        "Cost": 1,
+        "Congestion": 0.47815386327411574
+    },
+    "464": {
+        "ID_from": 4014,
+        "ID_to": 4015,
+        "Cost": 1,
+        "Congestion": 0.4926490001375872
+    },
+    "465": {
+        "ID_from": 4015,
+        "ID_to": 4014,
+        "Cost": 1,
+        "Congestion": 0.38611545288987553
+    },
+    "466": {
+        "ID_from": 4015,
+        "ID_to": 4016,
+        "Cost": 1,
+        "Congestion": 0.4713287660988405
+    },
+    "467": {
+        "ID_from": 4016,
+        "ID_to": 4015,
+        "Cost": 1,
+        "Congestion": 0.3748658042606312
+    },
+    "468": {
+        "ID_from": 4016,
+        "ID_to": 4017,
+        "Cost": 1,
+        "Congestion": 0.4493058594112066
+    },
+    "469": {
+        "ID_from": 4017,
+        "ID_to": 1033,
+        "Cost": 3,
+        "Congestion": 0.20080833522360814
+    },
+    "470": {
+        "ID_from": 4017,
+        "ID_to": 4016,
+        "Cost": 1,
+        "Congestion": 0.3587397286460578
+    },
+    "471": {
+        "ID_from": 4017,
+        "ID_to": 4018,
+        "Cost": 1,
+        "Congestion": 0.3390274332932691
+    },
+    "472": {
+        "ID_from": 4018,
+        "ID_to": 4017,
+        "Cost": 1,
+        "Congestion": 0.3472093965870933
+    },
+    "473": {
+        "ID_from": 4018,
+        "ID_to": 4019,
+        "Cost": 1,
+        "Congestion": 0.3341815812448379
+    },
+    "474": {
+        "ID_from": 4019,
+        "ID_to": 4018,
+        "Cost": 1,
+        "Congestion": 0.3414556617277126
+    },
+    "475": {
+        "ID_from": 4019,
+        "ID_to": 4020,
+        "Cost": 1,
+        "Congestion": 0.3576164440274133
+    },
+    "476": {
+        "ID_from": 4019,
+        "ID_to": 6018,
+        "Cost": 3,
+        "Congestion": 0.10461710469395522
+    },
+    "477": {
+        "ID_from": 4020,
+        "ID_to": 4019,
+        "Cost": 1,
+        "Congestion": 0.3661512586200319
+    },
+    "478": {
+        "ID_from": 4020,
+        "ID_to": 4021,
+        "Cost": 1,
+        "Congestion": 0.35338828833928376
+    },
+    "479": {
+        "ID_from": 4021,
+        "ID_to": 4020,
+        "Cost": 1,
+        "Congestion": 0.36472608093075615
+    },
+    "480": {
+        "ID_from": 4021,
+        "ID_to": 4022,
+        "Cost": 1,
+        "Congestion": 0.35293517328345486
+    },
+    "481": {
+        "ID_from": 4022,
+        "ID_to": 4021,
+        "Cost": 1,
+        "Congestion": 0.3687827690673639
+    },
+    "482": {
+        "ID_from": 4022,
+        "ID_to": 4023,
+        "Cost": 1,
+        "Congestion": 0.37739457190199105
+    },
+    "483": {
+        "ID_from": 4022,
+        "ID_to": 9019,
+        "Cost": 3,
+        "Congestion": 0.058197051061108694
+    },
+    "484": {
+        "ID_from": 4023,
+        "ID_to": 4022,
+        "Cost": 1,
+        "Congestion": 0.3880594404318283
+    },
+    "485": {
+        "ID_from": 4023,
+        "ID_to": 4024,
+        "Cost": 1,
+        "Congestion": 0.40763497491822237
+    },
+    "486": {
+        "ID_from": 4023,
+        "ID_to": 7027,
+        "Cost": 3,
+        "Congestion": 0.13787051624403704
+    },
+    "487": {
+        "ID_from": 4024,
+        "ID_to": 2025,
+        "Cost": 3,
+        "Congestion": 0.31211157262738837
+    },
+    "488": {
+        "ID_from": 4024,
+        "ID_to": 4023,
+        "Cost": 1,
+        "Congestion": 0.42632851888257145
+    },
+    "489": {
+        "ID_from": 4024,
+        "ID_to": 4025,
+        "Cost": 1,
+        "Congestion": 0.3556011149660322
+    },
+    "490": {
+        "ID_from": 4025,
+        "ID_to": 4024,
+        "Cost": 1,
+        "Congestion": 0.3840721656654752
+    },
+    "491": {
+        "ID_from": 4025,
+        "ID_to": 4026,
+        "Cost": 1,
+        "Congestion": 0.35286328086426255
+    },
+    "492": {
+        "ID_from": 4026,
+        "ID_to": 4025,
+        "Cost": 1,
+        "Congestion": 0.3762199158803605
+    },
+    "493": {
+        "ID_from": 4026,
+        "ID_to": 4027,
+        "Cost": 1,
+        "Congestion": 0.33897496009075523
+    },
+    "494": {
+        "ID_from": 4027,
+        "ID_to": 4026,
+        "Cost": 1,
+        "Congestion": 0.3560108466654519
+    },
+    "495": {
+        "ID_from": 4027,
+        "ID_to": 4028,
+        "Cost": 1,
+        "Congestion": 0.32992808416756775
+    },
+    "496": {
+        "ID_from": 4028,
+        "ID_to": 4027,
+        "Cost": 1,
+        "Congestion": 0.3477327513628227
+    },
+    "497": {
+        "ID_from": 4028,
+        "ID_to": 4029,
+        "Cost": 1,
+        "Congestion": 0.32605071390411783
+    },
+    "498": {
+        "ID_from": 4029,
+        "ID_to": 4028,
+        "Cost": 1,
+        "Congestion": 0.34441234076070165
+    },
+    "499": {
+        "ID_from": 4029,
+        "ID_to": 4030,
+        "Cost": 1,
+        "Congestion": 0.3227424230968031
+    },
+    "500": {
+        "ID_from": 4030,
+        "ID_to": 4029,
+        "Cost": 1,
+        "Congestion": 0.337931142763057
+    },
+    "501": {
+        "ID_from": 4030,
+        "ID_to": 4031,
+        "Cost": 1,
+        "Congestion": 0.31709032924386665
+    },
+    "502": {
+        "ID_from": 4031,
+        "ID_to": 4030,
+        "Cost": 1,
+        "Congestion": 0.3290411355476474
+    },
+    "503": {
+        "ID_from": 4031,
+        "ID_to": 4032,
+        "Cost": 1,
+        "Congestion": 0.2866202010260784
+    },
+    "504": {
+        "ID_from": 4032,
+        "ID_to": 4031,
+        "Cost": 1,
+        "Congestion": 0.29521850681648937
+    },
+    "505": {
+        "ID_from": 4032,
+        "ID_to": 4033,
+        "Cost": 1,
+        "Congestion": 0.27893583794402005
+    },
+    "506": {
+        "ID_from": 4033,
+        "ID_to": 4032,
+        "Cost": 1,
+        "Congestion": 0.2866770814267037
+    },
+    "507": {
+        "ID_from": 4033,
+        "ID_to": 4034,
+        "Cost": 1,
+        "Congestion": 0.2690969058852484
+    },
+    "508": {
+        "ID_from": 4034,
+        "ID_to": 1070,
+        "Cost": 3,
+        "Congestion": 0.23534134920034833
+    },
+    "509": {
+        "ID_from": 4034,
+        "ID_to": 4033,
+        "Cost": 1,
+        "Congestion": 0.2736157989237898
+    },
+    "510": {
+        "ID_from": 4034,
+        "ID_to": 4035,
+        "Cost": 1,
+        "Congestion": 0.2750039286039415
+    },
+    "511": {
+        "ID_from": 4035,
+        "ID_to": 4034,
+        "Cost": 1,
+        "Congestion": 0.28085558589636006
+    },
+    "512": {
+        "ID_from": 4035,
+        "ID_to": 4036,
+        "Cost": 1,
+        "Congestion": 0.24121834788190746
+    },
+    "513": {
+        "ID_from": 4036,
+        "ID_to": 4035,
+        "Cost": 1,
+        "Congestion": 0.25245202041799797
+    },
+    "514": {
+        "ID_from": 4036,
+        "ID_to": 4037,
+        "Cost": 1,
+        "Congestion": 0.23474100618261032
+    },
+    "515": {
+        "ID_from": 4037,
+        "ID_to": 4036,
+        "Cost": 1,
+        "Congestion": 0.2419014635891753
+    },
+    "516": {
+        "ID_from": 4037,
+        "ID_to": 4038,
+        "Cost": 1,
+        "Congestion": 0.22862739605244511
+    },
+    "517": {
+        "ID_from": 4038,
+        "ID_to": 4037,
+        "Cost": 1,
+        "Congestion": 0.23418638784527815
+    },
+    "518": {
+        "ID_from": 4038,
+        "ID_to": 4039,
+        "Cost": 1,
+        "Congestion": 0.22237179150812805
+    },
+    "519": {
+        "ID_from": 4039,
+        "ID_to": 4038,
+        "Cost": 1,
+        "Congestion": 0.22676700754966808
+    },
+    "520": {
+        "ID_from": 4039,
+        "ID_to": 4040,
+        "Cost": 1,
+        "Congestion": 0.18471586449463417
+    },
+    "521": {
+        "ID_from": 4040,
+        "ID_to": 4039,
+        "Cost": 1,
+        "Congestion": 0.1877005016906425
+    },
+    "522": {
+        "ID_from": 4040,
+        "ID_to": 4041,
+        "Cost": 1,
+        "Congestion": 0.1697016423286037
+    },
+    "523": {
+        "ID_from": 4041,
+        "ID_to": 4040,
+        "Cost": 1,
+        "Congestion": 0.1716549951665432
+    },
+    "524": {
+        "ID_from": 4041,
+        "ID_to": 4042,
+        "Cost": 1,
+        "Congestion": 0.13508750836162547
+    },
+    "525": {
+        "ID_from": 4042,
+        "ID_to": 4041,
+        "Cost": 1,
+        "Congestion": 0.14135344227651614
+    },
+    "526": {
+        "ID_from": 4042,
+        "ID_to": 4043,
+        "Cost": 1,
+        "Congestion": 0.11525608093488791
+    },
+    "527": {
+        "ID_from": 4043,
+        "ID_to": 4042,
+        "Cost": 1,
+        "Congestion": 0.12064883872395639
+    },
+    "528": {
+        "ID_from": 4043,
+        "ID_to": 4044,
+        "Cost": 1,
+        "Congestion": 0.10495824937276618
+    },
+    "529": {
+        "ID_from": 4044,
+        "ID_to": 4043,
+        "Cost": 1,
+        "Congestion": 0.10956198097495211
+    },
+    "530": {
+        "ID_from": 4044,
+        "ID_to": 4045,
+        "Cost": 1,
+        "Congestion": 0.05644560298664798
+    },
+    "531": {
+        "ID_from": 4045,
+        "ID_to": 4044,
+        "Cost": 1,
+        "Congestion": 0.05564349293037219
+    },
+    "532": {
+        "ID_from": 4045,
+        "ID_to": 4046,
+        "Cost": 1,
+        "Congestion": 0.05130267824051981
+    },
+    "533": {
+        "ID_from": 4046,
+        "ID_to": 4045,
+        "Cost": 1,
+        "Congestion": 0.049963440914416485
+    },
+    "534": {
+        "ID_from": 4046,
+        "ID_to": 4047,
+        "Cost": 1,
+        "Congestion": 0.021562216760051062
+    },
+    "535": {
+        "ID_from": 4047,
+        "ID_to": 4046,
+        "Cost": 1,
+        "Congestion": 0.0224833211653348
+    },
+    "536": {
+        "ID_from": 5000,
+        "ID_to": 5001,
+        "Cost": 1,
+        "Congestion": 0.024620123624661525
+    },
+    "537": {
+        "ID_from": 5001,
+        "ID_to": 5000,
+        "Cost": 1,
+        "Congestion": 0.02328198809808605
+    },
+    "538": {
+        "ID_from": 5001,
+        "ID_to": 5002,
+        "Cost": 1,
+        "Congestion": 0.0451378344323095
+    },
+    "539": {
+        "ID_from": 5002,
+        "ID_to": 5001,
+        "Cost": 1,
+        "Congestion": 0.042497922763577646
+    },
+    "540": {
+        "ID_from": 5002,
+        "ID_to": 5003,
+        "Cost": 1,
+        "Congestion": 0.07198497035264058
+    },
+    "541": {
+        "ID_from": 5002,
+        "ID_to": 9001,
+        "Cost": 3,
+        "Congestion": 0.013699362154480832
+    },
+    "542": {
+        "ID_from": 5003,
+        "ID_to": 5002,
+        "Cost": 1,
+        "Congestion": 0.06565416799054766
+    },
+    "543": {
+        "ID_from": 5003,
+        "ID_to": 5004,
+        "Cost": 1,
+        "Congestion": 0.1015291737922108
+    },
+    "544": {
+        "ID_from": 5004,
+        "ID_to": 5003,
+        "Cost": 1,
+        "Congestion": 0.09431872223206955
+    },
+    "545": {
+        "ID_from": 5004,
+        "ID_to": 5005,
+        "Cost": 1,
+        "Congestion": 0.12059870684543915
+    },
+    "546": {
+        "ID_from": 5005,
+        "ID_to": 5004,
+        "Cost": 1,
+        "Congestion": 0.11045127091886912
+    },
+    "547": {
+        "ID_from": 5005,
+        "ID_to": 5006,
+        "Cost": 1,
+        "Congestion": 0.15789076456486012
+    },
+    "548": {
+        "ID_from": 5006,
+        "ID_to": 5005,
+        "Cost": 1,
+        "Congestion": 0.14769016681107128
+    },
+    "549": {
+        "ID_from": 5006,
+        "ID_to": 5007,
+        "Cost": 1,
+        "Congestion": 0.19947047514691463
+    },
+    "550": {
+        "ID_from": 5007,
+        "ID_to": 5006,
+        "Cost": 1,
+        "Congestion": 0.1885352525579309
+    },
+    "551": {
+        "ID_from": 5007,
+        "ID_to": 5008,
+        "Cost": 1,
+        "Congestion": 0.2803030334331426
+    },
+    "552": {
+        "ID_from": 5008,
+        "ID_to": 2050,
+        "Cost": 3,
+        "Congestion": 0.1126485346272867
+    },
+    "553": {
+        "ID_from": 5008,
+        "ID_to": 5007,
+        "Cost": 1,
+        "Congestion": 0.26025400059965437
+    },
+    "554": {
+        "ID_from": 5008,
+        "ID_to": 5009,
+        "Cost": 1,
+        "Congestion": 0.25281010526454967
+    },
+    "555": {
+        "ID_from": 5009,
+        "ID_to": 5008,
+        "Cost": 1,
+        "Congestion": 0.23093690558776253
+    },
+    "556": {
+        "ID_from": 5009,
+        "ID_to": 5010,
+        "Cost": 1,
+        "Congestion": 0.2781180272444724
+    },
+    "557": {
+        "ID_from": 5010,
+        "ID_to": 5009,
+        "Cost": 1,
+        "Congestion": 0.24487714866401986
+    },
+    "558": {
+        "ID_from": 5010,
+        "ID_to": 5011,
+        "Cost": 1,
+        "Congestion": 0.32042520096479077
+    },
+    "559": {
+        "ID_from": 5011,
+        "ID_to": 5010,
+        "Cost": 1,
+        "Congestion": 0.29123935782165417
+    },
+    "560": {
+        "ID_from": 5011,
+        "ID_to": 5012,
+        "Cost": 1,
+        "Congestion": 0.3576076296311905
+    },
+    "561": {
+        "ID_from": 5012,
+        "ID_to": 5011,
+        "Cost": 1,
+        "Congestion": 0.33583910090954927
+    },
+    "562": {
+        "ID_from": 5012,
+        "ID_to": 5013,
+        "Cost": 1,
+        "Congestion": 0.3692296865008486
+    },
+    "563": {
+        "ID_from": 5013,
+        "ID_to": 2035,
+        "Cost": 3,
+        "Congestion": 0.1084568760485172
+    },
+    "564": {
+        "ID_from": 5013,
+        "ID_to": 5012,
+        "Cost": 1,
+        "Congestion": 0.3478806679494368
+    },
+    "565": {
+        "ID_from": 5013,
+        "ID_to": 5014,
+        "Cost": 1,
+        "Congestion": 0.29539438156612263
+    },
+    "566": {
+        "ID_from": 5014,
+        "ID_to": 5013,
+        "Cost": 1,
+        "Congestion": 0.27700644924581136
+    },
+    "567": {
+        "ID_from": 5014,
+        "ID_to": 5015,
+        "Cost": 1,
+        "Congestion": 0.2947743438818243
+    },
+    "568": {
+        "ID_from": 5015,
+        "ID_to": 1038,
+        "Cost": 3,
+        "Congestion": 0.11347763877199485
+    },
+    "569": {
+        "ID_from": 5015,
+        "ID_to": 5014,
+        "Cost": 1,
+        "Congestion": 0.2792928209910439
+    },
+    "570": {
+        "ID_from": 5015,
+        "ID_to": 5016,
+        "Cost": 1,
+        "Congestion": 0.2798076368204324
+    },
+    "571": {
+        "ID_from": 5016,
+        "ID_to": 5015,
+        "Cost": 1,
+        "Congestion": 0.26796714819437784
+    },
+    "572": {
+        "ID_from": 5016,
+        "ID_to": 5017,
+        "Cost": 1,
+        "Congestion": 0.2828921245986523
+    },
+    "573": {
+        "ID_from": 5016,
+        "ID_to": 9014,
+        "Cost": 3,
+        "Congestion": 0.07435631838645866
+    },
+    "574": {
+        "ID_from": 5017,
+        "ID_to": 5016,
+        "Cost": 1,
+        "Congestion": 0.27427908223955627
+    },
+    "575": {
+        "ID_from": 5017,
+        "ID_to": 5018,
+        "Cost": 1,
+        "Congestion": 0.2824194526012041
+    },
+    "576": {
+        "ID_from": 5018,
+        "ID_to": 5017,
+        "Cost": 1,
+        "Congestion": 0.2762766447835508
+    },
+    "577": {
+        "ID_from": 5018,
+        "ID_to": 5019,
+        "Cost": 1,
+        "Congestion": 0.2794775101369
+    },
+    "578": {
+        "ID_from": 5019,
+        "ID_to": 5018,
+        "Cost": 1,
+        "Congestion": 0.27507582102313377
+    },
+    "579": {
+        "ID_from": 5019,
+        "ID_to": 5020,
+        "Cost": 1,
+        "Congestion": 0.26066800177224453
+    },
+    "580": {
+        "ID_from": 5019,
+        "ID_to": 6016,
+        "Cost": 3,
+        "Congestion": 0.059318682980461376
+    },
+    "581": {
+        "ID_from": 5020,
+        "ID_to": 5019,
+        "Cost": 1,
+        "Congestion": 0.26335721896984776
+    },
+    "582": {
+        "ID_from": 5020,
+        "ID_to": 5021,
+        "Cost": 1,
+        "Congestion": 0.26065230112897264
+    },
+    "583": {
+        "ID_from": 5021,
+        "ID_to": 2042,
+        "Cost": 3,
+        "Congestion": 0.02610893023667067
+    },
+    "584": {
+        "ID_from": 5021,
+        "ID_to": 5020,
+        "Cost": 1,
+        "Congestion": 0.2633720932634737
+    },
+    "585": {
+        "ID_from": 5021,
+        "ID_to": 5022,
+        "Cost": 1,
+        "Congestion": 0.2658326870590478
+    },
+    "586": {
+        "ID_from": 5022,
+        "ID_to": 5021,
+        "Cost": 1,
+        "Congestion": 0.2609559846238367
+    },
+    "587": {
+        "ID_from": 5022,
+        "ID_to": 5023,
+        "Cost": 1,
+        "Congestion": 0.2656833932230239
+    },
+    "588": {
+        "ID_from": 5023,
+        "ID_to": 5022,
+        "Cost": 1,
+        "Congestion": 0.2620013169258857
+    },
+    "589": {
+        "ID_from": 5023,
+        "ID_to": 5024,
+        "Cost": 1,
+        "Congestion": 0.26412820318946173
+    },
+    "590": {
+        "ID_from": 5024,
+        "ID_to": 1030,
+        "Cost": 3,
+        "Congestion": 0.05211208771866761
+    },
+    "591": {
+        "ID_from": 5024,
+        "ID_to": 3020,
+        "Cost": 3,
+        "Congestion": 0.0673765561024613
+    },
+    "592": {
+        "ID_from": 5024,
+        "ID_to": 5023,
+        "Cost": 1,
+        "Congestion": 0.26745274553981224
+    },
+    "593": {
+        "ID_from": 5024,
+        "ID_to": 5025,
+        "Cost": 1,
+        "Congestion": 0.2746227059673049
+    },
+    "594": {
+        "ID_from": 5025,
+        "ID_to": 2003,
+        "Cost": 3,
+        "Congestion": 0
+    },
+    "595": {
+        "ID_from": 5025,
+        "ID_to": 5024,
+        "Cost": 1,
+        "Congestion": 0.28044626737176326
+    },
+    "596": {
+        "ID_from": 5025,
+        "ID_to": 5026,
+        "Cost": 1,
+        "Congestion": 0.27504125206294744
+    },
+    "597": {
+        "ID_from": 5026,
+        "ID_to": 2004,
+        "Cost": 3,
+        "Congestion": 0.024502919699886334
+    },
+    "598": {
+        "ID_from": 5026,
+        "ID_to": 4013,
+        "Cost": 3,
+        "Congestion": 0.11743943442426637
+    },
+    "599": {
+        "ID_from": 5026,
+        "ID_to": 5025,
+        "Cost": 1,
+        "Congestion": 0.2673703860251053
+    },
+    "600": {
+        "ID_from": 5026,
+        "ID_to": 5027,
+        "Cost": 1,
+        "Congestion": 0.2598455084247035
+    },
+    "601": {
+        "ID_from": 5027,
+        "ID_to": 5026,
+        "Cost": 1,
+        "Congestion": 0.2812903835350384
+    },
+    "602": {
+        "ID_from": 5027,
+        "ID_to": 5028,
+        "Cost": 1,
+        "Congestion": 0.2845406921421999
+    },
+    "603": {
+        "ID_from": 5027,
+        "ID_to": 6024,
+        "Cost": 3,
+        "Congestion": 0.04729846330642601
+    },
+    "604": {
+        "ID_from": 5028,
+        "ID_to": 5027,
+        "Cost": 1,
+        "Congestion": 0.2999734604038729
+    },
+    "605": {
+        "ID_from": 5028,
+        "ID_to": 5029,
+        "Cost": 1,
+        "Congestion": 0.27974497197228587
+    },
+    "606": {
+        "ID_from": 5029,
+        "ID_to": 5028,
+        "Cost": 1,
+        "Congestion": 0.2955333460315729
+    },
+    "607": {
+        "ID_from": 5029,
+        "ID_to": 5030,
+        "Cost": 1,
+        "Congestion": 0.2751267792512969
+    },
+    "608": {
+        "ID_from": 5030,
+        "ID_to": 2007,
+        "Cost": 3,
+        "Congestion": 0.06510850177437928
+    },
+    "609": {
+        "ID_from": 5030,
+        "ID_to": 5029,
+        "Cost": 1,
+        "Congestion": 0.2873966942433316
+    },
+    "610": {
+        "ID_from": 5030,
+        "ID_to": 5031,
+        "Cost": 1,
+        "Congestion": 0.3270337945328432
+    },
+    "611": {
+        "ID_from": 5031,
+        "ID_to": 5030,
+        "Cost": 1,
+        "Congestion": 0.3481222374959182
+    },
+    "612": {
+        "ID_from": 5031,
+        "ID_to": 5032,
+        "Cost": 1,
+        "Congestion": 0.3226381653164802
+    },
+    "613": {
+        "ID_from": 5032,
+        "ID_to": 5031,
+        "Cost": 1,
+        "Congestion": 0.34251201202504006
+    },
+    "614": {
+        "ID_from": 5032,
+        "ID_to": 5033,
+        "Cost": 1,
+        "Congestion": 0.3140047396661189
+    },
+    "615": {
+        "ID_from": 5033,
+        "ID_to": 5032,
+        "Cost": 1,
+        "Congestion": 0.32930102251127935
+    },
+    "616": {
+        "ID_from": 5033,
+        "ID_to": 5034,
+        "Cost": 1,
+        "Congestion": 0.31763682180968095
+    },
+    "617": {
+        "ID_from": 5034,
+        "ID_to": 5033,
+        "Cost": 1,
+        "Congestion": 0.33356085493583465
+    },
+    "618": {
+        "ID_from": 5034,
+        "ID_to": 5035,
+        "Cost": 1,
+        "Congestion": 0.3755859679770231
+    },
+    "619": {
+        "ID_from": 5034,
+        "ID_to": 7016,
+        "Cost": 3,
+        "Congestion": 0.18110237521810466
+    },
+    "620": {
+        "ID_from": 5035,
+        "ID_to": 5034,
+        "Cost": 1,
+        "Congestion": 0.399899378158119
+    },
+    "621": {
+        "ID_from": 5035,
+        "ID_to": 5036,
+        "Cost": 1,
+        "Congestion": 0.3590726098284099
+    },
+    "622": {
+        "ID_from": 5036,
+        "ID_to": 5035,
+        "Cost": 1,
+        "Congestion": 0.3806362038378707
+    },
+    "623": {
+        "ID_from": 5036,
+        "ID_to": 5037,
+        "Cost": 1,
+        "Congestion": 0.34512561823004445
+    },
+    "624": {
+        "ID_from": 5037,
+        "ID_to": 5036,
+        "Cost": 1,
+        "Congestion": 0.36154491024396734
+    },
+    "625": {
+        "ID_from": 5037,
+        "ID_to": 5038,
+        "Cost": 1,
+        "Congestion": 0.2984525638806151
+    },
+    "626": {
+        "ID_from": 5037,
+        "ID_to": 8001,
+        "Cost": 3,
+        "Congestion": 0.11117212325996588
+    },
+    "627": {
+        "ID_from": 5038,
+        "ID_to": 5037,
+        "Cost": 1,
+        "Congestion": 0.316487094002368
+    },
+    "628": {
+        "ID_from": 5038,
+        "ID_to": 5039,
+        "Cost": 1,
+        "Congestion": 0.1490671407710035
+    },
+    "629": {
+        "ID_from": 5038,
+        "ID_to": 5044,
+        "Cost": 1,
+        "Congestion": 0.13656212930471354
+    },
+    "630": {
+        "ID_from": 5039,
+        "ID_to": 5038,
+        "Cost": 1,
+        "Congestion": 0.15742401473987408
+    },
+    "631": {
+        "ID_from": 5039,
+        "ID_to": 5040,
+        "Cost": 1,
+        "Congestion": 0.12608814754307657
+    },
+    "632": {
+        "ID_from": 5040,
+        "ID_to": 5039,
+        "Cost": 1,
+        "Congestion": 0.13582433679587608
+    },
+    "633": {
+        "ID_from": 5040,
+        "ID_to": 5041,
+        "Cost": 1,
+        "Congestion": 0.0962863984638711
+    },
+    "634": {
+        "ID_from": 5041,
+        "ID_to": 5040,
+        "Cost": 1,
+        "Congestion": 0.10398150409132596
+    },
+    "635": {
+        "ID_from": 5041,
+        "ID_to": 5042,
+        "Cost": 1,
+        "Congestion": 0.06832892406934782
+    },
+    "636": {
+        "ID_from": 5042,
+        "ID_to": 5041,
+        "Cost": 1,
+        "Congestion": 0.07663993563287158
+    },
+    "637": {
+        "ID_from": 5042,
+        "ID_to": 5043,
+        "Cost": 1,
+        "Congestion": 0.03307602182609775
+    },
+    "638": {
+        "ID_from": 5043,
+        "ID_to": 5042,
+        "Cost": 1,
+        "Congestion": 0.04047350385609176
+    },
+    "639": {
+        "ID_from": 5044,
+        "ID_to": 5038,
+        "Cost": 1,
+        "Congestion": 0.13716825676997277
+    },
+    "640": {
+        "ID_from": 5044,
+        "ID_to": 5045,
+        "Cost": 1,
+        "Congestion": 0.11238699496436298
+    },
+    "641": {
+        "ID_from": 5045,
+        "ID_to": 5044,
+        "Cost": 1,
+        "Congestion": 0.11319488946815999
+    },
+    "642": {
+        "ID_from": 5045,
+        "ID_to": 5046,
+        "Cost": 1,
+        "Congestion": 0.10253745808513577
+    },
+    "643": {
+        "ID_from": 5046,
+        "ID_to": 5045,
+        "Cost": 1,
+        "Congestion": 0.10222427156934402
+    },
+    "644": {
+        "ID_from": 5046,
+        "ID_to": 5047,
+        "Cost": 1,
+        "Congestion": 0.08938348669694136
+    },
+    "645": {
+        "ID_from": 5047,
+        "ID_to": 3043,
+        "Cost": 3,
+        "Congestion": 0.044936342843653686
+    },
+    "646": {
+        "ID_from": 5047,
+        "ID_to": 5046,
+        "Cost": 1,
+        "Congestion": 0.08955660694775501
+    },
+    "647": {
+        "ID_from": 5047,
+        "ID_to": 5048,
+        "Cost": 1,
+        "Congestion": 0.06357920402972159
+    },
+    "648": {
+        "ID_from": 5048,
+        "ID_to": 5047,
+        "Cost": 1,
+        "Congestion": 0.06428215212849075
+    },
+    "649": {
+        "ID_from": 5048,
+        "ID_to": 5049,
+        "Cost": 1,
+        "Congestion": 0.039316614351847835
+    },
+    "650": {
+        "ID_from": 5049,
+        "ID_to": 5048,
+        "Cost": 1,
+        "Congestion": 0.040171335335578526
+    },
+    "651": {
+        "ID_from": 5049,
+        "ID_to": 5050,
+        "Cost": 1,
+        "Congestion": 0.016012177088381815
+    },
+    "652": {
+        "ID_from": 5050,
+        "ID_to": 5049,
+        "Cost": 1,
+        "Congestion": 0.015749397900989264
+    },
+    "653": {
+        "ID_from": 6000,
+        "ID_to": 6001,
+        "Cost": 1,
+        "Congestion": 0.06280794436022565
+    },
+    "654": {
+        "ID_from": 6000,
+        "ID_to": 6005,
+        "Cost": 1,
+        "Congestion": 0.054272854317725105
+    },
+    "655": {
+        "ID_from": 6001,
+        "ID_to": 3013,
+        "Cost": 3,
+        "Congestion": 0.05217654299104692
+    },
+    "656": {
+        "ID_from": 6001,
+        "ID_to": 6000,
+        "Cost": 1,
+        "Congestion": 0.05168390087715637
+    },
+    "657": {
+        "ID_from": 6001,
+        "ID_to": 6002,
+        "Cost": 1,
+        "Congestion": 0.002701199267468584
+    },
+    "658": {
+        "ID_from": 6002,
+        "ID_to": 6001,
+        "Cost": 1,
+        "Congestion": 0.004051592313791404
+    },
+    "659": {
+        "ID_from": 6002,
+        "ID_to": 6003,
+        "Cost": 1,
+        "Congestion": 0.0025812408438737676
+    },
+    "660": {
+        "ID_from": 6003,
+        "ID_to": 3012,
+        "Cost": 3,
+        "Congestion": 0.07089776966853326
+    },
+    "661": {
+        "ID_from": 6003,
+        "ID_to": 6002,
+        "Cost": 1,
+        "Congestion": 0.004580869261982999
+    },
+    "662": {
+        "ID_from": 6003,
+        "ID_to": 6004,
+        "Cost": 1,
+        "Congestion": 0.08206326835883793
+    },
+    "663": {
+        "ID_from": 6004,
+        "ID_to": 6003,
+        "Cost": 1,
+        "Congestion": 0.0761187844561979
+    },
+    "664": {
+        "ID_from": 6004,
+        "ID_to": 6005,
+        "Cost": 1,
+        "Congestion": 0.09375969669662597
+    },
+    "665": {
+        "ID_from": 6005,
+        "ID_to": 6000,
+        "Cost": 1,
+        "Congestion": 0.06727780731977762
+    },
+    "666": {
+        "ID_from": 6005,
+        "ID_to": 6004,
+        "Cost": 1,
+        "Congestion": 0.08029088609334804
+    },
+    "667": {
+        "ID_from": 6005,
+        "ID_to": 6006,
+        "Cost": 1,
+        "Congestion": 0.17210879884707697
+    },
+    "668": {
+        "ID_from": 6006,
+        "ID_to": 6005,
+        "Cost": 1,
+        "Congestion": 0.17006496072291272
+    },
+    "669": {
+        "ID_from": 6006,
+        "ID_to": 6007,
+        "Cost": 1,
+        "Congestion": 0.18898120591682874
+    },
+    "670": {
+        "ID_from": 6007,
+        "ID_to": 6006,
+        "Cost": 1,
+        "Congestion": 0.18415656350930862
+    },
+    "671": {
+        "ID_from": 6007,
+        "ID_to": 6008,
+        "Cost": 1,
+        "Congestion": 0.2067890407857263
+    },
+    "672": {
+        "ID_from": 6008,
+        "ID_to": 6007,
+        "Cost": 1,
+        "Congestion": 0.1994714392215015
+    },
+    "673": {
+        "ID_from": 6008,
+        "ID_to": 6009,
+        "Cost": 1,
+        "Congestion": 0.23111154081292698
+    },
+    "674": {
+        "ID_from": 6009,
+        "ID_to": 6008,
+        "Cost": 1,
+        "Congestion": 0.2294472726261075
+    },
+    "675": {
+        "ID_from": 6009,
+        "ID_to": 6010,
+        "Cost": 1,
+        "Congestion": 0.2392389650301225
+    },
+    "676": {
+        "ID_from": 6010,
+        "ID_to": 6009,
+        "Cost": 1,
+        "Congestion": 0.23967279859421398
+    },
+    "677": {
+        "ID_from": 6010,
+        "ID_to": 6011,
+        "Cost": 1,
+        "Congestion": 0.26776303983184335
+    },
+    "678": {
+        "ID_from": 6011,
+        "ID_to": 6010,
+        "Cost": 1,
+        "Congestion": 0.2621040597318578
+    },
+    "679": {
+        "ID_from": 6011,
+        "ID_to": 6012,
+        "Cost": 1,
+        "Congestion": 0.2939529523338111
+    },
+    "680": {
+        "ID_from": 6012,
+        "ID_to": 2037,
+        "Cost": 3,
+        "Congestion": 0.2047987776636038
+    },
+    "681": {
+        "ID_from": 6012,
+        "ID_to": 6011,
+        "Cost": 1,
+        "Congestion": 0.2928253982419962
+    },
+    "682": {
+        "ID_from": 6012,
+        "ID_to": 6013,
+        "Cost": 1,
+        "Congestion": 0.1784009005007541
+    },
+    "683": {
+        "ID_from": 6013,
+        "ID_to": 6012,
+        "Cost": 1,
+        "Congestion": 0.17008685898852874
+    },
+    "684": {
+        "ID_from": 6013,
+        "ID_to": 6014,
+        "Cost": 1,
+        "Congestion": 0.17697916593500293
+    },
+    "685": {
+        "ID_from": 6014,
+        "ID_to": 6013,
+        "Cost": 1,
+        "Congestion": 0.175785228421635
+    },
+    "686": {
+        "ID_from": 6014,
+        "ID_to": 6015,
+        "Cost": 1,
+        "Congestion": 0.17543031124872588
+    },
+    "687": {
+        "ID_from": 6015,
+        "ID_to": 6014,
+        "Cost": 1,
+        "Congestion": 0.17320026900435473
+    },
+    "688": {
+        "ID_from": 6015,
+        "ID_to": 6016,
+        "Cost": 1,
+        "Congestion": 0.1799494797371492
+    },
+    "689": {
+        "ID_from": 6016,
+        "ID_to": 5019,
+        "Cost": 3,
+        "Congestion": 0.055510037462561196
+    },
+    "690": {
+        "ID_from": 6016,
+        "ID_to": 6015,
+        "Cost": 1,
+        "Congestion": 0.17924845978755377
+    },
+    "691": {
+        "ID_from": 6016,
+        "ID_to": 6017,
+        "Cost": 1,
+        "Congestion": 0.19464652136409943
+    },
+    "692": {
+        "ID_from": 6017,
+        "ID_to": 6016,
+        "Cost": 1,
+        "Congestion": 0.19044067711640883
+    },
+    "693": {
+        "ID_from": 6017,
+        "ID_to": 6018,
+        "Cost": 1,
+        "Congestion": 0.19872469459150024
+    },
+    "694": {
+        "ID_from": 6018,
+        "ID_to": 4019,
+        "Cost": 3,
+        "Congestion": 0.10743840010995959
+    },
+    "695": {
+        "ID_from": 6018,
+        "ID_to": 6017,
+        "Cost": 1,
+        "Congestion": 0.19230382011800548
+    },
+    "696": {
+        "ID_from": 6018,
+        "ID_to": 6019,
+        "Cost": 1,
+        "Congestion": 0.1673491626117001
+    },
+    "697": {
+        "ID_from": 6019,
+        "ID_to": 6018,
+        "Cost": 1,
+        "Congestion": 0.1580309685547792
+    },
+    "698": {
+        "ID_from": 6019,
+        "ID_to": 6020,
+        "Cost": 1,
+        "Congestion": 0.15790247118484355
+    },
+    "699": {
+        "ID_from": 6020,
+        "ID_to": 6019,
+        "Cost": 1,
+        "Congestion": 0.14988894549383963
+    },
+    "700": {
+        "ID_from": 6020,
+        "ID_to": 6021,
+        "Cost": 1,
+        "Congestion": 0.1461465456725515
+    },
+    "701": {
+        "ID_from": 6021,
+        "ID_to": 6020,
+        "Cost": 1,
+        "Congestion": 0.14713444667421124
+    },
+    "702": {
+        "ID_from": 6021,
+        "ID_to": 6022,
+        "Cost": 1,
+        "Congestion": 0.14164046105352143
+    },
+    "703": {
+        "ID_from": 6022,
+        "ID_to": 6021,
+        "Cost": 1,
+        "Congestion": 0.14798131733630598
+    },
+    "704": {
+        "ID_from": 6022,
+        "ID_to": 6023,
+        "Cost": 1,
+        "Congestion": 0.14276181752299213
+    },
+    "705": {
+        "ID_from": 6023,
+        "ID_to": 3024,
+        "Cost": 3,
+        "Congestion": 0.09883610029626012
+    },
+    "706": {
+        "ID_from": 6023,
+        "ID_to": 6022,
+        "Cost": 1,
+        "Congestion": 0.14861925926293193
+    },
+    "707": {
+        "ID_from": 6023,
+        "ID_to": 6024,
+        "Cost": 1,
+        "Congestion": 0.1870059548132732
+    },
+    "708": {
+        "ID_from": 6024,
+        "ID_to": 5027,
+        "Cost": 3,
+        "Congestion": 0.05203840487524255
+    },
+    "709": {
+        "ID_from": 6024,
+        "ID_to": 6023,
+        "Cost": 1,
+        "Congestion": 0.1960945613935781
+    },
+    "710": {
+        "ID_from": 6024,
+        "ID_to": 6025,
+        "Cost": 1,
+        "Congestion": 0.17786639000480522
+    },
+    "711": {
+        "ID_from": 6025,
+        "ID_to": 2005,
+        "Cost": 3,
+        "Congestion": 0.08071507891157081
+    },
+    "712": {
+        "ID_from": 6025,
+        "ID_to": 6024,
+        "Cost": 1,
+        "Congestion": 0.1932822180987375
+    },
+    "713": {
+        "ID_from": 6025,
+        "ID_to": 6026,
+        "Cost": 1,
+        "Congestion": 0.20656633955615933
+    },
+    "714": {
+        "ID_from": 6026,
+        "ID_to": 1027,
+        "Cost": 3,
+        "Congestion": 0.08834751969087913
+    },
+    "715": {
+        "ID_from": 6026,
+        "ID_to": 6025,
+        "Cost": 1,
+        "Congestion": 0.23151259584106487
+    },
+    "716": {
+        "ID_from": 6026,
+        "ID_to": 6027,
+        "Cost": 1,
+        "Congestion": 0.20334440228684
+    },
+    "717": {
+        "ID_from": 6027,
+        "ID_to": 6026,
+        "Cost": 1,
+        "Congestion": 0.225959526220694
+    },
+    "718": {
+        "ID_from": 6027,
+        "ID_to": 6028,
+        "Cost": 1,
+        "Congestion": 0.19743930771732066
+    },
+    "719": {
+        "ID_from": 6028,
+        "ID_to": 6027,
+        "Cost": 1,
+        "Congestion": 0.2174391727468785
+    },
+    "720": {
+        "ID_from": 6028,
+        "ID_to": 6029,
+        "Cost": 1,
+        "Congestion": 0.18586049647913075
+    },
+    "721": {
+        "ID_from": 6029,
+        "ID_to": 6028,
+        "Cost": 1,
+        "Congestion": 0.20248995675299128
+    },
+    "722": {
+        "ID_from": 6029,
+        "ID_to": 6030,
+        "Cost": 1,
+        "Congestion": 0.1609708451449686
+    },
+    "723": {
+        "ID_from": 6030,
+        "ID_to": 6029,
+        "Cost": 1,
+        "Congestion": 0.17794998904398093
+    },
+    "724": {
+        "ID_from": 6030,
+        "ID_to": 6031,
+        "Cost": 1,
+        "Congestion": 0.1437756108135564
+    },
+    "725": {
+        "ID_from": 6031,
+        "ID_to": 6030,
+        "Cost": 1,
+        "Congestion": 0.1592116844738129
+    },
+    "726": {
+        "ID_from": 6031,
+        "ID_to": 6032,
+        "Cost": 1,
+        "Congestion": 0.12463817936442419
+    },
+    "727": {
+        "ID_from": 6032,
+        "ID_to": 6031,
+        "Cost": 1,
+        "Congestion": 0.1380871575762008
+    },
+    "728": {
+        "ID_from": 6032,
+        "ID_to": 6033,
+        "Cost": 1,
+        "Congestion": 0.11680025297317159
+    },
+    "729": {
+        "ID_from": 6033,
+        "ID_to": 6032,
+        "Cost": 1,
+        "Congestion": 0.12813322519170967
+    },
+    "730": {
+        "ID_from": 6033,
+        "ID_to": 6034,
+        "Cost": 1,
+        "Congestion": 0.10644264878666393
+    },
+    "731": {
+        "ID_from": 6034,
+        "ID_to": 1020,
+        "Cost": 3,
+        "Congestion": 0.06806862393089293
+    },
+    "732": {
+        "ID_from": 6034,
+        "ID_to": 6033,
+        "Cost": 1,
+        "Congestion": 0.11492622970123742
+    },
+    "733": {
+        "ID_from": 6034,
+        "ID_to": 6035,
+        "Cost": 1,
+        "Congestion": 0.13226827881973582
+    },
+    "734": {
+        "ID_from": 6035,
+        "ID_to": 6034,
+        "Cost": 1,
+        "Congestion": 0.14204785142894447
+    },
+    "735": {
+        "ID_from": 6035,
+        "ID_to": 6036,
+        "Cost": 1,
+        "Congestion": 0.06692027337298985
+    },
+    "736": {
+        "ID_from": 6035,
+        "ID_to": 7008,
+        "Cost": 3,
+        "Congestion": 0.07873060023696954
+    },
+    "737": {
+        "ID_from": 6036,
+        "ID_to": 6035,
+        "Cost": 1,
+        "Congestion": 0.08116681671798986
+    },
+    "738": {
+        "ID_from": 6036,
+        "ID_to": 6037,
+        "Cost": 1,
+        "Congestion": 0.03066432038457211
+    },
+    "739": {
+        "ID_from": 6037,
+        "ID_to": 6036,
+        "Cost": 1,
+        "Congestion": 0.03315480049233912
+    },
+    "740": {
+        "ID_from": 7000,
+        "ID_to": 7001,
+        "Cost": 1,
+        "Congestion": 0.006928804055834242
+    },
+    "741": {
+        "ID_from": 7001,
+        "ID_to": 1013,
+        "Cost": 3,
+        "Congestion": 0.043547386813856066
+    },
+    "742": {
+        "ID_from": 7001,
+        "ID_to": 7000,
+        "Cost": 1,
+        "Congestion": 0.0013267043564740156
+    },
+    "743": {
+        "ID_from": 7001,
+        "ID_to": 7002,
+        "Cost": 1,
+        "Congestion": 0.08313104982626687
+    },
+    "744": {
+        "ID_from": 7002,
+        "ID_to": 7001,
+        "Cost": 1,
+        "Congestion": 0.07717912877681384
+    },
+    "745": {
+        "ID_from": 7002,
+        "ID_to": 7003,
+        "Cost": 1,
+        "Congestion": 0.12777238584633835
+    },
+    "746": {
+        "ID_from": 7003,
+        "ID_to": 7002,
+        "Cost": 1,
+        "Congestion": 0.12063423988021235
+    },
+    "747": {
+        "ID_from": 7003,
+        "ID_to": 7004,
+        "Cost": 1,
+        "Congestion": 0.16432430973292517
+    },
+    "748": {
+        "ID_from": 7004,
+        "ID_to": 4002,
+        "Cost": 3,
+        "Congestion": 0.09205369785268913
+    },
+    "749": {
+        "ID_from": 7004,
+        "ID_to": 7003,
+        "Cost": 1,
+        "Congestion": 0.15390624429732666
+    },
+    "750": {
+        "ID_from": 7004,
+        "ID_to": 7005,
+        "Cost": 1,
+        "Congestion": 0.22491446936852702
+    },
+    "751": {
+        "ID_from": 7005,
+        "ID_to": 7004,
+        "Cost": 1,
+        "Congestion": 0.22078272113908443
+    },
+    "752": {
+        "ID_from": 7005,
+        "ID_to": 7006,
+        "Cost": 1,
+        "Congestion": 0.24813778664175498
+    },
+    "753": {
+        "ID_from": 7006,
+        "ID_to": 7005,
+        "Cost": 1,
+        "Congestion": 0.23958245103293016
+    },
+    "754": {
+        "ID_from": 7006,
+        "ID_to": 7007,
+        "Cost": 1,
+        "Congestion": 0.28265964489827566
+    },
+    "755": {
+        "ID_from": 7007,
+        "ID_to": 7006,
+        "Cost": 1,
+        "Congestion": 0.26994694422098575
+    },
+    "756": {
+        "ID_from": 7007,
+        "ID_to": 7008,
+        "Cost": 1,
+        "Congestion": 0.30027700617379594
+    },
+    "757": {
+        "ID_from": 7008,
+        "ID_to": 6035,
+        "Cost": 3,
+        "Congestion": 0.07708630216659236
+    },
+    "758": {
+        "ID_from": 7008,
+        "ID_to": 7007,
+        "Cost": 1,
+        "Congestion": 0.28763358114181964
+    },
+    "759": {
+        "ID_from": 7008,
+        "ID_to": 7009,
+        "Cost": 1,
+        "Congestion": 0.30599135170005604
+    },
+    "760": {
+        "ID_from": 7009,
+        "ID_to": 7008,
+        "Cost": 1,
+        "Congestion": 0.28893163871056954
+    },
+    "761": {
+        "ID_from": 7009,
+        "ID_to": 7010,
+        "Cost": 1,
+        "Congestion": 0.3175711270128328
+    },
+    "762": {
+        "ID_from": 7010,
+        "ID_to": 7009,
+        "Cost": 1,
+        "Congestion": 0.29909656570464416
+    },
+    "763": {
+        "ID_from": 7010,
+        "ID_to": 7011,
+        "Cost": 1,
+        "Congestion": 0.33247709737525183
+    },
+    "764": {
+        "ID_from": 7011,
+        "ID_to": 7010,
+        "Cost": 1,
+        "Congestion": 0.3122046746874918
+    },
+    "765": {
+        "ID_from": 7011,
+        "ID_to": 7012,
+        "Cost": 1,
+        "Congestion": 0.3485117236290136
+    },
+    "766": {
+        "ID_from": 7012,
+        "ID_to": 7011,
+        "Cost": 1,
+        "Congestion": 0.32732632230748776
+    },
+    "767": {
+        "ID_from": 7012,
+        "ID_to": 7013,
+        "Cost": 1,
+        "Congestion": 0.37666545606443547
+    },
+    "768": {
+        "ID_from": 7013,
+        "ID_to": 7012,
+        "Cost": 1,
+        "Congestion": 0.3533702463720152
+    },
+    "769": {
+        "ID_from": 7013,
+        "ID_to": 7014,
+        "Cost": 1,
+        "Congestion": 0.39980173117496315
+    },
+    "770": {
+        "ID_from": 7014,
+        "ID_to": 7013,
+        "Cost": 1,
+        "Congestion": 0.3759114120125622
+    },
+    "771": {
+        "ID_from": 7014,
+        "ID_to": 7015,
+        "Cost": 1,
+        "Congestion": 0.4127427798044003
+    },
+    "772": {
+        "ID_from": 7015,
+        "ID_to": 7014,
+        "Cost": 1,
+        "Congestion": 0.38726903699553594
+    },
+    "773": {
+        "ID_from": 7015,
+        "ID_to": 7016,
+        "Cost": 1,
+        "Congestion": 0.4343158768347889
+    },
+    "774": {
+        "ID_from": 7016,
+        "ID_to": 5034,
+        "Cost": 3,
+        "Congestion": 0.18285547599185714
+    },
+    "775": {
+        "ID_from": 7016,
+        "ID_to": 7015,
+        "Cost": 1,
+        "Congestion": 0.4060671141900899
+    },
+    "776": {
+        "ID_from": 7016,
+        "ID_to": 7017,
+        "Cost": 1,
+        "Congestion": 0.46007168032278317
+    },
+    "777": {
+        "ID_from": 7017,
+        "ID_to": 7016,
+        "Cost": 1,
+        "Congestion": 0.41336694923692807
+    },
+    "778": {
+        "ID_from": 7017,
+        "ID_to": 7018,
+        "Cost": 1,
+        "Congestion": 0.4703777753813638
+    },
+    "779": {
+        "ID_from": 7018,
+        "ID_to": 2011,
+        "Cost": 3,
+        "Congestion": 0.20589906221710436
+    },
+    "780": {
+        "ID_from": 7018,
+        "ID_to": 7017,
+        "Cost": 1,
+        "Congestion": 0.4228991678521341
+    },
+    "781": {
+        "ID_from": 7018,
+        "ID_to": 7019,
+        "Cost": 1,
+        "Congestion": 0.3842521721633379
+    },
+    "782": {
+        "ID_from": 7019,
+        "ID_to": 7018,
+        "Cost": 1,
+        "Congestion": 0.3575971625356759
+    },
+    "783": {
+        "ID_from": 7019,
+        "ID_to": 7020,
+        "Cost": 1,
+        "Congestion": 0.3850545576694957
+    },
+    "784": {
+        "ID_from": 7020,
+        "ID_to": 7019,
+        "Cost": 1,
+        "Congestion": 0.3576237434492853
+    },
+    "785": {
+        "ID_from": 7020,
+        "ID_to": 7021,
+        "Cost": 1,
+        "Congestion": 0.36206427099640826
+    },
+    "786": {
+        "ID_from": 7021,
+        "ID_to": 7020,
+        "Cost": 1,
+        "Congestion": 0.3469289886072552
+    },
+    "787": {
+        "ID_from": 7021,
+        "ID_to": 7022,
+        "Cost": 1,
+        "Congestion": 0.36350487387907393
+    },
+    "788": {
+        "ID_from": 7022,
+        "ID_to": 7021,
+        "Cost": 1,
+        "Congestion": 0.35507679611571596
+    },
+    "789": {
+        "ID_from": 7022,
+        "ID_to": 7023,
+        "Cost": 1,
+        "Congestion": 0.3652867591654915
+    },
+    "790": {
+        "ID_from": 7023,
+        "ID_to": 7022,
+        "Cost": 1,
+        "Congestion": 0.36551855024116325
+    },
+    "791": {
+        "ID_from": 7023,
+        "ID_to": 7024,
+        "Cost": 1,
+        "Congestion": 0.3598120550365391
+    },
+    "792": {
+        "ID_from": 7024,
+        "ID_to": 7023,
+        "Cost": 1,
+        "Congestion": 0.3680379525865364
+    },
+    "793": {
+        "ID_from": 7024,
+        "ID_to": 7025,
+        "Cost": 1,
+        "Congestion": 0.3608540819400045
+    },
+    "794": {
+        "ID_from": 7025,
+        "ID_to": 3030,
+        "Cost": 3,
+        "Congestion": 0.2079810501499205
+    },
+    "795": {
+        "ID_from": 7025,
+        "ID_to": 7024,
+        "Cost": 1,
+        "Congestion": 0.36856144508720673
+    },
+    "796": {
+        "ID_from": 7025,
+        "ID_to": 7026,
+        "Cost": 1,
+        "Congestion": 0.40615498270243605
+    },
+    "797": {
+        "ID_from": 7025,
+        "ID_to": 9022,
+        "Cost": 3,
+        "Congestion": 0.03986434644213094
+    },
+    "798": {
+        "ID_from": 7026,
+        "ID_to": 7025,
+        "Cost": 1,
+        "Congestion": 0.4225571968236772
+    },
+    "799": {
+        "ID_from": 7026,
+        "ID_to": 7027,
+        "Cost": 1,
+        "Congestion": 0.40353545432496946
+    },
+    "800": {
+        "ID_from": 7027,
+        "ID_to": 4023,
+        "Cost": 3,
+        "Congestion": 0.13958780853313435
+    },
+    "801": {
+        "ID_from": 7027,
+        "ID_to": 7026,
+        "Cost": 1,
+        "Congestion": 0.42164600861414414
+    },
+    "802": {
+        "ID_from": 7027,
+        "ID_to": 7028,
+        "Cost": 1,
+        "Congestion": 0.346944964700409
+    },
+    "803": {
+        "ID_from": 7028,
+        "ID_to": 7027,
+        "Cost": 1,
+        "Congestion": 0.3667397572928455
+    },
+    "804": {
+        "ID_from": 7028,
+        "ID_to": 7029,
+        "Cost": 1,
+        "Congestion": 0.3315135736881458
+    },
+    "805": {
+        "ID_from": 7029,
+        "ID_to": 7028,
+        "Cost": 1,
+        "Congestion": 0.3485104841045448
+    },
+    "806": {
+        "ID_from": 7029,
+        "ID_to": 7030,
+        "Cost": 1,
+        "Congestion": 0.30937415170044164
+    },
+    "807": {
+        "ID_from": 7030,
+        "ID_to": 7029,
+        "Cost": 1,
+        "Congestion": 0.3257347728895065
+    },
+    "808": {
+        "ID_from": 7030,
+        "ID_to": 7031,
+        "Cost": 1,
+        "Congestion": 0.2999920532709054
+    },
+    "809": {
+        "ID_from": 7031,
+        "ID_to": 7030,
+        "Cost": 1,
+        "Congestion": 0.3137040861199565
+    },
+    "810": {
+        "ID_from": 7031,
+        "ID_to": 7032,
+        "Cost": 1,
+        "Congestion": 0.2890750103741312
+    },
+    "811": {
+        "ID_from": 7032,
+        "ID_to": 7031,
+        "Cost": 1,
+        "Congestion": 0.3017655373359231
+    },
+    "812": {
+        "ID_from": 7032,
+        "ID_to": 7033,
+        "Cost": 1,
+        "Congestion": 0.2748040897145775
+    },
+    "813": {
+        "ID_from": 7033,
+        "ID_to": 7032,
+        "Cost": 1,
+        "Congestion": 0.2852125144043073
+    },
+    "814": {
+        "ID_from": 7033,
+        "ID_to": 7034,
+        "Cost": 1,
+        "Congestion": 0.27046561634872174
+    },
+    "815": {
+        "ID_from": 7034,
+        "ID_to": 7033,
+        "Cost": 1,
+        "Congestion": 0.2814701145830191
+    },
+    "816": {
+        "ID_from": 7034,
+        "ID_to": 7035,
+        "Cost": 1,
+        "Congestion": 0.27214145343058366
+    },
+    "817": {
+        "ID_from": 7035,
+        "ID_to": 2032,
+        "Cost": 3,
+        "Congestion": 0.16212511787533387
+    },
+    "818": {
+        "ID_from": 7035,
+        "ID_to": 7034,
+        "Cost": 1,
+        "Congestion": 0.2814154377814495
+    },
+    "819": {
+        "ID_from": 7035,
+        "ID_to": 7036,
+        "Cost": 1,
+        "Congestion": 0.348375651387324
+    },
+    "820": {
+        "ID_from": 7036,
+        "ID_to": 7035,
+        "Cost": 1,
+        "Congestion": 0.3563011708410408
+    },
+    "821": {
+        "ID_from": 7036,
+        "ID_to": 7037,
+        "Cost": 1,
+        "Congestion": 0.3545639084355011
+    },
+    "822": {
+        "ID_from": 7037,
+        "ID_to": 1063,
+        "Cost": 3,
+        "Congestion": 0.13224211108094935
+    },
+    "823": {
+        "ID_from": 7037,
+        "ID_to": 7036,
+        "Cost": 1,
+        "Congestion": 0.365127686858658
+    },
+    "824": {
+        "ID_from": 7037,
+        "ID_to": 7038,
+        "Cost": 1,
+        "Congestion": 0.3599658937956154
+    },
+    "825": {
+        "ID_from": 7038,
+        "ID_to": 7037,
+        "Cost": 1,
+        "Congestion": 0.37389925062482365
+    },
+    "826": {
+        "ID_from": 7038,
+        "ID_to": 7039,
+        "Cost": 1,
+        "Congestion": 0.30699164794640404
+    },
+    "827": {
+        "ID_from": 7039,
+        "ID_to": 7038,
+        "Cost": 1,
+        "Congestion": 0.3228388305554901
+    },
+    "828": {
+        "ID_from": 7039,
+        "ID_to": 7040,
+        "Cost": 1,
+        "Congestion": 0.24336231203816525
+    },
+    "829": {
+        "ID_from": 7040,
+        "ID_to": 7039,
+        "Cost": 1,
+        "Congestion": 0.2569205061281401
+    },
+    "830": {
+        "ID_from": 7040,
+        "ID_to": 7041,
+        "Cost": 1,
+        "Congestion": 0.22178632278401603
+    },
+    "831": {
+        "ID_from": 7041,
+        "ID_to": 1045,
+        "Cost": 3,
+        "Congestion": 0.0846259163356792
+    },
+    "832": {
+        "ID_from": 7041,
+        "ID_to": 7040,
+        "Cost": 1,
+        "Congestion": 0.23306324095157469
+    },
+    "833": {
+        "ID_from": 7041,
+        "ID_to": 7042,
+        "Cost": 1,
+        "Congestion": 0.19477997683191042
+    },
+    "834": {
+        "ID_from": 7042,
+        "ID_to": 7041,
+        "Cost": 1,
+        "Congestion": 0.2082248232954576
+    },
+    "835": {
+        "ID_from": 7042,
+        "ID_to": 7043,
+        "Cost": 1,
+        "Congestion": 0.1850371767819438
+    },
+    "836": {
+        "ID_from": 7043,
+        "ID_to": 7042,
+        "Cost": 1,
+        "Congestion": 0.19681555145961582
+    },
+    "837": {
+        "ID_from": 7043,
+        "ID_to": 7044,
+        "Cost": 1,
+        "Congestion": 0.1777841682150393
+    },
+    "838": {
+        "ID_from": 7044,
+        "ID_to": 7043,
+        "Cost": 1,
+        "Congestion": 0.18776757373690048
+    },
+    "839": {
+        "ID_from": 7044,
+        "ID_to": 7045,
+        "Cost": 1,
+        "Congestion": 0.16364987069693915
+    },
+    "840": {
+        "ID_from": 7045,
+        "ID_to": 7044,
+        "Cost": 1,
+        "Congestion": 0.17264812971596022
+    },
+    "841": {
+        "ID_from": 7045,
+        "ID_to": 7046,
+        "Cost": 1,
+        "Congestion": 0.13686057925182027
+    },
+    "842": {
+        "ID_from": 7046,
+        "ID_to": 7045,
+        "Cost": 1,
+        "Congestion": 0.14521221967293357
+    },
+    "843": {
+        "ID_from": 7046,
+        "ID_to": 7047,
+        "Cost": 1,
+        "Congestion": 0.10811407867041443
+    },
+    "844": {
+        "ID_from": 7047,
+        "ID_to": 7046,
+        "Cost": 1,
+        "Congestion": 0.11703383447307608
+    },
+    "845": {
+        "ID_from": 7047,
+        "ID_to": 7048,
+        "Cost": 1,
+        "Congestion": 0.07681856488132448
+    },
+    "846": {
+        "ID_from": 7048,
+        "ID_to": 7047,
+        "Cost": 1,
+        "Congestion": 0.0878755363181358
+    },
+    "847": {
+        "ID_from": 7048,
+        "ID_to": 7049,
+        "Cost": 1,
+        "Congestion": 0.06171096520530864
+    },
+    "848": {
+        "ID_from": 7049,
+        "ID_to": 7048,
+        "Cost": 1,
+        "Congestion": 0.07072423624289667
+    },
+    "849": {
+        "ID_from": 7049,
+        "ID_to": 7050,
+        "Cost": 1,
+        "Congestion": 0.03174146714798779
+    },
+    "850": {
+        "ID_from": 7050,
+        "ID_to": 7049,
+        "Cost": 1,
+        "Congestion": 0.04176192067897294
+    },
+    "851": {
+        "ID_from": 8000,
+        "ID_to": 8001,
+        "Cost": 1,
+        "Congestion": 0.06471997971587069
+    },
+    "852": {
+        "ID_from": 8001,
+        "ID_to": 5037,
+        "Cost": 3,
+        "Congestion": 0.11342199789583836
+    },
+    "853": {
+        "ID_from": 8001,
+        "ID_to": 8000,
+        "Cost": 1,
+        "Congestion": 0.05731437191435877
+    },
+    "854": {
+        "ID_from": 8001,
+        "ID_to": 8002,
+        "Cost": 1,
+        "Congestion": 0.1587529226954038
+    },
+    "855": {
+        "ID_from": 8002,
+        "ID_to": 8001,
+        "Cost": 1,
+        "Congestion": 0.16278592214216273
+    },
+    "856": {
+        "ID_from": 8002,
+        "ID_to": 8003,
+        "Cost": 1,
+        "Congestion": 0.1730965621237957
+    },
+    "857": {
+        "ID_from": 8003,
+        "ID_to": 8002,
+        "Cost": 1,
+        "Congestion": 0.17808785170990335
+    },
+    "858": {
+        "ID_from": 8003,
+        "ID_to": 8004,
+        "Cost": 1,
+        "Congestion": 0.1805060262236551
+    },
+    "859": {
+        "ID_from": 8004,
+        "ID_to": 2015,
+        "Cost": 3,
+        "Congestion": 0.2300981606971857
+    },
+    "860": {
+        "ID_from": 8004,
+        "ID_to": 8003,
+        "Cost": 1,
+        "Congestion": 0.18721088952545356
+    },
+    "861": {
+        "ID_from": 8004,
+        "ID_to": 8005,
+        "Cost": 1,
+        "Congestion": 0.23889382632802308
+    },
+    "862": {
+        "ID_from": 8005,
+        "ID_to": 8004,
+        "Cost": 1,
+        "Congestion": 0.24100955687137965
+    },
+    "863": {
+        "ID_from": 8005,
+        "ID_to": 8006,
+        "Cost": 1,
+        "Congestion": 0.22427597654213716
+    },
+    "864": {
+        "ID_from": 8006,
+        "ID_to": 8005,
+        "Cost": 1,
+        "Congestion": 0.22817703549543586
+    },
+    "865": {
+        "ID_from": 8006,
+        "ID_to": 8007,
+        "Cost": 1,
+        "Congestion": 0.21792423998901506
+    },
+    "866": {
+        "ID_from": 8007,
+        "ID_to": 3041,
+        "Cost": 3,
+        "Congestion": 0.060151643423517004
+    },
+    "867": {
+        "ID_from": 8007,
+        "ID_to": 8006,
+        "Cost": 1,
+        "Congestion": 0.2215914419925273
+    },
+    "868": {
+        "ID_from": 8007,
+        "ID_to": 8008,
+        "Cost": 1,
+        "Congestion": 0.20519735364280403
+    },
+    "869": {
+        "ID_from": 8008,
+        "ID_to": 8007,
+        "Cost": 1,
+        "Congestion": 0.21651379886842434
+    },
+    "870": {
+        "ID_from": 8008,
+        "ID_to": 8009,
+        "Cost": 1,
+        "Congestion": 0.16613800948070948
+    },
+    "871": {
+        "ID_from": 8009,
+        "ID_to": 8008,
+        "Cost": 1,
+        "Congestion": 0.17935616069140123
+    },
+    "872": {
+        "ID_from": 8009,
+        "ID_to": 8010,
+        "Cost": 1,
+        "Congestion": 0.12100279182227863
+    },
+    "873": {
+        "ID_from": 8010,
+        "ID_to": 8009,
+        "Cost": 1,
+        "Congestion": 0.13336966517276425
+    },
+    "874": {
+        "ID_from": 8010,
+        "ID_to": 8011,
+        "Cost": 1,
+        "Congestion": 0.10536784334724493
+    },
+    "875": {
+        "ID_from": 8011,
+        "ID_to": 8010,
+        "Cost": 1,
+        "Congestion": 0.11277193617440605
+    },
+    "876": {
+        "ID_from": 8011,
+        "ID_to": 8012,
+        "Cost": 1,
+        "Congestion": 0.09109816221216004
+    },
+    "877": {
+        "ID_from": 8012,
+        "ID_to": 8011,
+        "Cost": 1,
+        "Congestion": 0.09859521937448362
+    },
+    "878": {
+        "ID_from": 8012,
+        "ID_to": 8013,
+        "Cost": 1,
+        "Congestion": 0.06233802686159704
+    },
+    "879": {
+        "ID_from": 8013,
+        "ID_to": 8012,
+        "Cost": 1,
+        "Congestion": 0.06668848229731812
+    },
+    "880": {
+        "ID_from": 8013,
+        "ID_to": 8014,
+        "Cost": 1,
+        "Congestion": 0.03504108128402064
+    },
+    "881": {
+        "ID_from": 8014,
+        "ID_to": 8013,
+        "Cost": 1,
+        "Congestion": 0.03844454002555348
+    },
+    "882": {
+        "ID_from": 8014,
+        "ID_to": 8015,
+        "Cost": 1,
+        "Congestion": 0.022554800409704156
+    },
+    "883": {
+        "ID_from": 8015,
+        "ID_to": 8014,
+        "Cost": 1,
+        "Congestion": 0.027200400393948422
+    },
+    "884": {
+        "ID_from": 8015,
+        "ID_to": 8016,
+        "Cost": 1,
+        "Congestion": 0.010998576061835193
+    },
+    "885": {
+        "ID_from": 8016,
+        "ID_to": 8015,
+        "Cost": 1,
+        "Congestion": 0.015203318509997935
+    },
+    "886": {
+        "ID_from": 9000,
+        "ID_to": 9001,
+        "Cost": 1,
+        "Congestion": 0.01999711053073821
+    },
+    "887": {
+        "ID_from": 9001,
+        "ID_to": 5002,
+        "Cost": 3,
+        "Congestion": 0.013029605766488189
+    },
+    "888": {
+        "ID_from": 9001,
+        "ID_to": 9000,
+        "Cost": 1,
+        "Congestion": 0.0122178549643437
+    },
+    "889": {
+        "ID_from": 9001,
+        "ID_to": 9002,
+        "Cost": 1,
+        "Congestion": 0.05525524632174557
+    },
+    "890": {
+        "ID_from": 9002,
+        "ID_to": 9001,
+        "Cost": 1,
+        "Congestion": 0.04983205132072021
+    },
+    "891": {
+        "ID_from": 9002,
+        "ID_to": 9003,
+        "Cost": 1,
+        "Congestion": 0.06363222813199944
+    },
+    "892": {
+        "ID_from": 9003,
+        "ID_to": 9002,
+        "Cost": 1,
+        "Congestion": 0.05932901235103498
+    },
+    "893": {
+        "ID_from": 9003,
+        "ID_to": 9004,
+        "Cost": 1,
+        "Congestion": 0.08575223090302525
+    },
+    "894": {
+        "ID_from": 9004,
+        "ID_to": 9003,
+        "Cost": 1,
+        "Congestion": 0.08072954003037386
+    },
+    "895": {
+        "ID_from": 9004,
+        "ID_to": 9005,
+        "Cost": 1,
+        "Congestion": 0.0990260229898735
+    },
+    "896": {
+        "ID_from": 9005,
+        "ID_to": 9004,
+        "Cost": 1,
+        "Congestion": 0.09305729949762073
+    },
+    "897": {
+        "ID_from": 9005,
+        "ID_to": 9006,
+        "Cost": 1,
+        "Congestion": 0.12060504219272429
+    },
+    "898": {
+        "ID_from": 9006,
+        "ID_to": 9005,
+        "Cost": 1,
+        "Congestion": 0.11453412679426332
+    },
+    "899": {
+        "ID_from": 9006,
+        "ID_to": 9007,
+        "Cost": 1,
+        "Congestion": 0.17747607752206387
+    },
+    "900": {
+        "ID_from": 9007,
+        "ID_to": 9006,
+        "Cost": 1,
+        "Congestion": 0.1687002442827278
+    },
+    "901": {
+        "ID_from": 9007,
+        "ID_to": 9008,
+        "Cost": 1,
+        "Congestion": 0.19221512525601345
+    },
+    "902": {
+        "ID_from": 9008,
+        "ID_to": 9007,
+        "Cost": 1,
+        "Congestion": 0.1842368571499008
+    },
+    "903": {
+        "ID_from": 9008,
+        "ID_to": 9009,
+        "Cost": 1,
+        "Congestion": 0.21040652408554428
+    },
+    "904": {
+        "ID_from": 9009,
+        "ID_to": 9008,
+        "Cost": 1,
+        "Congestion": 0.20211369221423003
+    },
+    "905": {
+        "ID_from": 9009,
+        "ID_to": 9010,
+        "Cost": 1,
+        "Congestion": 0.2577906523052607
+    },
+    "906": {
+        "ID_from": 9010,
+        "ID_to": 9009,
+        "Cost": 1,
+        "Congestion": 0.2476320606584712
+    },
+    "907": {
+        "ID_from": 9010,
+        "ID_to": 9011,
+        "Cost": 1,
+        "Congestion": 0.2671399721988434
+    },
+    "908": {
+        "ID_from": 9011,
+        "ID_to": 9010,
+        "Cost": 1,
+        "Congestion": 0.25542894501731134
+    },
+    "909": {
+        "ID_from": 9011,
+        "ID_to": 9012,
+        "Cost": 1,
+        "Congestion": 0.28411402027503946
+    },
+    "910": {
+        "ID_from": 9012,
+        "ID_to": 2036,
+        "Cost": 3,
+        "Congestion": 0.15021920990231308
+    },
+    "911": {
+        "ID_from": 9012,
+        "ID_to": 9011,
+        "Cost": 1,
+        "Congestion": 0.2723206335788005
+    },
+    "912": {
+        "ID_from": 9012,
+        "ID_to": 9013,
+        "Cost": 1,
+        "Congestion": 0.29337147763298754
+    },
+    "913": {
+        "ID_from": 9013,
+        "ID_to": 9012,
+        "Cost": 1,
+        "Congestion": 0.27315262994726924
+    },
+    "914": {
+        "ID_from": 9013,
+        "ID_to": 9014,
+        "Cost": 1,
+        "Congestion": 0.30048744988361553
+    },
+    "915": {
+        "ID_from": 9014,
+        "ID_to": 5016,
+        "Cost": 3,
+        "Congestion": 0.07860912683902392
+    },
+    "916": {
+        "ID_from": 9014,
+        "ID_to": 9013,
+        "Cost": 1,
+        "Congestion": 0.2805010818982739
+    },
+    "917": {
+        "ID_from": 9014,
+        "ID_to": 9015,
+        "Cost": 1,
+        "Congestion": 0.33463263042655206
+    },
+    "918": {
+        "ID_from": 9015,
+        "ID_to": 9014,
+        "Cost": 1,
+        "Congestion": 0.3166482321833163
+    },
+    "919": {
+        "ID_from": 9015,
+        "ID_to": 9016,
+        "Cost": 1,
+        "Congestion": 0.3397966270886504
+    },
+    "920": {
+        "ID_from": 9016,
+        "ID_to": 1036,
+        "Cost": 3,
+        "Congestion": 0.1462629232476808
+    },
+    "921": {
+        "ID_from": 9016,
+        "ID_to": 9015,
+        "Cost": 1,
+        "Congestion": 0.32320118487521227
+    },
+    "922": {
+        "ID_from": 9016,
+        "ID_to": 9017,
+        "Cost": 1,
+        "Congestion": 0.3555945041688651
+    },
+    "923": {
+        "ID_from": 9017,
+        "ID_to": 9016,
+        "Cost": 1,
+        "Congestion": 0.3502685429761726
+    },
+    "924": {
+        "ID_from": 9017,
+        "ID_to": 9018,
+        "Cost": 1,
+        "Congestion": 0.3564957761826475
+    },
+    "925": {
+        "ID_from": 9018,
+        "ID_to": 9017,
+        "Cost": 1,
+        "Congestion": 0.34878510763686177
+    },
+    "926": {
+        "ID_from": 9018,
+        "ID_to": 9019,
+        "Cost": 1,
+        "Congestion": 0.35696831045515476
+    },
+    "927": {
+        "ID_from": 9019,
+        "ID_to": 4022,
+        "Cost": 3,
+        "Congestion": 0.06378579144119373
+    },
+    "928": {
+        "ID_from": 9019,
+        "ID_to": 9018,
+        "Cost": 1,
+        "Congestion": 0.3509007004552773
+    },
+    "929": {
+        "ID_from": 9019,
+        "ID_to": 9020,
+        "Cost": 1,
+        "Congestion": 0.33675924124024614
+    },
+    "930": {
+        "ID_from": 9020,
+        "ID_to": 9019,
+        "Cost": 1,
+        "Congestion": 0.33459930099083457
+    },
+    "931": {
+        "ID_from": 9020,
+        "ID_to": 9021,
+        "Cost": 1,
+        "Congestion": 0.3350823023588564
+    },
+    "932": {
+        "ID_from": 9021,
+        "ID_to": 9020,
+        "Cost": 1,
+        "Congestion": 0.33369128045494406
+    },
+    "933": {
+        "ID_from": 9021,
+        "ID_to": 9022,
+        "Cost": 1,
+        "Congestion": 0.3326517326004163
+    },
+    "934": {
+        "ID_from": 9022,
+        "ID_to": 3030,
+        "Cost": 3,
+        "Congestion": 0.13119471290478565
+    },
+    "935": {
+        "ID_from": 9022,
+        "ID_to": 7025,
+        "Cost": 3,
+        "Congestion": 0.034395289035758767
+    },
+    "936": {
+        "ID_from": 9022,
+        "ID_to": 9021,
+        "Cost": 1,
+        "Congestion": 0.3313359085142798
+    },
+    "937": {
+        "ID_from": 9022,
+        "ID_to": 9023,
+        "Cost": 1,
+        "Congestion": 0.22054679831518326
+    },
+    "938": {
+        "ID_from": 9023,
+        "ID_to": 9022,
+        "Cost": 1,
+        "Congestion": 0.22430930597785464
+    },
+    "939": {
+        "ID_from": 9023,
+        "ID_to": 9024,
+        "Cost": 1,
+        "Congestion": 0.21586580302110675
+    },
+    "940": {
+        "ID_from": 9024,
+        "ID_to": 9023,
+        "Cost": 1,
+        "Congestion": 0.21918951902181136
+    },
+    "941": {
+        "ID_from": 9024,
+        "ID_to": 9025,
+        "Cost": 1,
+        "Congestion": 0.14285285370898088
+    },
+    "942": {
+        "ID_from": 9025,
+        "ID_to": 9024,
+        "Cost": 1,
+        "Congestion": 0.14672168502608993
+    },
+    "943": {
+        "ID_from": 9025,
+        "ID_to": 9026,
+        "Cost": 1,
+        "Congestion": 0.12545846911290953
+    },
+    "944": {
+        "ID_from": 9026,
+        "ID_to": 9025,
+        "Cost": 1,
+        "Congestion": 0.1293738514600703
+    },
+    "945": {
+        "ID_from": 9026,
+        "ID_to": 9027,
+        "Cost": 1,
+        "Congestion": 0.1041324506266416
+    },
+    "946": {
+        "ID_from": 9027,
+        "ID_to": 9026,
+        "Cost": 1,
+        "Congestion": 0.10868315812654966
+    },
+    "947": {
+        "ID_from": 9027,
+        "ID_to": 9028,
+        "Cost": 1,
+        "Congestion": 0.09329749179469232
+    },
+    "948": {
+        "ID_from": 9028,
+        "ID_to": 9027,
+        "Cost": 1,
+        "Congestion": 0.0987658605763596
+    },
+    "949": {
+        "ID_from": 9028,
+        "ID_to": 9029,
+        "Cost": 1,
+        "Congestion": 0.05681553217812407
+    },
+    "950": {
+        "ID_from": 9029,
+        "ID_to": 2017,
+        "Cost": 3,
+        "Congestion": 0.04470482721786392
+    },
+    "951": {
+        "ID_from": 9029,
+        "ID_to": 9028,
+        "Cost": 1,
+        "Congestion": 0.06079027397484785
+    }
+}
