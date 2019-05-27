@@ -1,4 +1,7 @@
 var selectedAll = [];
+var selectMode = false;
+var focusedLine = "";
+
 
 document.addEventListener('DOMContentLoaded', () => {
     axios.get('/data/stations')
@@ -45,6 +48,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.querySelector("#search-path").addEventListener("click", searchPath);
+    document.querySelector("#mode-select-normal > button").addEventListener("click", selectNormal);
+    document.querySelector("#mode-select-congestion > button").addEventListener("click", selectCongestion);
+    // document.querySelectorAll(".line-selector").forEach(element => {
+    //     element.addEventListener("click", selectLine);
+    // });
 
 });
 
@@ -67,6 +75,80 @@ const searchPath = () => {
     
         renderPath(srcNode, dstNode);
     }
+
+};
+
+const stAutoComplete = (inp, stationArr) => {
+    let currentIdx;
+    inp.addEventListener("input", (e) => {
+        let a, tmpDiv;
+        let val = this.value;
+
+        closeLists();
+
+        if(!val) {
+            return false;
+        }
+
+        a = document.createElement("DIV");
+        a.setAttribute("id", this.id + "autocomplete-list");
+        a.setAttribute("class", "autocomplete-items");
+
+        this.parentNode.appendChild(a);
+
+        for(let i in stationArr) {
+
+        }
+
+    });
+};
+
+const selectNormal = () => {
+    if(selectMode) {
+        disableCongestion();
+        document.querySelector("#mode-select-congestion > button").setAttribute("class", "mode-select-button");
+        document.querySelector("#mode-select-normal > button").setAttribute("class", "mode-select-button selected");
+        selectMode = false;
+    }
+};
+
+const selectCongestion = () => {
+    if(!selectMode) {
+        renderCongestion();
+        document.querySelector("#mode-select-congestion > button").setAttribute("class", "mode-select-button selected");
+        document.querySelector("#mode-select-normal > button").setAttribute("class", "mode-select-button");
+        selectMode = true;
+    }
+};
+
+const selectLine = (element) => {
+    let lineNum = element.textContent;
+    disableFocus();
+
+    if(focusedLine != lineNum) {
+        console.log(lineNum);
+        let lineArr = selectedAll.filter(n => {return n.metroLine == lineNum;});
+        let elements = document.querySelectorAll(".line-selector");
+        for(let i = 0; i < elements.length; i++) {
+            if(elements[i].textContent != lineNum) {
+                elements[i].setAttribute("class", "line-selector fade-out");
+            }
+            else {
+                elements[i].setAttribute("class", "line-selector");
+            }
+        }
+
+         focusNodes(lineArr);
+         focusedLine = lineNum;
+    }
+    else {
+        let elements = document.querySelectorAll(".line-selector");
+        elements.forEach(element => {
+            element.setAttribute("class", "line-selector");
+        });
+        focusedLine = "";
+    }
+
 
 };
 

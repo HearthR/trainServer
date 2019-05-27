@@ -1,14 +1,17 @@
+body {
+}
+
 #header {
     width : 100%;
-    height : 40px;
+    height : 50px;
     background-color: rgb(138, 30, 30);
     float : left;
     margin-bottom : 5px;
 }
 #navigator {
-    width : 15%;
+    width : 300px;
     height : 855px;
-    border : 2px solid rgb(138, 30, 30);
+    border : 4px solid rgb(138, 30, 30);
     float : left;
     position : relative;
     background-color : white;
@@ -22,7 +25,7 @@
 }
 
 .nav-title {
-    width : 80%;
+    width : 81%;
     height : 44px;
     margin-top : 15px;
     border : 1px solid slategray;
@@ -32,7 +35,7 @@
     overflow-y : hidden;
     line-height : 44px;
     font-weight : bold;
-    color : rgb(224, 223, 223);
+    color : rgb(255, 255, 255);
 }
 
 #nav-mode-container > .nav-title {
@@ -43,7 +46,7 @@
 #mode-select-normal {
     width : 35%;
     height : 44px;
-    border : 1px solid rgb(138, 30, 30);
+    border : 2px solid rgb(138, 30, 30);
     float : left;
     margin-left : 10%;
     margin-top : 14px;
@@ -53,11 +56,37 @@
 #mode-select-congestion {
     width : 35%;
     height : 44px;
-    border : 1px solid rgb(138, 30, 30);
+    border : 2px solid rgb(138, 30, 30);
     float : left;
     margin-left : 9%;
     margin-top : 14px;
 
+}
+
+.mode-select-button {
+    width : 100%;
+    height : 44px;
+    background-color : white;
+    font-size : 18px;
+    font-weight : bold;
+    border : 0;
+    cursor : pointer;
+    outline : none;
+}
+
+.mode-select-button:hover {
+    background-color : rgb(207, 132, 132);
+    color : white;
+}
+
+.mode-select-button:active {
+    background-color : rgb(151, 78, 78);
+    color : white;
+}
+
+.mode-select-button.selected {
+    background-color : rgb(151, 78, 78);
+    color : white;
 }
 
 #nav-path-container {
@@ -88,7 +117,7 @@
 #input-path-src {
     width : 80%;
     height : 40px;
-    border : 1px solid rgb(138, 30, 30);
+    border : 2px solid rgb(138, 30, 30);
     margin-left : 10%;
     margin-top : 18px;
     overflow : hidden;
@@ -110,7 +139,7 @@
 #input-path-dst {
     width : 80%;
     height : 40px;
-    border : 1px solid rgb(138, 30, 30);
+    border : 2px solid rgb(138, 30, 30);
     margin-left : 10%;
     margin-top : 18px;
     overflow : hidden;
@@ -120,11 +149,12 @@
     float : right;
     width : 23%;
     height : 35px;
-    border : 1px solid rgb(138, 30, 30);
+    border : 2px solid rgb(138, 30, 30);
     font-size : 16px;
     font-weight : bold;
-    margin-right : 10%;
+    margin-right : 9%;
     margin-top : 18px;
+    cursor : pointer;
 }
 
 #search-path:hover {
@@ -141,20 +171,46 @@
 }
 
 #map-container {
-    width : 84%;
+    position : absolute;
+    top : 63px;
+    left : 320px;
+    width : 82.5%;
     height : 855px;
-    border : 2px solid rgb(138, 30, 30);
+    border : 4px solid rgb(138, 30, 30);
     float : right;
+    background-color : white;
 }
 
-#line-selector {
+#line-selector-container {
     width : 100%;
-    height : 35px;
-    border-bottom : 1px solid rgb(138, 30, 30);
+    height : 40px;
+    border-bottom : 2px solid rgb(138, 30, 30);
     clear : right;
+    box-sizing : border-box;
+}
+
+.line-selector {
+    width : 5%;
+    height : 25px;
+    margin-left : 5.2%;
+    margin-top : 6px;
+    line-height : 25px;
+    text-align : center;
+    color : white;
+    font-weight : 500;
+    float : left;
+    list-style-type : none;
+    cursor : pointer;
+    transition : opacity 0.1s linear;
+    opacity : 1;
+}
+
+.line-selector.fade-out {
+    transition : opacity 0.1s linear;
+    opacity : 0.1;
 }
 
 #metro {
     width : 100%;
-    height : 819px;
+    height : 810px;
 }
