@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 .grid {
     stroke-width: 1;
     stroke: black;
@@ -5,27 +7,27 @@
 }
 
 .line {
-    stroke-width: 5;
+    stroke-width: 10;
     fill: none;
 }
 
 .node {
-    r: 6;
+    r: 10;
 }
 
 .node-inside{
-    r: 4;
+    r: 6;
     fill: white;
 }
 
 .node-select {
-    r: 10;
+    r: 12;
     fill: red;
 }
 
 .node-name{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 9px;
+    font-family: "Nanum Gothic", monospace;
+    font-size: 11px;
     text-anchor: middle;
 }
 
