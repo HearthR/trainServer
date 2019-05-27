@@ -24,15 +24,15 @@ html
           .nav-title 경로 검색
           #input-path-src
             .input-path-text 출발역
-            input(type="text", onclick="this.select();")
+            input(type="text", onclick="this.select()")
           #input-path-dst
             .input-path-text 도착역
-            input(type="text", onclick="this.select();")
+            input(type="text", onclick="this.select()")
           button#search-path 검색
         hr(style='width : 95%; height : 0; border : 0; border-top : 3px solid rgb(138, 30, 30);')
         //#nav-statistic-container
       #map-container
         #line-selector-container
           each val, index in {1:'rgb(13, 54, 146)',2:'rgb(51, 162, 61)',3:'rgb(254, 91, 16)',4:'rgb(50, 161, 200)',5:'rgb(139, 80, 164)',6:'rgb(197, 92, 29)',7:'rgb(84, 100, 13)',8:'rgb(245, 19, 97)',9:'rgb(170, 152, 114)'}
-            .line-selector(id="line-"+index style="background-color:"+val onClick='selectLine(this);')=index+"호선"
+            button.line-selector(id="line-"+index style="background-color:"+val onclick='selectLine(this);')=index+"호선"
         #metro
