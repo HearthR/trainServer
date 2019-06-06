@@ -146,12 +146,9 @@ body {
     border-bottom : 1px solid #d4d4d4;
 }
 
-
 .autocomplete-items > div:hover {
     background-color : #e9e9e9;
 }
-
-
 
 #input-path-src {
     width : 80%;
@@ -182,6 +179,22 @@ body {
     margin-left : 10%;
     margin-top : 18px;
     overflow : hidden;
+}
+
+#search-reset {
+    float : left;
+    width : 18%;
+    height : 24px;
+    border : 2px solid rgb(138, 30, 30);
+    font-size : 12px;
+    margin-left : 10%;
+    margin-top : 26px;
+    cursor : pointer;
+}
+
+#search-reset:hover {
+    background-color : rgb(180, 125, 125);
+    color : white;
 }
 
 #search-path {

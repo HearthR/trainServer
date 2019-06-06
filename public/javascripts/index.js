@@ -66,9 +66,10 @@ document.addEventListener('DOMContentLoaded', () => {
             render(stationNodes);
         });
     });
-    
+
 
     document.querySelector("#search-path").addEventListener("click", searchPath);
+    document.querySelector("#search-reset").addEventListener("click", resetPath);
     document.querySelector("#mode-select-normal > button").addEventListener("click", selectNormal);
     document.querySelector("#mode-select-congestion > button").addEventListener("click", selectCongestion);
     let inputSrc = document.querySelector("#input-path-src > input");
@@ -101,6 +102,15 @@ const searchPath = () => {
         renderPath(srcNode, dstNode);
     }
 
+};
+
+const resetPath = () => {
+    disablePath();
+    let srcIn = document.querySelector("#input-path-src > input");
+    let dstIn = document.querySelector("#input-path-dst > input");
+
+    srcIn.value = "";
+    dstIn.value = "";
 };
 
 const stAutoComplete = (inp, stationArr) => {
