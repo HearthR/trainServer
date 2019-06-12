@@ -192,11 +192,6 @@ body {
     cursor : pointer;
 }
 
-#search-reset:hover {
-    background-color : rgb(180, 125, 125);
-    color : white;
-}
-
 #search-path {
     float : right;
     width : 23%;
@@ -209,7 +204,19 @@ body {
     cursor : pointer;
 }
 
-#search-path:hover {
+#search-random {
+    float : right;
+    width : 23%;
+    height : 24px;
+    border : 2px solid rgb(138, 30, 30);
+    font-size : 12px;
+    font-weight : bold;
+    margin-right : 9%;
+    margin-top : 26px;
+    cursor : pointer;
+}
+
+.search:hover {
     background-color : rgb(180, 125, 125);
     color : white;
 }
