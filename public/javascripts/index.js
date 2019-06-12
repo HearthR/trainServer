@@ -84,7 +84,7 @@ const setUISize = () => {
     document.querySelector("#metro").style.height = `${height - 40}px`;
 };
 
-ㅇ/* 경로 검색 입력창에 입력된 출발역, 도착역에 대한 경로를 검색하여 노선도에 표시합니다. */
+/* 경로 검색 입력창에 입력된 출발역, 도착역에 대한 경로를 검색하여 노선도에 표시합니다. */
 const searchPath = () => {
     resetRender();
     let src = document.querySelector("#input-path-src > input").value;
