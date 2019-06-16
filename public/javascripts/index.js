@@ -1,4 +1,4 @@
-var stationNodes = [];  // 노선도 렌더링에 사용되는 역 노드 데이터 배열
+var stationNodes = [];  // 노선도 렌더링에 사용되는 역 노드 데이터. metro.js에 정의되어 있는 Node 클래스 배열입니다.
 var selectMode = false; // 현재 노선도 뷰 모드 상태. true : 혼잡도, false : 일반
 
 /* 현재 경로 표시 상태를 나타냅니다. 경로 표시 초기화시에 다중 경로 표시 상태인지, 단일 경로 표시 상태인지 체크하기 위해 사용됩니다.
@@ -133,10 +133,10 @@ const resetPath = () => {
 /* 현재 표시되어 있는 경로를 해제하여 전체 노선도가 보이도록 초기화합니다. */
 const resetRender = () => {
     if(pathMode === "single") {
-        disablePath();
+        disablePath();  // metro.js에 있는 단일 경로 표시를 해제하는 함수
     }
     else {
-        disablePaths();
+        disablePaths(); // metro.js에 있는 다중 경로 표시를 해제하는 함수
         if(selectMode) renderCongestion();
     }
 };
@@ -144,23 +144,27 @@ const resetRender = () => {
 /* 출발역&도착역 조합을 랜덤으로 3개를 뽑아 각각의 경로를 찾고, 해당 경로 렌더링 함수를 호출합니다. */
 const searchRandom = () => {
     resetRender();
-    let pathList = [];
-    let length = stationNodes.length;
-    for(let i = 0; i < 3; i++) {
-        let randSrc = stationNodes[Math.floor(Math.random() * length)];
-        let randDst = stationNodes[Math.floor(Math.random() * length)];
 
+    let maxNum = 3;     // 랜덤으로 뽑을 경로 개수
+    let pathList = [];  // 랜덤으로 뽑은 경로를 담을 변수
+    let length = stationNodes.length;
+
+    for(let i = 0; i < maxNum; i++) {
+        let randSrc = stationNodes[Math.floor(Math.random() * length)];     // 출발역을 stationNodes에서 랜덤으로 뽑습니다.
+        let randDst = stationNodes[Math.floor(Math.random() * length)];     // 도착역을 stationNodes에서 랜덤으로 뽑습니다.
+
+        /* 출발역과 도착역 이름이 같지 않을때까지 다시 뽑습니다. */
         while(randSrc.name === randDst.name) {
             randDst = stationNodes[Math.floor(Math.random() * length)];
         }
 
-        pathList.push(findPath(randSrc, randDst));
+        pathList.push(findPath(randSrc, randDst));      // metro.js에 있는 findPath 함수를 통해 출발역-도착역에 대한 경로를 구하여 pathList에 넣습니다.
     }
     pathMode = "multiple";
-    renderPaths(pathList);
+    renderPaths(pathList);  // metro.js에 있는 renderPaths 함수를 통해 다중 경로를 렌더링합니다.
 };
 
-/* removeActive 까지는 경로 검색 입력창 자동완성 관련 로직입니다. */
+/* stAutoComplete부터 removeActive 까지는 경로 검색 입력창 자동완성 관련 로직입니다. */
 const stAutoComplete = (inp, stationArr) => {
     inp.addEventListener("input", function(e) {
         let a, tmpDiv;
@@ -240,11 +244,10 @@ const removeActive = x => {
 
 };
 
-
 /* 노선도를 기본 모드로 렌더링합니다. */
 const selectNormal = () => {
     if(selectMode) {
-        disableCongestion();
+        disableCongestion();    // metro.js에 있는 일반 노선도 렌더링으로 전환하는 함수
         document.querySelector("#mode-select-congestion > button").setAttribute("class", "mode-select-button");
         document.querySelector("#mode-select-normal > button").setAttribute("class", "mode-select-button selected");
         document.getElementById("metro").style.backgroundColor = "#ffffff";
@@ -255,7 +258,7 @@ const selectNormal = () => {
 /* 노선도를 혼잡도 기반으로 렌더링합니다. */
 const selectCongestion = () => {
     if(!selectMode) {
-        renderCongestion();
+        renderCongestion();     // metro.js에 있는 혼잡도 기반 노선도 렌더링 함수
         document.querySelector("#mode-select-congestion > button").setAttribute("class", "mode-select-button selected");
         document.querySelector("#mode-select-normal > button").setAttribute("class", "mode-select-button");
         document.getElementById("metro").style.backgroundColor = "#2f3131";
@@ -263,6 +266,7 @@ const selectCongestion = () => {
     }
 };
 
+/* 특정 노선 강조 표시를 위한 함수 */
 const selectLine = (element) => {
     let lineNum = element.textContent;
     disableFocus();
