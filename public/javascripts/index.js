@@ -169,7 +169,6 @@ const stAutoComplete = (inp, stationArr) => {
     inp.addEventListener("input", function(e) {
         let a, tmpDiv;
         let val = this.value;
-        console.log(val);
 
         closeLists();
 
