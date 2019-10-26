@@ -21,7 +21,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'trainRenderer')));
-
+app.use('/data/*', (req, res, next)=>{
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+})
 app.use('/', indexRouter);
 //app.use('/editor', editorRouter);
 

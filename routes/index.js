@@ -16,7 +16,7 @@ router.get('/data/stations', function(req, res, next) {
       console.log(err);
     }
     else {
-      res.send(data);
+      res.json(JSON.parse(data));
     }
   });
 });
@@ -29,7 +29,7 @@ router.get('/data/neighbors', function(req, res, next) {
       console.log(err);
     }
     else {
-      res.send(data);
+      res.json(JSON.parse(data));
     }
   });
 });
